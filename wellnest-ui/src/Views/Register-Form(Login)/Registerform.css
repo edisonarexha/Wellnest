@@ -1,0 +1,57 @@
+body {
+  background-color: white;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+}
+
+.container .centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Oxygen", sans-serif;
+  font-size: 1.5rem;
+}
+
+.input-fields {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container input,
+select {
+  flex: 1 1;
+  min-width: 40%;
+  max-width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  margin-left: 5%;
+  border-color: white;
+  border-radius: 7px;
+  width: 180px;
+  height: 30px;
+}
+.pannel {
+  background-color: #03a9f424;
+}
+.input {
+  padding: 20%;
+  border-radius: 10;
+}
+.button {
+  padding: 10px 15px;
+  background-color: rgb(59 76 125 / 82%);
+  color: white;
+  display: inline-block;
+  margin: 2rem 1rem 2rem 1rem;
+  margin-left: 20px;
+  cursor: pointer;
+  width: 100px;
+  text-align: center;
+  font-weight: 600;
+}

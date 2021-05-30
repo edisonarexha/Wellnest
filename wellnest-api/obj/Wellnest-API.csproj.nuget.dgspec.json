@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elton\\source\\repos\\Wellnest\\Wellnest-API.csproj": {}
+    "C:\\Users\\elton\\source\\repos\\Wellnest\\wellnest-api\\Wellnest-API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elton\\source\\repos\\Wellnest\\Wellnest-API.csproj": {
+    "C:\\Users\\elton\\source\\repos\\Wellnest\\wellnest-api\\Wellnest-API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elton\\source\\repos\\Wellnest\\Wellnest-API.csproj",
+        "projectUniqueName": "C:\\Users\\elton\\source\\repos\\Wellnest\\wellnest-api\\Wellnest-API.csproj",
         "projectName": "Wellnest-API",
-        "projectPath": "C:\\Users\\elton\\source\\repos\\Wellnest\\Wellnest-API.csproj",
+        "projectPath": "C:\\Users\\elton\\source\\repos\\Wellnest\\wellnest-api\\Wellnest-API.csproj",
         "packagesPath": "C:\\Users\\elton\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elton\\source\\repos\\Wellnest\\obj\\",
+        "outputPath": "C:\\Users\\elton\\source\\repos\\Wellnest\\wellnest-api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
           "C:\\Users\\elton\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -39,6 +43,16 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.15, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
