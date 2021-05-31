@@ -7,7 +7,7 @@ namespace Wellnest_API.Models
 {
     public class Users
     {
-        public int UsersID { get; set; }
+        public int UserID { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
         public string Username { get; set; }

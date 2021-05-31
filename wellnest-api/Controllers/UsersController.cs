@@ -35,16 +35,16 @@ namespace Wellnest_API.Controllers
             public JsonResult Get()
             {
                 string query = @"
-            select UsersID, Name, Email, Username, Password, Role from Users order by UsersID desc ";
+            select UserID, Name, Email, Username, Password, Role from Users order by UserID desc ";
                 DataTable table = new DataTable();
-                string sqlDataSource = _configuration.GetConnectionString("WellnestDBAppConn");
+                string sqlDataSource = _configuration.GetConnectionString("WellnestAppConn");
                 SqlDataReader myReader;
                 using (SqlConnection myCon = new SqlConnection(sqlDataSource))
                 {
                     myCon.Open();
                     using (SqlCommand myCommand = new SqlCommand(query, myCon))
                     {
-                        myReader = myCommand.ExecuteReader();
+                    myReader = myCommand.ExecuteReader(); 
                         table.Load(myReader); ;
 
                         myReader.Close();
@@ -60,7 +60,7 @@ namespace Wellnest_API.Controllers
             {
                 string query = @"INSERT INTO Users(Name,Email,Username,Password,Role) values ('" + u.Name + @"','" + u.Email + @"','" + u.Username + @"','" + u.Password + @"','" + u.Role + @"')";
                 DataTable table = new DataTable();
-                string sqlDataSource = _configuration.GetConnectionString("WellnestDBAppConn");
+                string sqlDataSource = _configuration.GetConnectionString("WellnestAppConn");
                 SqlDataReader myReader;
                 using (SqlConnection myCon = new SqlConnection(sqlDataSource))
                 {
@@ -88,9 +88,9 @@ namespace Wellnest_API.Controllers
             ,Username='" + u.Username + @"'
             ,Password='" + u.Password + @"'
             ,Role ='" + u.Role + @"'
-            where UsersID=" + u.UsersID + @" ";
+            where UserID=" + u.UserID + @" ";
                 DataTable table = new DataTable();
-                string sqlDataSource = _configuration.GetConnectionString("WellnestDBAppConn");
+                string sqlDataSource = _configuration.GetConnectionString("WellnestAppConn");
                 SqlDataReader myReader;
                 using (SqlConnection myCon = new SqlConnection(sqlDataSource))
                 {
@@ -112,10 +112,10 @@ namespace Wellnest_API.Controllers
             [HttpDelete("{id}")]
             public JsonResult Delete(int id)
             {
-                string query = @"DELETE FROM Users  where UsersID=" + id + @" ";
+                string query = @"DELETE FROM Users  where UserID=" + id + @" ";
 
                 DataTable table = new DataTable();
-                string sqlDataSource = _configuration.GetConnectionString("WellnestDBAppConn");
+                string sqlDataSource = _configuration.GetConnectionString("WellnestAppConn");
                 SqlDataReader myReader;
                 using (SqlConnection myCon = new SqlConnection(sqlDataSource))
                 {
