@@ -1,3 +1,24 @@
-.button{
-    color: black;
+body{
+    background-image:url('./dd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.top-sign-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.top-sign-buttons .sign-in, .top-sign-buttons .sign-up {
+    padding: 10px 30px;
+    border: 1px solid #d4d4d4;
+    cursor: pointer;
+    background-color: #f7f7f785;
+}
+
+.top-sign-buttons .sign-in:hover, .top-sign-buttons .sign-up:hover {
+    background-color: aliceblue;
 }

@@ -60,45 +60,53 @@ class Registerform extends Component {
   render() {
     return (
       <div className="container">
-        <h1>Sign up</h1>
+
         <div className="pannel">
           <div className="wrapper">
             <form onSubmit={this.handleSubmit}>
-                <div className="input-fields">
-                    <input
-                        type="text"
-                        value={this.state.Name}
-                        onChange={this.firsthandler}
-                        placeholder="FirstName..."
-                    />
-                    <input
-                        type="username"
-                        value={this.state.Username}
-                        onChange={this.usernamehandler}
-                        placeholder="Username..."
-                    />
-
-                    <input
-                        type="email"
-                        value={this.state.Email}
-                        onChange={this.emailhandler}
-                        placeholder="Email..."
-                    />
-
-                    <input
-                        type="password"
-                        value={this.state.Password}
-                        onChange={this.passwordhandler}
-                        placeholder="Password..."
-                    />
-                    <select onChange={this.genderhandler} defaultValue="Select Role">
-                        <option defaultValue>Select Role</option>
-                        <option value="male">Pacient</option>
-                        <option value="female">Doctor</option>
-                    </select>
+              <div className="input-fields">
+                <div className="field">
+                  <input
+                    type="text"
+                    value={this.state.Name}
+                    onChange={this.firsthandler}
+                    placeholder="FirstName..."
+                  />
                 </div>
-              <div>
-                <button className="button" type="submit">Sign up</button>
+                <div className="field">
+                  <input
+                    type="username"
+                    value={this.state.Username}
+                    onChange={this.usernamehandler}
+                    placeholder="Username..."
+                  />
+                </div>
+                <div className="field">
+                  <input
+                    type="email"
+                    value={this.state.Email}
+                    onChange={this.emailhandler}
+                    placeholder="Email..."
+                  />
+                </div>
+                <div className="field">
+                  <input
+                    type="password"
+                    value={this.state.Password}
+                    onChange={this.passwordhandler}
+                    placeholder="Password..."
+                  />
+                </div>
+                <div className="field" >
+                  <select onChange={this.genderhandler} defaultValue="Select Role" style={{width: '75%'}}>
+                    <option defaultValue>Select Role</option>
+                    <option value="male">Pacient</option>
+                    <option value="female">Doctor</option>
+                  </select>
+                </div>
+              </div>
+              <div className="centered">
+                <button className="button" type="submit" >Sign up</button>
               </div>
             </form>
           </div>

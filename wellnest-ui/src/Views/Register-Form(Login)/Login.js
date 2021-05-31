@@ -36,23 +36,30 @@ class Login extends Component {
         <div className="pannel">
           <div className="wrapper">
             <form onSubmit={this.handleSubmit}>
-              <div className="input-fields">
-                <input
-                  type="password"
-                  value={this.state.password}
-                  onChange={this.passwordhandler}
-                  placeholder="Password..."
-                />
-                <input
-                  type="username"
-                  value={this.state.Username}
-                  onChange={this.usernamehandler}
-                  placeholder="Username..."
-                />
+              <div className="login-input-fields">
+                <div className="field">
+                  <input
+                    style={{ width: '200px' }}
+                    type="password"
+                    value={this.state.password}
+                    onChange={this.passwordhandler}
+                    placeholder="Password..."
+                  />
+                </div>
+                <div className="field">
+                  <input
+                    style={{ width: '200px' }}
+                    type="username"
+                    value={this.state.Username}
+                    onChange={this.usernamehandler}
+                    placeholder="Username..."
+                  />
+                </div>
+
+                <button className="button" type="submit">
+                  Sign in
+                </button>
               </div>
-              <button className="button" type="submit">
-                Sign in
-              </button>
             </form>
           </div>
         </div>
