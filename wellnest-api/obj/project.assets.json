@@ -665,23 +665,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\elton\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Black\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\elton\\source\\repos\\Wellnest\\wellnest-api\\Wellnest-API.csproj",
+      "projectUniqueName": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\wellnest-api\\Wellnest-API.csproj",
       "projectName": "Wellnest-API",
-      "projectPath": "C:\\Users\\elton\\source\\repos\\Wellnest\\wellnest-api\\Wellnest-API.csproj",
-      "packagesPath": "C:\\Users\\elton\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\elton\\source\\repos\\Wellnest\\wellnest-api\\obj\\",
+      "projectPath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\wellnest-api\\Wellnest-API.csproj",
+      "packagesPath": "C:\\Users\\Black\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\wellnest-api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\elton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Black\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -735,7 +735,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

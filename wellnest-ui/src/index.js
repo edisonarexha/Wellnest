@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Navigation from './Navigation';
 import reportWebVitals from './reportWebVitals';
 import App from './Views/covid19/App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Navigation />
   </React.StrictMode>,
   document.getElementById('root')
 );

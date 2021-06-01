@@ -10,7 +10,25 @@ Password varchar(50),
 Role varchar(50)
 )
 
-
 select * from Users
 
-insert into Users values('test','test','test','test','test')
+
+insert into Users values('test','test','test','test','test');
+
+create table Diseases(
+DiseasesID int identity(1,1),
+Name varchar(50),
+information varchar(1000),
+PhotoName varchar(500)
+)
+drop table Diseases
+select * from Diseases
+
+insert into Diseases values('Zika','Zika virus disease is caused by a virus transmitted primarily by Aedes mosquitoes, which bite during the day. Symptoms are generally mild and include fever, rash, conjunctivitis, muscle and joint pain, malaise or headache.','./SliderPhotos/Zika.jpg');
+insert into Diseases values('Ebola','Ebola, also known as Ebola virus disease (EVD) or Ebola hemorrhagic fever (EHF), is a viral hemorrhagic fever of humans and other primates caused by ebolaviruses. Signs and symptoms typically start between two days and three weeks after contracting the virus with a fever, sore throat, muscular pain, and headaches.','./SliderPhotos/Ebola.jpg');
+insert into Diseases values('Hiv','HIV (human immunodeficiency virus) is a virus that attacks the bodys immune system. If HIV is not treated, it can lead to AIDS (acquired immunodeficiency syndrome). There is currently no effective cure. Once people get HIV, they have it for life.','./SliderPhotos/Hiv.jpg');
+insert into Diseases values('BacterioPhages','Bacteriophages (BPs) are viruses that can infect and kill bacteria without any negative effect on human or animal cells. For this reason, it is supposed that they can be used, alone or in combination with antibiotics, to treat bacterial infections.','./SliderPhotos/bacteriophages.jpg');
+insert into Diseases values('Influenza','Influenza (flu) is a contagious respiratory illness caused by influenza viruses. It can cause mild to severe illness. Serious outcomes of flu infection can result in hospitalization or death.','./SliderPhotos/Influenza.jpg');
+
+
+
