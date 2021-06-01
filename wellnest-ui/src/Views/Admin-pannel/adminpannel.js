@@ -22,8 +22,25 @@ class Admin extends Component {
   render() {
     return (
       <div>
-        ``
-        <div className="phone-list-page">
+        <div className="admin-header">
+          <span>Dashboard</span>
+          <div className="right-header-buttons">
+            <div className="back-button">
+              <span>Back to Home </span>
+            </div>
+            <div className="logout-button">
+              <span>Logout</span>
+            </div>
+          </div>
+        </div>
+        <div className="admin-wrapper">
+          <div className="dashboard-container">
+            <div className="left-list">
+              <div className="action-btn">Users</div>
+              <div className="action-btn">Users-messages</div>
+            </div>
+          </div>
+
           <div className="header-list">
             <span>Name</span>
             <span>Email</span>
@@ -53,10 +70,6 @@ class Admin extends Component {
             );
           })}
         </div>
-        <AddUser
-          showAddUser={this.state.showAddUser}
-          refreshList={() => this.getUsers()}
-        />
       </div>
     );
   }

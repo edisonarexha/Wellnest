@@ -1,0 +1,80 @@
+.admin-header{
+    background-color: #277551;
+    color: white;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.right-header-buttons{
+    display: flex;
+    align-items: center;
+    
+}
+.back-button{
+    margin-right: 10px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+   
+}
+.logout-button{
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
+.admin-wrapper{
+    display: flex;
+
+}
+.left-list {
+    flex: 1;
+    position: sticky;
+    top: 0;
+}
+.left-list .action-btn {
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all .3s ease;
+    background-color: rgba(255,255,255,0.1);
+}
+
+.left-list .action-btn:hover  {
+    background-color: rgba(255,255,255,0.2);
+    border-bottom: 1px solid #ccc;
+}
+.user-list-page {
+    padding: 2rem 4rem;
+    /* background-color: #0f0f0f6e; */
+  }
+  
+  .header-list, .body-list {
+    display: flex;
+    flex: 1;
+    padding: 20px 4rem;
+  }
+  
+  .header-list span, .body-list span {
+    flex: 1;
+  }
+  
+  .header-list .btn-content, .body-list .btn-content {
+    flex: .5;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .header-list span {
+    font-weight: 600;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .body-list span {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }

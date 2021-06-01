@@ -10,13 +10,13 @@ import InfoBox from './InfoBox';
 import LineGraph from "./LineGraph";
 //import Mapp from "./Map"
 import Table from "./Table";
-import "./App.css";
+import "./App1.css";
 import { sortData } from "./util";
 import "leaflet/dist/leaflet.css";
 import Covid19Table from './Covid19Table';
 
 
-function App() {
+function App1() {
 const[countries,setCountries] = useState([]);
 const[country, setCountry]=useState('WorldWide');
 const [countryInfo,setCountryInfo] = useState({});
@@ -76,7 +76,7 @@ console.log('CountryINFO>>>>>>>',countryInfo);
 
 //pull information from disease
   return (
-    <div className="App">
+    <div className="App1">
       <div className="app__left">
       <div className="app__header">
     <h1>COVID-19 TRACKER</h1>
@@ -138,4 +138,4 @@ console.log('CountryINFO>>>>>>>',countryInfo);
   );
 }
 
-export default App;
+export default App1;

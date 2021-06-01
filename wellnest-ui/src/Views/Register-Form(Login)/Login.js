@@ -39,23 +39,22 @@ class Login extends Component {
               <div className="login-input-fields">
                 <div className="field">
                   <input
-                    style={{ width: '200px' }}
-                    type="password"
-                    value={this.state.password}
-                    onChange={this.passwordhandler}
-                    placeholder="Password..."
-                  />
-                </div>
-                <div className="field">
-                  <input
-                    style={{ width: '200px' }}
+                    style={{ width: "200px" }}
                     type="username"
                     value={this.state.Username}
                     onChange={this.usernamehandler}
                     placeholder="Username..."
                   />
                 </div>
-
+                <div className="field">
+                  <input
+                    style={{ width: "200px" }}
+                    type="password"
+                    value={this.state.password}
+                    onChange={this.passwordhandler}
+                    placeholder="Password..."
+                  />
+                </div>
                 <button className="button" type="submit">
                   Sign in
                 </button>

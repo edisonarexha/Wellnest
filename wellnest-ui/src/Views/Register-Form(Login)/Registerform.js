@@ -2,10 +2,8 @@ import React, { Component, useState } from "react";
 import "./Registerform.css";
 
 class Registerform extends Component {
-  constructor(props) {
-    super(props);
 
-    this.state = {
+    state = {
       Name: "",
       Email: "",
       Username: "",
@@ -30,19 +28,22 @@ class Registerform extends Component {
       this.setState({Role: event.target.value});
     }
   
-    addNewPhone = () => {
+    addNewUser = () => {
+      console.log("test")
       fetch('https://localhost:44321/api/Users',{
           method:'POST',
           headers:{'Accept':'application/json',
           'Content-Type':'application/json;charset=utf-8'},
           body: JSON.stringify(this.state)
-      }).then(() => this.props.refreshList())
+      }).then(() => {
+      //kena me shku nhome
+      })
     }
   
     handleFileSelected = (event) => {
       event.preventDefault();
     }
-  }
+  
 
   render() {
     return (
@@ -50,7 +51,7 @@ class Registerform extends Component {
 
         <div className="pannel">
           <div className="wrapper">
-            <form onSubmit={this.handleSubmit}>
+            <form >
               <div className="input-fields">
                 <div className="field">
                   <input
@@ -93,7 +94,9 @@ class Registerform extends Component {
                 </div>
               </div>
               <div className="centered">
-                <button className="button" type="submit" >Sign up</button>
+                <button 
+                onClick={() => this.addNewUser()}
+                className="button">Sign up</button>
               </div>
             </form>
           </div>

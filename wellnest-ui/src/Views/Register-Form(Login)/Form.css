@@ -6,6 +6,7 @@ body{
 }
 
 .top-sign-buttons{
+    margin: 0 90px;
     display: flex;
     align-items: center;
     justify-content: space-around;

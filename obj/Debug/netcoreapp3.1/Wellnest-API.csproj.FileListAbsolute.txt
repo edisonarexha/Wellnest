@@ -1,5 +1,0 @@
-C:\Users\elton\source\repos\Wellnest\obj\Debug\netcoreapp3.1\Wellnest-API.csprojAssemblyReference.cache
-C:\Users\elton\source\repos\Wellnest\obj\Debug\netcoreapp3.1\Wellnest-API.AssemblyInfoInputs.cache
-C:\Users\elton\source\repos\Wellnest\obj\Debug\netcoreapp3.1\Wellnest-API.AssemblyInfo.cs
-C:\Users\elton\source\repos\Wellnest\obj\Debug\netcoreapp3.1\Wellnest-API.csproj.CoreCompileInputs.cache
-C:\Users\elton\source\repos\Wellnest\obj\Debug\netcoreapp3.1\Wellnest-API.MvcApplicationPartsAssemblyInfo.cache

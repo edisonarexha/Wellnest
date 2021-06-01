@@ -1,6 +1,7 @@
 create database Wellnest
 use Wellnest
 
+
 create table Users(
 UserID int identity(1,1),
 Name varchar(50),
@@ -10,6 +11,11 @@ Password varchar(50),
 Role varchar(50)
 )
 
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
 select * from Users
 
 
