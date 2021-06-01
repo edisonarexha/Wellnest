@@ -7,7 +7,7 @@ constructor(props){
         super(props);
         this.state={covidinfected:[],addModalShow: false,editModalShow:false}
 }
-
+//full error
             refreshList(){
             fetch(process.env.REACT_APP_API+ 'country')
             .then(response => response.json())
