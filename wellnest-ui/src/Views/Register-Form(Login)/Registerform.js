@@ -12,51 +12,38 @@ class Registerform extends Component {
       Password: "",
       Role: "",
     };
-    this.handleSubmit = this.handleSubmit.bind(this);
+    setName = (event) => {
+      this.setState({Name: event.target.value});
+    }
+  
+    setEmail = (event) => {
+      this.setState({Email: event.target.value});
+    }
+    
+    setUsername = (event) => {
+      this.setState({Username: event.target.value});
+    }
+    setPassword = (event) => {
+      this.setState({Password: event.target.value});
+    }
+    setRole = (event) => {
+      this.setState({Role: event.target.value});
+    }
+  
+    addNewPhone = () => {
+      fetch('https://localhost:44321/api/Users',{
+          method:'POST',
+          headers:{'Accept':'application/json',
+          'Content-Type':'application/json;charset=utf-8'},
+          body: JSON.stringify(this.state)
+      }).then(() => this.props.refreshList())
+    }
+  
+    handleFileSelected = (event) => {
+      event.preventDefault();
+    }
   }
 
-  firsthandler = (event) => {
-    this.setState({
-      Name: event.target.value,
-    });
-  };
-  usernamehandler = (event) => {
-    this.setState({
-      Username: event.target.value,
-    });
-  };
-  emailhandler = (event) => {
-    this.setState({
-      email: event.target.value,
-    });
-  };
-
-  passwordhandler = (event) => {
-    this.setState({
-      password: event.target.value,
-    });
-  };
-
-  rolehandler = (event) => {
-    this.setState({
-      role: event.target.value,
-    });
-  };
-
-  handleSubmit = (event) => {
-    alert(
-      `${this.state.Name} ${this.state.Surname}  Registered Successfully !!!!`
-    );
-    console.log(this.state);
-    this.setState({
-      Name: "",
-      Username: "",
-      Email: "",
-      Password: "",
-      Role: "",
-    });
-    event.preventDefault();
-  };
   render() {
     return (
       <div className="container">
@@ -68,16 +55,16 @@ class Registerform extends Component {
                 <div className="field">
                   <input
                     type="text"
-                    value={this.state.Name}
-                    onChange={this.firsthandler}
+                    value={this.state.Name} 
+                    onChange={this.setName}
                     placeholder="FirstName..."
                   />
                 </div>
                 <div className="field">
                   <input
                     type="username"
-                    value={this.state.Username}
-                    onChange={this.usernamehandler}
+                    value={this.state.Username} 
+                    onChange={this.setUsername}
                     placeholder="Username..."
                   />
                 </div>
@@ -85,7 +72,7 @@ class Registerform extends Component {
                   <input
                     type="email"
                     value={this.state.Email}
-                    onChange={this.emailhandler}
+                    onChange={this.setEmail}
                     placeholder="Email..."
                   />
                 </div>
@@ -93,12 +80,12 @@ class Registerform extends Component {
                   <input
                     type="password"
                     value={this.state.Password}
-                    onChange={this.passwordhandler}
+                    onChange={this.setPassword}
                     placeholder="Password..."
                   />
                 </div>
                 <div className="field" >
-                  <select onChange={this.genderhandler} defaultValue="Select Role" style={{width: '75%'}}>
+                  <select onChange={this.setRole} defaultValue="Select Role" style={{width: '75%'}}>
                     <option defaultValue>Select Role</option>
                     <option value="male">Pacient</option>
                     <option value="female">Doctor</option>

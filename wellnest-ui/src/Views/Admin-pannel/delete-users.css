@@ -1,0 +1,65 @@
+.x-button{
+    color: white;
+    margin-left: 100%;
+    cursor: pointer;
+}
+.MuiPaper-root{
+    width: 600px !important; 
+    background-color: #191b19ec !important;
+
+} 
+
+.dialog{
+    padding: 5%;
+    margin: auto;
+    width: 80%;
+}
+.title{
+    font-size: medium;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    width: 100%;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-top: 5%;
+
+}
+
+
+.d-container {
+    flex-direction: column;
+    display: inline-block i !important;
+    padding: 5%;
+    margin: auto;
+    justify-content: space-between;
+  }
+.yes-button{ 
+    padding: 10px 15px;
+    background-color: rgb(31 49 32 / 82%);
+    color: white;
+    display: inline-block;
+    margin: 2rem 1rem 2rem 1rem;
+    /* margin-left: 20px; */
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+.no-button{ 
+    padding: 10px 15px;
+    background-color: rgb(31 49 32 / 82%);
+    color: white;
+    display: inline-block;
+    margin: 2rem 1rem 2rem 1rem;
+    margin-left: 20%;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
