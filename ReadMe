@@ -1,5 +1,6 @@
 First get bootstrap.
-per me funksionu covid 19 duhet te keni te instaluar disa pjes npm chart js
+per me funksionu covid 19 duhet te keni te instaluar disa module
+npm chart js
 npm i chartjs chart.js
 npm i leaflet 
 
