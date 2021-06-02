@@ -38,3 +38,18 @@ insert into Diseases values('Influenza','Influenza (flu) is a contagious respira
 
 
 
+
+!--Contact
+Create Database ContactUsDB
+
+create table dbo.Contact(
+	UsersID int identity (1,1),
+	Name varchar (50),
+	Email varchar (50),
+	Message text
+)
+
+select * from dbo.Contact
+
+insert into dbo.Contact values ('Altrit', 'altrit@gmail.com','Keep up the good work bro')
+insert into dbo.Contact values ('Izibilihane', 'izibilihane@gmail.com','Je ni te mrekullushem, jem ikrenar mepu nen tuj')

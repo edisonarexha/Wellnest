@@ -32,9 +32,6 @@ a:hover{
     display: flex;
     /* left: 33%; */
     top: 5%;
-    animation-name: tab-ann;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
