@@ -1,15 +1,10 @@
-input, textarea, select, button {
+.f-dezign, #ta, .button {
     font-family: "Montserrat-Regular";
     color: white;
     font-size: 20px; 
 }
-h3{
-    margin: 0;
-    padding-bottom: 5%; 
-}
-img{
-    max-width: 100%; 
-}
+
+
 a:hover{
     text-decoration: none; 
 }
@@ -22,6 +17,7 @@ a:hover{
     align-items: center;
     background: url("doc-bcg.jpg") no-repeat;
     background-size: cover; 
+    max-width: 100%; 
 
 
     
@@ -46,11 +42,11 @@ a:hover{
 }
 
   
-textarea{
+#ta{
     resize: none; 
 }
   
-h3{
+.cu-text{
     text-transform: uppercase;
     font-size: 45px;
     font-family: "Montserrat-Bold";
@@ -58,14 +54,10 @@ h3{
     margin-bottom: 12px; 
     color: white;
     text-decoration: underline;
+    padding-bottom: 10%; 
 }
   
-p{
-    text-align: center;
-    padding: 0 10px;
-    margin-bottom: 55px;
-    line-height: 1.8; 
-}
+
   
 .form-group{
     position: relative;
@@ -114,7 +106,7 @@ p{
   
   
   
-button{
+.button{
     border: none;
     width: 162px;
     height: 51px;
@@ -129,7 +121,7 @@ button{
     color: white;
     font-family: "Montserrat-SemiBold";
 }
-button:hover{
+.button:hover{
     background-color: white;
     color: blue;
 }
