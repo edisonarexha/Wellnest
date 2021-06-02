@@ -4,11 +4,11 @@ function Table({countries }) {
     return (
         <div className="table">
             {countries.map(({country,cases}) => (
-                <tr>
-                    <td>
+                <tr className="trr">
+                    <td className="tdd">
                         {country}
                     </td>
-                    <td>
+                    <td  className="tdd">
 
                 <strong>{cases}</strong>
                     </td>

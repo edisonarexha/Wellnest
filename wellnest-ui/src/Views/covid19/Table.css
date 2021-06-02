@@ -1,18 +1,19 @@
 .table{
- margin-top:20px;
- overflow: scroll;
- height: 500px;
- color: #6a5d5d;
- background-color: white;
-}
-
-.table tr{
-    display: flex;
-    justify-content: space-between;
-}
-.table td{
-    padding: 0.5rem;
-}
-.table tr:nth-of-type(odd){
-    background-color: #f3f2f8;
-}
+    margin-top:20px;
+    overflow: scroll;
+    height: 500px;
+    color: #6a5d5d;
+    background-color: white;
+   }
+   
+   .trr{
+       display: flex;
+       justify-content: space-between;
+   }
+   .tdd{
+       padding: 0.5rem;
+   }
+   .table tr:nth-of-type(odd){
+       background-color: #f3f2f8;
+   }
+   

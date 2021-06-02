@@ -1,15 +1,27 @@
 import React,{Component} from 'react';
 import {Modal,Button, Row, Col, Form} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-export class EditDepModal extends Component{
+export class EditCasesModal extends Component{
     constructor(props){
         super(props);
+        this.state={covidCases:[]};
         this.handleSubmit=this.handleSubmit.bind(this);
+        
+    }
+
+   
+
+    componentDidMount(){
+        fetch('http://localhost:5000/api/covid')
+        .then(response=>response.json())
+        .then(data=>{
+            this.setState({covidCases:data});
+        });
     }
 
     handleSubmit(event){
         event.preventDefault();
-        fetch(process.env.REACT_APP_API+'country',{
+        fetch('http://localhost:5000/api/covid',{
             method:'PUT',
             headers:{
                 'Accept':'application/json',
@@ -21,6 +33,7 @@ export class EditDepModal extends Component{
                 Cases:event.target.Cases.value,
                 Recoveries:event.target.Recoveries.value,
                 deaths:event.target.deaths.value,
+
             })
         })
         .then(res=>res.json())
@@ -31,6 +44,8 @@ export class EditDepModal extends Component{
             alert('Failed');
         })
     }
+
+
     render(){
         return (
             <div className="container">
@@ -49,44 +64,43 @@ centered
     <Modal.Body>
 
         <Row>
-            <Col sm={6}>
+            <Col sm={9}>
                 <Form onSubmit={this.handleSubmit}>
                 <Form.Group controlId="covidID">
-                        <Form.Label>covidID</Form.Label>
-                        <Form.Control type="text" name="covidID" required
+                        <Form.Label>Covid Country ID</Form.Label>
+                        <Form.Control type="text" name="countryId" required 
+                        placeholder="CovidCountryID"
                         disabled
-                        defaultValue={this.props.depid} 
-                        placeholder="covidID"/>
+                        defaultValue={this.props.covidID}/>
                     </Form.Group>
 
                     <Form.Group controlId="CountryName">
-                        <Form.Label>CountryName</Form.Label>
-                        <Form.Control type="text" name="CountryName" required 
-                        defaultValue={this.props.depname}
+                        <Form.Label>Country Name</Form.Label>
+                        <Form.Control type="text" name="Country Name" required 
+                        defaultValue={this.props.CountryName}
                         placeholder="CountryName"/>
                     </Form.Group>
                     <Form.Group controlId="Cases">
                         <Form.Label>Cases</Form.Label>
-                        <Form.Control type="text" name="Cases" required 
-                        defaultValue={this.props.depcases}
+                        <Form.Control type="text" name="Cases " required 
+                        defaultValue={this.props.Cases}
                         placeholder="Cases"/>
                     </Form.Group>
                     <Form.Group controlId="Recoveries">
                         <Form.Label>Recoveries</Form.Label>
-                        <Form.Control type="text" name="Recoveries" required 
-                        defaultValue={this.props.deprec}
+                        <Form.Control type="text" name="Recoveries " required 
+                        defaultValue={this.props.Recoveries}
                         placeholder="Recoveries"/>
                     </Form.Group>
-                    <Form.Group controlId="deaths">
-                        <Form.Label>deaths</Form.Label>
-                        <Form.Control type="text" name="deaths" required 
-                        defaultValue={this.props.depdeaths}
-                        placeholder="deaths"/>
+                    <Form.Group controlId="Deaths">
+                        <Form.Label>Deaths</Form.Label>
+                        <Form.Control type="text" name="Deaths " required 
+                        defaultValue={this.props.deaths}
+                        placeholder="Deaths"/>
                     </Form.Group>
-
                     <Form.Group>
                         <Button variant="primary" type="submit">
-                            Update Countries
+                            Update Country
                         </Button>
                     </Form.Group>
                 </Form>
@@ -105,3 +119,4 @@ centered
     }
 
 }
+export default EditCasesModal;
