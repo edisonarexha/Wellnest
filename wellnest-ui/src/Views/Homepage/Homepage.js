@@ -1,14 +1,12 @@
 import React, { useState } from 'react';
 import './Homepage.css';
-import { Slider } from './Slider';
-import { SliderImages } from './SilderImages';
 import { Link } from 'react-router-dom';
 import logo from './logo.PNG';
-import nurse from './nurse.png';
 import search from './search.PNG';
 import doctor from './doctor.PNG';
 import call from './call.PNG';
 import amb from './ambulance.PNG';
+import Sikh from './Sickness.png';
 
 
 function Homepage() {
@@ -19,10 +17,13 @@ function Homepage() {
     }
     return (
 
-        <div className="mainDiv">
+        <div >
             <div className="c-status">
 
-            </div>
+            </div >
+
+
+
             <div className="nav-div">
                 <ul >
                     <img className="ul-1" src={logo} alt="Logo" />
@@ -35,8 +36,14 @@ function Homepage() {
                     <Link to="/covid">
                         <li className="li-3">Covid-19</li>
                     </Link>
-                    <li className="li-4">Contact</li>
-                    <li className="li-6">{profile ? 'Dashboard' : ''}</li>
+                    <Link to='/contact'>
+                        <li className="li-4">Contact</li>
+                    </Link>
+
+                    <Link to='/profile'>
+                        <li className="li-6">{profile ? 'Dashboard' : ''}</li>
+
+                    </Link>
 
 
                 </ul>
@@ -48,25 +55,28 @@ function Homepage() {
                     <li className="li-5" onClick={changeProfile}>{profile ? 'Profile1' : 'Profile2'}</li>
                 </ul>
             </div>
-            <div id="div-i">
-                <img className="MainImg" src={nurse} alt="img" />
+            <div className="parallax">
+                <div id="div-i">
 
-
-            </div>
-            <div id="div-ii">
-                <p id="h2"><b>Wellnest is the first e-health app in Kosovo,</b></p>
-                <p className="p-1">Currently helping patients and doctors all over the country,</p>
-                <p className="p-2">You can help by inviting people to join and be part of the health program</p>
-                <div id="b-d">
-                   
-                        <button id="b-1">Register</button>
-                    
 
                 </div>
+                <div id="div-ii">
+                    <p id="h2"><b>Wellnest is the first e-health app in Kosovo,</b></p>
+                    <p className="p-1">Currently helping patients and doctors all over the country,</p>
+                    <p className="p-2">You can help by inviting people to join and be part of the health program</p>
+                    <div id="b-d">
 
 
+                        <Link to='.form'>
+                            <button id="b-1">Register</button>
+
+                        </Link>
+
+                    </div>
+
+
+                </div>
             </div>
-
 
             <div id="n-d">
 
@@ -93,15 +103,25 @@ function Homepage() {
             </div>
             <div id="end-d">
                 <div id="in-end">
-                    <Slider slides={SliderImages} />
+                    <img src={Sikh} alt="" />
+                    <div id="s-div">
+                        <span>At the beginning of his essay, Ferrajoli announces that he intends to
+                        elaborate a formal definition of the concept of ‘fundamental rights’.‘Fundamental rights’, as we know, is a metajuridical category, as the
+                        notion does not belong to the normative lexicon used in any constitutional text, nor in any modern legal system. The term ‘fundamental rights’
+                        (Grundrechte) is used generically by several European legal theorists to
+                        mean ‘fundamental freedoms’.4 Anglo-American political philosophy, on
+                        the other hand – and I am thinking of John Rawls, for example – uses
+                        the expression ‘basic liberties’ to describe the tradition that goes from
+                        ‘habeas corpus’ to the contemporary liberal democratic constitutions.5
+                        Ronald Dworkin also usually expresses himself in terms of ‘rights’ (or,
+                         at the most of ‘moral rights’), without any further qualifications</span>
+                        <Link to='/sickinfo'>
+                            <button id="s-b" >Read more</button>
+                        </Link>
+                    </div>
+
                 </div>
-                <div id="b-div">
-                    <ul id="b-ul">
-                        <li id="b-li1">{profile ? <p className="b-p1"><b>x</b></p> : ''}</li>
-                        <li id="b-li2">{profile ? <img id="b-img" src={require('./pen.png').default} /> : ''}</li>
-                        <li id="b-li3">{profile ? <p className="b-p2"><b>+</b></p> : ''}</li>
-                    </ul>
-                </div>
+
 
             </div>
 

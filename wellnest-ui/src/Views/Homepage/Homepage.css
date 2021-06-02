@@ -1,7 +1,11 @@
-body{
+
+.parallax{
     background-image: url('./nurse.png');
-    background-size: cover;
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .c-status{
     background-color: #ff00008c;
@@ -90,16 +94,21 @@ body{
  #div-ii{
     display: flex;
     flex-direction: column;
-    border: 50px dashed white;
+   
     height: 500px;
     width: 500px;
     margin-top: -600px;
  }
- .MainImg{
-    height: 671px;
-    width: 1536px;
-    margin-top: 2px;
+ #s-div{
+     display: flex;
+     flex-direction: column;
+     padding-top: 10%;
  }
+ #s-b{
+     display: flex;
+     top: 30px;
+ }
+
  #h2{
     
      padding-left: 10px;

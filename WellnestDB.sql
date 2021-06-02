@@ -11,11 +11,7 @@ Password varchar(50),
 Role varchar(50)
 )
 
-<<<<<<< Updated upstream
-=======
 
-
->>>>>>> Stashed changes
 select * from Users
 
 
