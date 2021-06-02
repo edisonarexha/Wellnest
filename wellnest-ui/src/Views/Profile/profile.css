@@ -1,0 +1,82 @@
+body {
+    background-color: white;
+  }
+  .profile-container {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 3%;
+    color:black;
+    
+  }
+  
+  .profile-container .centered {
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    font-family: "Oxygen", sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  .profile-input-fields {
+    /* width: 100%; */
+    max-width: 50%;
+    padding: 20px;
+    border-radius: 2px;
+    /* display: grid; */
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5%;
+    font-size: 17px;
+    line-height: 20px;
+    margin-left: auto;
+    margin-right: -9%;
+    margin-top: -45%;
+  }
+  
+  .profile-container input,
+  select {
+    margin-top: 20px;
+    width: 70%;
+    border: 1px solid #888;
+    border-radius: 4px;
+    padding: 7px 10px;
+  }
+  
+  .profile-container input:hover,
+  select:hover {
+    border: 1px solid #333;
+  }
+
+ .profile-pic-changer
+ {
+    margin-top: 150px;
+    max-width: 500px;
+    
+    margin-left: 20%;
+   
+   
+ }
+  /* .pannel {
+    background-color: #f7f7f785;
+    box-shadow: 0 0 10px #ccc;
+  } */
+  
+  .button {
+    padding: 10px 15px;
+    background-color: #3d7fc3a1 ;
+    color: white;
+    margin: 2rem 1rem;
+    /* margin-left: -2%; */
+    width: 220px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .button:hover{
+    background-color: #3688da;
+  }
+  
+
+  

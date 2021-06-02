@@ -3,6 +3,7 @@ import {BrowserRouter, BrowserRouter as Router,Route,Switch} from 'react-router-
 import Homepage from './Views/Homepage/Homepage';
 import Covid from './Views/covid19/App-1';
 import Contact from './Views/Contact/Contact';
+import Profile from './Views/Profile/profile';
 
 
 export default function Navigation() {
@@ -10,6 +11,7 @@ export default function Navigation() {
     <BrowserRouter>
       <Switch>
         <Route path='/' exact component={Homepage}/>
+        <Route path='/profile' exact component={Profile}/>
         <Route path='/contact'exact component={Contact}/>
         <Route path='/covid'exact component={Covid}/>
       </Switch>
