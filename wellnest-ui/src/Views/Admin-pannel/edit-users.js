@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import "./edit-phone.css";
+import "./edit-users.css";
 import { Dialog, DialogTitle, DialogContent } from "@material-ui/core";
 
-class EditPhone extends Component {
+class EditUser extends Component {
   state = {
     Name: null,
     Email: null,
@@ -36,7 +36,7 @@ class EditPhone extends Component {
   };
 
   editUserDetails = () => {
-    fetch("https://localhost:44321/api/Users", {
+    fetch("http://localhost:5000/api/Users", {
       method: "PUT",
       headers: {
         Accept: "application/json",
@@ -117,4 +117,4 @@ class EditPhone extends Component {
     );
   }
 }
-export default EditPhone;
+export default EditUser;

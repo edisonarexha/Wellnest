@@ -8,7 +8,7 @@ class DeleteUser extends Component{
 
   
     removeUser(id) {
-      fetch('https://localhost:44321/api/Users/'+id,{
+      fetch('http://localhost:5000/api/Users/'+id,{
           method:'DELETE',
           header:{'Accept':'application/json',
           'Content-Type':'application/json'}

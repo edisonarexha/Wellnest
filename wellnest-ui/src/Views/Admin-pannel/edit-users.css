@@ -1,0 +1,56 @@
+.MuiPaper-root{
+    width: 600px !important; 
+    background-color: #191b19ec !important;
+
+} 
+
+.dialog{
+    padding: 5%;
+    margin: auto;
+    width: 80%;
+}
+.title{
+    font-size: medium;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    width: 100%;
+    font-family: "Lucida Console", "Courier New", monospace;
+    cursor: pointer;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    margin: auto;
+    justify-content: space-between;
+  }
+.brand{
+    padding: 2%;
+    margin: 0 10px 5px 10px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.performance{
+    padding: 2%;
+    margin: 0 10px 5px 10px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.price{
+    padding: 2%;
+    margin: 0 10px 5px 10px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+.label-button {
+    padding: 10px;
+    background: rgba(0,0,0,.9);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.image-btn{
+    margin-top: 20px;
+}

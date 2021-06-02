@@ -30,7 +30,7 @@ class Registerform extends Component {
   
     addNewUser = () => {
       console.log("test")
-      fetch('https://localhost:44321/api/Users',{
+      fetch('https://localhost:5000/api/Users',{
           method:'POST',
           headers:{'Accept':'application/json',
           'Content-Type':'application/json;charset=utf-8'},
