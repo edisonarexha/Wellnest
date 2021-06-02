@@ -1,0 +1,138 @@
+body {
+    font-family: "Montserrat-Regular";
+    color: white;
+    font-size: 20px;
+    margin: 0; 
+}
+input, textarea, select, button {
+    font-family: "Montserrat-Regular";
+    color: white;
+    font-size: 20px; 
+}
+h3{
+    margin: 0;
+    padding-bottom: 5%; 
+}
+img{
+    max-width: 100%; 
+}
+a:hover{
+    text-decoration: none; 
+}
+:focus{
+    outline: none; 
+}
+.background{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url("doc-bcg.jpg") no-repeat;
+    background-size: cover; 
+
+
+    
+}
+.inner{
+    max-width: 758px;
+    margin: auto;
+    background: #39459b;
+    border: 10px solid #0d99d7;
+    padding: 77px 99px 87px;
+
+
+    position: absolute;
+    left: 33%;
+    top: 5%;
+    animation-name: tab-ann;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+  
+textarea{
+    resize: none; }
+  
+h3{
+    text-transform: uppercase;
+    font-size: 45px;
+    font-family: "Montserrat-Bold";
+    text-align: center;
+    margin-bottom: 12px; }
+  
+p{
+    text-align: center;
+    padding: 0 10px;
+    margin-bottom: 55px;
+    line-height: 1.8; 
+}
+  
+.form-group{
+    position: relative;
+    display: block;
+    margin-bottom: 48px; 
+}
+
+.form-group span{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 11px;
+    transition: all .2s ease;
+    transform-origin: 0 0;
+    cursor: text; 
+}
+.form-group span.border{
+    height: 2px;
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 41px;
+    transform: scaleX(0);
+    transition: all .15s ease;
+    background: #fff; 
+}
+  
+.f-dezign{
+    border: none;
+    border-bottom: 2px solid #01abe4;
+    display: block;
+    width: 100%;
+    height: 43px;
+    font-size: 15px;
+    background: none;
+    font-family: "Montserrat-SemiBold"; 
+}
+.f-dezign:focus, .f-dezign:valid{
+    border-bottom: 2px solid white; 
+    }
+.f-dezign:focus + span, .f-dezign:valid + span{
+    transform: translateY(-22px) scale(0.8); 
+    }
+        
+  
+  
+  
+button{
+    border: none;
+    width: 162px;
+    height: 51px;
+    border: 2px solid white;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background: none;
+    color: white;
+    font-family: "Montserrat-SemiBold";
+}
+button:hover{
+    background-color: white;
+    color: blue;
+}
+
+@keyframes tab-ann {
+    0%{top: -100%; left:33%;}
+    100%{top: 5%; left: 33%;}
+}

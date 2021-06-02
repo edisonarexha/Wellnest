@@ -1,10 +1,10 @@
 
-import  Form from './Views/Admin-pannel/adminpannel'
+import  Contact from './Views/Contact/Contact'
 
 function App() {
   return (
     <div className="App">
-      <Form/>
+      <Contact/>
     </div>
   );
 }

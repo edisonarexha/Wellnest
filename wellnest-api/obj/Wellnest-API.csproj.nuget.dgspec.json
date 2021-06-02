@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\wellnest-api\\Wellnest-API.csproj": {}
+    "C:\\Users\\Lenovo\\Desktop\\Projekti\\Wellnest\\wellnest-api\\Wellnest-API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\wellnest-api\\Wellnest-API.csproj": {
+    "C:\\Users\\Lenovo\\Desktop\\Projekti\\Wellnest\\wellnest-api\\Wellnest-API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\wellnest-api\\Wellnest-API.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\Projekti\\Wellnest\\wellnest-api\\Wellnest-API.csproj",
         "projectName": "Wellnest-API",
-        "projectPath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\wellnest-api\\Wellnest-API.csproj",
-        "packagesPath": "C:\\Users\\Black\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\wellnest-api\\obj\\",
+        "projectPath": "C:\\Users\\Lenovo\\Desktop\\Projekti\\Wellnest\\wellnest-api\\Wellnest-API.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\Desktop\\Projekti\\Wellnest\\wellnest-api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Black\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -71,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
