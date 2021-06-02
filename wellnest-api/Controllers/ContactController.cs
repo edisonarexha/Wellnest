@@ -79,5 +79,62 @@ namespace Wellnest_API.Controllers
 
             return new JsonResult("Sent Succefully");
         }
+
+        [HttpPut]
+
+        public JsonResult Put(Contact c)
+        {
+            string query = @"
+                    update dbo.Contact set 
+                    Message = '" + c.Message + @"'
+                    where UsersID = '" + c.UsersID + @"'
+                    ";
+
+            DataTable table = new DataTable();
+            string sqlDataSource = _configuration.GetConnectionString("ContactUsDB");
+            SqlDataReader myReader;
+            using (SqlConnection myCon = new SqlConnection(sqlDataSource))
+            {
+                myCon.Open();
+                using (SqlCommand myCommand = new SqlCommand(query, myCon))
+                {
+                    myReader = myCommand.ExecuteReader();
+                    table.Load(myReader); ;
+
+                    myReader.Close();
+                    myCon.Close();
+                }
+            }
+
+            return new JsonResult("Updated Succefully");
+        }
+
+        [HttpDelete("{id}")]
+
+        public JsonResult Delete(int id)
+        {
+            string query = @"
+                    delete from dbo.Contact
+                    where UsersID = '" + id + @"'
+                    ";
+
+            DataTable table = new DataTable();
+            string sqlDataSource = _configuration.GetConnectionString("ContactUsDB");
+            SqlDataReader myReader;
+            using (SqlConnection myCon = new SqlConnection(sqlDataSource))
+            {
+                myCon.Open();
+                using (SqlCommand myCommand = new SqlCommand(query, myCon))
+                {
+                    myReader = myCommand.ExecuteReader();
+                    table.Load(myReader); ;
+
+                    myReader.Close();
+                    myCon.Close();
+                }
+            }
+
+            return new JsonResult("Deleted Succefully");
+        }
     }
 }
