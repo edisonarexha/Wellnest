@@ -86,11 +86,14 @@ class Registerform extends Component {
                   />
                 </div>
                 <div className="field" >
-                  <select onChange={this.setRole} defaultValue="Select Role" style={{width: '75%'}}>
+                  <div className="roles">
+
+                  <select onChange={this.setRole} defaultValue="Select Role" style={{width: '70%'}}>
                     <option defaultValue>Select Role</option>
                     <option value="male">Pacient</option>
                     <option value="female">Doctor</option>
                   </select>
+                  </div>
                 </div>
               </div>
               <div className="centered">

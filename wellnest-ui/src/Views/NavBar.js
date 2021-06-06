@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import logo from './Homepage/logo.PNG';
-import search from './Homepage/search.PNG';
+// import search from './Homepage/search.PNG';
 
 
 export default class NavBar extends Component {
@@ -32,10 +32,10 @@ export default class NavBar extends Component {
 
                 </ul>
                 <ul className="ul-3">
-                    <div id="s-d">
+                    {/* <div id="s-d">
                         <input type="search" placeholder="Search" id="search-i" />
                         <img src={search} id="i-s" alt="search" />
-                    </div>
+                    </div> */}
                     <Link to='/profile'>
                         <li className="li-5" >Profile</li>
                     </Link>

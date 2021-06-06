@@ -665,18 +665,12 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\elton\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
-=======
-    "C:\\Users\\Black\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
->>>>>>> bec15b93793fcc5c546b2e4d9dc99da96eee62a5
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\elton\\source\\repos\\Wellnest\\wellnest-api\\Wellnest-API.csproj",
       "projectName": "Wellnest-API",
       "projectPath": "C:\\Users\\elton\\source\\repos\\Wellnest\\wellnest-api\\Wellnest-API.csproj",
@@ -688,19 +682,6 @@
       ],
       "configFilePaths": [
         "C:\\Users\\elton\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-      "projectUniqueName": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\wellnest-api\\Wellnest-API.csproj",
-      "projectName": "Wellnest-API",
-      "projectPath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\wellnest-api\\Wellnest-API.csproj",
-      "packagesPath": "C:\\Users\\Black\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\wellnest-api\\obj\\",
-      "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
-      "configFilePaths": [
-        "C:\\Users\\Black\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> bec15b93793fcc5c546b2e4d9dc99da96eee62a5
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -754,12 +735,16 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
->>>>>>> bec15b93793fcc5c546b2e4d9dc99da96eee62a5
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\elton\\source\\repos\\Wellnest\\wellnest-api\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

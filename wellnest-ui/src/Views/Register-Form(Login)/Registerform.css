@@ -71,3 +71,6 @@ select:hover {
   max-width: 400px;
   padding: 7px 10px;
 }
+.roles{
+  color: rgb(54, 54, 54);
+}

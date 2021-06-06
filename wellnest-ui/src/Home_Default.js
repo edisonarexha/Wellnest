@@ -4,7 +4,7 @@ import { Slider } from './Views/Homepage/Slider';
 import { SliderImages } from './Views/Homepage/SilderImages';
 import logo from './Views/Homepage/logo.PNG';
 import nurse from './Views/Homepage/nurse.png';
-import search from './Views/Homepage/search.PNG';
+// import search from './Views/Homepage/search.PNG';
 import doctor from './Views/Homepage/doctor.PNG';
 import call from './Views/Homepage/call.PNG';
 import amb from './Views/Homepage/ambulance.PNG';
@@ -30,10 +30,10 @@ export function Home_Default() {
                     <li className="li-4">Contact</li>
                 </ul>
                 <ul className="ul-3">
-                    <div id="s-d">
+                    {/* <div id="s-d">
                         <input type="search" placeholder="Search" id="search-i" />
                         <img src={search} id="i-s" alt="search" />
-                    </div>
+                    </div> */}
                     <li className="li-5">Sign In</li>
                 </ul>
             </div>
