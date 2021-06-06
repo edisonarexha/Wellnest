@@ -100,7 +100,7 @@ export class CovidCases extends Component{
                 </Table>
 
                 <ButtonToolbar>
-                    <Button variant='primary'
+                    <Button variant='danger'
                     onClick={()=>this.setState({addModalShow:true})}>
                     Add Country</Button>
 
