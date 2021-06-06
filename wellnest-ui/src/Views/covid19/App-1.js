@@ -76,7 +76,7 @@ console.log('CountryINFO>>>>>>>',countryInfo);
 
 //pull information from disease
   return (
-    <div className="App1">
+    <div className="App">
       <div className="app__left">
       <div className="app__header">
     <h1>COVID-19 TRACKER</h1>
