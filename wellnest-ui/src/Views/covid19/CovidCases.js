@@ -30,13 +30,14 @@ export class CovidCases extends Component{
 
     deleteEmp(covidID){
         if(window.confirm('Are you sure?')){
-            fetch('http://localhost:5000/api/covid'+covidID,{
+            fetch('http://localhost:5000/api/covid/'+covidID,{
                 method:'DELETE',
                 header:{'Accept':'application/json',
                   'Content-Type':'application/json'}
             })
         }
     }
+    
     render(){
         const {CovidCases, covidID,CountryName,Cases,Recoveries,deaths}=this.state;
         let addModalClose=()=>this.setState({addModalShow:false});

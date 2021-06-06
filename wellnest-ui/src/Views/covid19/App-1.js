@@ -10,7 +10,7 @@ import InfoBox from './InfoBox';
 import LineGraph from "./LineGraph";
 //import Mapp from "./Map"
 import Table from "./Table";
-import "./App.css";
+import "./App1.css";
 import { sortData } from "./util";
 import "leaflet/dist/leaflet.css";
 import { CovidCases } from "./CovidCases";
