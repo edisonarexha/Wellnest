@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import './Homepage.css';
 import { Link } from 'react-router-dom';
-import logo from './logo.PNG';
-import search from './search.PNG';
+import NavBar from '../NavBar';
 import doctor from './doctor.PNG';
 import call from './call.PNG';
 import amb from './ambulance.PNG';
@@ -22,39 +21,8 @@ function Homepage() {
 
             </div >
 
+            <NavBar />
 
-
-            <div className="nav-div">
-                <ul >
-                    <img className="ul-1" src={logo} alt="Logo" />
-                </ul>
-                <ul className="ul-2">
-                    <Link to="/">
-                        <li className="li-1">Home</li>
-                    </Link>
-                    <li className="li-2">About</li>
-                    <Link to="/covid">
-                        <li className="li-3">Covid-19</li>
-                    </Link>
-                    <Link to='/contact'>
-                        <li className="li-4">Contact</li>
-                    </Link>
-
-                    <Link to='/profile'>
-                        <li className="li-6">{profile ? 'Dashboard' : ''}</li>
-
-                    </Link>
-
-
-                </ul>
-                <ul className="ul-3">
-                    <div id="s-d">
-                        <input type="search" placeholder="Search" id="search-i" />
-                        <img src={search} id="i-s" alt="search" />
-                    </div>
-                    <li className="li-5" onClick={changeProfile}>{profile ? 'Profile1' : 'Profile2'}</li>
-                </ul>
-            </div>
             <div className="parallax">
                 <div id="div-i">
 
