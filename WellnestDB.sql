@@ -11,13 +11,6 @@ Password varchar(50),
 Role varchar(50)
 )
 
-<<<<<<< Updated upstream
-=======
-
-
->>>>>>> Stashed changes
-select * from Users
-
 
 insert into Users values('test','test','test','test','test');
 
@@ -53,3 +46,15 @@ select * from dbo.Contact
 
 insert into dbo.Contact values ('Altrit', 'altrit@gmail.com','Keep up the good work bro')
 insert into dbo.Contact values ('Izibilihane', 'izibilihane@gmail.com','Je ni te mrekullushem, jem ikrenar mepu nen tuj')
+
+create table Profile(
+ProfileID int identity(1,1),
+dateofBirth date,
+bloodType varchar(50),
+alergies varchar(50),
+vaccination varchar(50),
+Photo varchar(max)
+)
+
+select * from Profile
+insert into Profile values('test','test','test','test','test');

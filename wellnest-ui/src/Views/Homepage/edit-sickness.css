@@ -1,0 +1,45 @@
+.MuiPaper-root{
+    width: 600px !important; 
+    background-color: #191b19ec !important;
+
+} 
+
+.dialog{
+    padding: 5%;
+    margin: auto;
+    width: 80%;
+}
+.title{
+    font-size: medium;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    width: 100%;
+    font-family: "Lucida Console", "Courier New", monospace;
+    cursor: pointer;
+}
+
+.button{
+    color: black;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    margin: auto;
+    justify-content: space-between;
+  }
+.name{
+    padding: 2%;
+    margin: 0 10px 5px 10px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.information{
+    padding: 2%;
+    margin: 0 10px 5px 10px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.image-btn{
+    margin-top: 20px;
+}

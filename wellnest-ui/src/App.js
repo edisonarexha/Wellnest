@@ -1,10 +1,10 @@
 
-import  Admin from './Views/Admin-pannel/adminpannel'
+import  Home from './Views/Homepage/Homepage'
 
 function App() {
   return (
     <div className="App">
-      <Admin/>
+      <Home/>
     </div>
   );
 }
