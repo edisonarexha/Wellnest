@@ -111,3 +111,4 @@ export class CovidCases extends Component{
         )
     }
 }
+export default CovidCases

@@ -13,9 +13,8 @@ import Table from "./Table";
 import "./App1.css";
 import { sortData } from "./util";
 import "leaflet/dist/leaflet.css";
-import { CovidCases } from "./CovidCases";
-//import Covid19Table from './Covid19Table';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Covid19Table from './CovidCases';
+
 
 function App1() {
 const[countries,setCountries] = useState([]);
@@ -115,13 +114,12 @@ console.log('CountryINFO>>>>>>>',countryInfo);
             title="Coronavirus deaths" cases={countryInfo.todayDeaths} total={countryInfo.deaths}/>
          </div>
           
-       <div>
-          <CovidCases>
-              
-              </CovidCases>
-          </div>
-    
+          <Covid19Table>
+            
+          </Covid19Table>
           
+    
+      
       
   
     </div>
@@ -136,11 +134,7 @@ console.log('CountryINFO>>>>>>>',countryInfo);
       </CardContent>
      
         </Card>
-          
-    
-        
     </div>
-   
   );
 }
 
