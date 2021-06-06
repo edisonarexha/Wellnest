@@ -12,7 +12,7 @@ export class EditCasesModal extends Component{
    
 
     componentDidMount(){
-        fetch('http://localhost:5000/api/covid')
+        fetch('http://localhost:5000/api/covid/')
         .then(response=>response.json())
         .then(data=>{
             this.setState({covidCases:data});
@@ -21,7 +21,7 @@ export class EditCasesModal extends Component{
 
     handleSubmit(event){
         event.preventDefault();
-        fetch('http://localhost:5000/api/covid',{
+        fetch('http://localhost:5000/api/covid/',{
             method:'PUT',
             headers:{
                 'Accept':'application/json',
@@ -32,7 +32,7 @@ export class EditCasesModal extends Component{
                 CountryName:event.target.CountryName.value,
                 Cases:event.target.Cases.value,
                 Recoveries:event.target.Recoveries.value,
-                deaths:event.target.deaths.value,
+                
 
             })
         })
