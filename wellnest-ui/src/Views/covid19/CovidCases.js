@@ -13,7 +13,7 @@ export class CovidCases extends Component{
     }
 
     refreshList(){
-        fetch('http://localhost:5000/api/covid')
+        fetch('http://localhost:5000/api/covid/')
         .then(response=>response.json())
         .then(data=>{
             this.setState({CovidCases:data});
