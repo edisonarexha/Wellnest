@@ -154,10 +154,11 @@ namespace Wellnest_API.Controllers
         [HttpGet]
         public IActionResult GetPhoto(string name)
         {
-
+           
             string physicalPath = _env.ContentRootPath + "/SliderPhotos/" + name;
             Byte[] b = System.IO.File.ReadAllBytes(@"" + physicalPath);
             return File(b, "image/jpeg");
+            
         }
 
     }

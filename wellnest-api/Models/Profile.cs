@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Wellnest_API.Models
 {
-    public class Profili
+    public class Profile
     {
         public int ProfileId { get; set; }
         public DateTime dateOfBirth { get; set; }
