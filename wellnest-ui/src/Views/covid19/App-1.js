@@ -14,7 +14,7 @@ import "./App1.css";
 import { sortData } from "./util";
 import "leaflet/dist/leaflet.css";
 import Covid19Table from './CovidCases';
-
+import NavBar from '../NavBar';
 
 function App1() {
 const[countries,setCountries] = useState([]);
@@ -76,65 +76,70 @@ console.log('CountryINFO>>>>>>>',countryInfo);
 
 //pull information from disease
   return (
-    <div className="App">
-      <div className="app__left">
-      <div className="app__header">
-    <h1>COVID-19 TRACKER</h1>
-     <FormControl className="app__dropdown">
-       <Select variant="outlined" onChange={onCountryChange} value={country}>
-             <MenuItem value="WorldWide">Worldwide</MenuItem>
-        {countries.map(country=>(
-             <MenuItem value={country.value}>{country.name}</MenuItem>
-           ))}
-       </Select>
-     </FormControl>
-     </div>
-         <div className="app__stats">
-            {/*InfoBoxes title="corona virus cases" */}
+    <div>
+      <NavBar>
+        
+      </NavBar>
+      <div className="App">
+    <div className="app__left">
+    <div className="app__header">
+  <h1>COVID-19 TRACKER</h1>
+   <FormControl className="app__dropdown">
+     <Select variant="outlined" onChange={onCountryChange} value={country}>
+           <MenuItem value="WorldWide">Worldwide</MenuItem>
+      {countries.map(country=>(
+           <MenuItem value={country.value}>{country.name}</MenuItem>
+         ))}
+     </Select>
+   </FormControl>
+   </div>
+       <div className="app__stats">
+          {/*InfoBoxes title="corona virus cases" */}
 
-            <InfoBox 
-                isRed
-                active={casesType==='cases'}
-                onClick={(e)=>setCasesType("cases")}            
-            title="Coronavirus Cases" cases={countryInfo.todayCases} total={countryInfo.cases}/>
+          <InfoBox 
+              isRed
+              active={casesType==='cases'}
+              onClick={(e)=>setCasesType("cases")}            
+          title="Coronavirus Cases" cases={countryInfo.todayCases} total={countryInfo.cases}/>
 
-            {/*InfoBoxes title = "coronavirus recoveries"*/}
-            
-            <InfoBox 
-                active={casesType==='recovered'}
-                onClick={(e)=>setCasesType("recovered")}  
-            title="Coronavirus Recoveries" cases={countryInfo.todayRecovered} total={countryInfo.recovered}/>
-            
-            {/*InfoBoxes */}
-            
-            <InfoBox 
-            isRed
-               active={casesType==='deaths'}
-               onClick={(e)=>setCasesType("deaths")}  
-            title="Coronavirus deaths" cases={countryInfo.todayDeaths} total={countryInfo.deaths}/>
-         </div>
+          {/*InfoBoxes title = "coronavirus recoveries"*/}
           
-          <Covid19Table>
-            
-          </Covid19Table>
+          <InfoBox 
+              active={casesType==='recovered'}
+              onClick={(e)=>setCasesType("recovered")}  
+          title="Coronavirus Recoveries" cases={countryInfo.todayRecovered} total={countryInfo.recovered}/>
           
-    
-      
-      
+          {/*InfoBoxes */}
+          
+          <InfoBox 
+          isRed
+             active={casesType==='deaths'}
+             onClick={(e)=>setCasesType("deaths")}  
+          title="Coronavirus deaths" cases={countryInfo.todayDeaths} total={countryInfo.deaths}/>
+       </div>
+        
+        <Covid19Table>
+          
+        </Covid19Table>
+        
   
-    </div>
-    <Card className="app__right">
-      <CardContent>
-        <h3>Live Cases by Country</h3>
-        
-          <Table countries={tableData}/>
-        <h3>WorldWide new {casesType}</h3>
-        
-           <LineGraph casesType={casesType} />
-      </CardContent>
-     
-        </Card>
-    </div>
+    
+    
+
+  </div>
+  <Card className="app__right">
+    <CardContent>
+      <h3>Live Cases by Country</h3>
+      
+        <Table countries={tableData}/>
+      <h3>WorldWide new {casesType}</h3>
+      
+         <LineGraph casesType={casesType} />
+    </CardContent>
+   
+      </Card>
+  </div></div>
+    
   );
 }
 
