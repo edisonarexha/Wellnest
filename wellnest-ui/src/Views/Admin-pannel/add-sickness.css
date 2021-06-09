@@ -1,4 +1,7 @@
-
+#add-div-l{
+    display: flex;
+    flex-direction: column;
+}
 
 .dialog{
     padding: 5%;

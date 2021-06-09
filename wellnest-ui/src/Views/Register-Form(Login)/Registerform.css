@@ -2,7 +2,7 @@
   max-width: 900px;
   margin: auto;
   margin-top: 3%;
-  color: white;
+ 
 }
 
 .container .centered {
@@ -47,7 +47,7 @@ select:hover {
 .button {
   padding: 10px 15px;
   background-color: #3d7fc3a1 ;
-  color: white;
+  color: black;
   margin: 2rem 1rem;
   /* margin-left: -2%; */
   width: 220px;

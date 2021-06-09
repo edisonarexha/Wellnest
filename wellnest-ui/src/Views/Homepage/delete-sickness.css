@@ -1,12 +1,27 @@
-
- 
+.MuiDialog-paperWidthSm{
+    max-width: 400px;
+}
+ #d-con{
+     position: relative;
+     display: flex;
+     flex-direction: row;
+     top: 50px;
+     justify-content: space-around;
+ }
 
 .dialog{
     padding: 5%;
     margin: auto;
     width: 80%;
 }
-.title{
+#m-d{
+    width: 560px;
+    height: 280px;
+}
+#t-d{
+    position: relative;
+    left: 60px;
+    top: 25px;
     font-size: medium;
     color: black;
     display: flex;
@@ -14,16 +29,33 @@
     align-items:center ;
     width: 100%;
     font-family: "Lucida Console", "Courier New", monospace;
-    margin-top: 5%;
 
 }
-.yes-button{ 
+.x-b{
+    color: rgba(0, 0, 0, 0.425);
+    font-size: 25px;
+    cursor: pointer;
+}
+#yes{ 
     padding: 10px 15px;
-    background-color: rgb(31 49 32 / 82%);
-    color: white;
+    background-color: white;
+    color: black;
+    display: inline-block; 
+    cursor: pointer;
+    width: 100px;
+    border: 1px lightblue solid;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+#no{ 
+    padding: 10px 15px;
+    background-color: white;
+    color: black;
+    border: 1px lightblue solid;
     display: inline-block;
-    margin: 2rem 1rem 2rem 1rem;
-    /* margin-left: 20px; */
     cursor: pointer;
     width: 100px;
     text-align: center;
@@ -31,18 +63,6 @@
     font-family: "Lucida Console", "Courier New", monospace;
 
 }
-
-.no-button{ 
-    padding: 10px 15px;
-    background-color: rgb(31 49 32 / 82%);
-    color: white;
-    display: inline-block;
-    margin: 2rem 1rem 2rem 1rem;
-    margin-left: 20%;
-    cursor: pointer;
-    width: 100px;
-    text-align: center;
-    font-weight: 600;
-    font-family: "Lucida Console", "Courier New", monospace;
-
+#no:hover,#yes:hover{
+    background-color: rgba(188, 209, 228, 0.39);
 }

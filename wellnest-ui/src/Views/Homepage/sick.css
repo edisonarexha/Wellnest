@@ -1,0 +1,50 @@
+#ss1{
+    padding-top: 30px;
+    font-size: 60px;
+}
+#ss2{
+    padding-top: 20px;
+    font-size: 20px;
+}
+#elem_name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    padding-left: 100px;
+}
+#d-list{
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+#s-i1{
+    padding: 20px;
+    width: 600px;
+    height: 450px;
+    border-radius: 45px;
+}
+#ed-s{
+    position: relative;
+    top: 125px;
+    left: 80px;
+    width: 60px;
+    height: 40px;
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+#e-d-d{
+    display: flex;
+    flex-direction: column;
+}
+#de-s{
+    position: relative;
+    top: 160px;
+    left: 80px;
+    width: 60px;
+    height: 40px;
+    font-size: 25px;
+    cursor: pointer;
+   
+}

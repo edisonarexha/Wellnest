@@ -7,6 +7,7 @@ import Profile from './Views/Profile/profile';
 import SickInfo from './Views/Homepage/SickInfo'
 import Admin from './Views/Admin-pannel/adminpannel';
 import Form from './Views/Register-Form(Login)/Form';
+import Add_S from './Views/Admin-pannel/Add-S';
 
 
 export default function Navigation() {
@@ -20,6 +21,7 @@ export default function Navigation() {
         <Route path='/covid' component={Covid}/>
         <Route path='/admin' component={Admin}/>
         <Route path='/form' component={Form}/>
+        <Route path='/add_s' component={Add_S}/>
 
       </Switch>
     

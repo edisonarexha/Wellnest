@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import './delete-sickness.css';
+import { Dialog, DialogTitle, DialogContent } from '@material-ui/core'
 class DeleteSickness extends Component {
 
     removeSickness(id) {
@@ -13,16 +14,39 @@ class DeleteSickness extends Component {
     }
     render() {
         return (
-            <div class="dialog">
-                <div className="title">
-                    <div>Are you sure you want to delete this product</div>
-                </div>
-                <div className="yes-button"
-                    onClick={() => this.removeSickness(this.props.model.diseasesID)}>YES</div>
-                <div className="no-button"
-                    onClick={this.props.closeDeleteView}>NO</div>
+            
+                <Dialog open={!!this.props.model}>
+                   
 
-            </div>
+                    <div id="m-d">
+                        <DialogTitle>
+                            <div className="x-button">
+
+                                <i class="fa fa-times x-b" aria-hidden="true" onClick={this.props.closeDeleteView}></i>
+                            </div>
+                            <div id="t-d">
+                                <div>Are you sure you want to delete this disease?</div>
+
+                            </div>
+                        </DialogTitle>
+
+                        <div id="d-con">
+                            <div id="yes"
+                                onClick={() => this.removeSickness(this.props.model.DiseasesID)}>YES</div>
+
+                            <div id="no"
+                                onClick={this.props.closeDeleteView}>NO</div>
+
+                        </div>
+
+
+                    </div>
+                   
+                </Dialog>
+
+
+       
+
         )
     }
 }

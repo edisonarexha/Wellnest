@@ -10,7 +10,7 @@ Username varchar(50),
 Password varchar(50),
 Role varchar(50)
 )
-
+select * from Users
 
 insert into Users values('test','test','test','test','test');
 
@@ -30,8 +30,6 @@ insert into Diseases values('BacterioPhages','Bacteriophages (BPs) are viruses t
 insert into Diseases values('Influenza','Influenza (flu) is a contagious respiratory illness caused by influenza viruses. It can cause mild to severe illness. Serious outcomes of flu infection can result in hospitalization or death.','Influenza.jpg');
 
 
-
-
 !--Contact
 Create Database ContactUsDB
 
@@ -43,6 +41,7 @@ create table dbo.Contact(
 )
 
 select * from dbo.Contact
+
 
 insert into dbo.Contact values ('Altrit', 'altrit@gmail.com','Keep up the good work bro')
 insert into dbo.Contact values ('Izibilihane', 'izibilihane@gmail.com','Je ni te mrekullushem, jem ikrenar mepu nen tuj')

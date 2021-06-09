@@ -1,24 +1,17 @@
 import React, { Component } from "react";
 import './add-sickness.css';
-
-
-
 class AddSickness extends Component {
     state = {
         Name: null,
         information: null,
         PhotoName: null
     }
-
     setName = (event) => {
         this.setState({ Name: event.target.value });
     }
-
     setInformation = (event) => {
         this.setState({ information: event.target.value });
     }
-
-
     addNewDiseases = () => {
         fetch('http://localhost:5000/api/diseases', {
             method: 'POST',
@@ -32,8 +25,6 @@ class AddSickness extends Component {
         }
         )
     }
-
-
     handleFileSelected = (event) => {
         event.preventDefault();
         this.setState({ PhotoName: event.target.files[0].name });
@@ -56,16 +47,13 @@ class AddSickness extends Component {
                     alert('Failed');
                 })
     }
-
     render() {
         return (
-
-
             <div class="dialog">
                 <div className="title">
-                    <span>Add new product</span>
+                    <span>Add new Disease</span>
                 </div>
-                <div>
+                <div id="add-div-l">
                     <label>Name</label>
                     <input class="name" type="text" placeholder="Name" value={this.state.Name} onChange={this.setName}></input>
                     <label>information</label>
@@ -77,8 +65,8 @@ class AddSickness extends Component {
                     </div>
                     <div className="button" onClick={() => this.addNewDiseases()} type="button">
                         Add</div>
-                </div></div>
-
+                </div>
+            </div>
         )
     }
 

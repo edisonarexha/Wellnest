@@ -2,6 +2,8 @@ import React, { Component, useState } from "react";
 import "./adminpannel.css";
 import EditUser from "./edit-users";
 import DeleteUser from "./delete-users";
+import AddSickness from './AddSickness';
+import { Link } from 'react-router-dom';
 
 class Admin extends Component {
   state = {
@@ -21,18 +23,21 @@ class Admin extends Component {
   setDeleteValue(value) {
     this.setState({ showDeleteModal: value });
   }
+
   getUsers() {
     this.state.showAddUser = false;
     this.state.showEditUser = false;
     this.state.showDeleteModal = false;
 
-    fetch("http://localhost:5000/api/Users")
+    fetch("http://localhost:5000/api/users")
       .then((response) => response.json())
       .then((data) => {
         this.setState({ Users: data });
         console.log(this.state.Users);
       });
   }
+
+
   render() {
     return (
       <div>
@@ -40,7 +45,10 @@ class Admin extends Component {
           <span>Dashboard</span>
           <div className="right-header-buttons">
             <div className="back-button">
-              <span>Back to Home </span>
+              <Link to='/'>
+                <span id="span1">Back to Home </span>
+              </Link>
+
             </div>
             <div className="logout-button">
               <span>Logout</span>
@@ -52,6 +60,10 @@ class Admin extends Component {
             <div className="left-list">
               <div className="action-btn">Users</div>
               <div className="action-btn">Users-messages</div>
+              <Link to="/add_s">
+                <div className="action-btn">Add Sickness</div>
+              </Link>
+
             </div>
           </div>
           <div>
@@ -105,6 +117,7 @@ class Admin extends Component {
         ) : (
           ""
         )}
+
       </div>
     );
   }
