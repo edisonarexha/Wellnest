@@ -59,7 +59,7 @@ class AddSickness extends Component {
                     <input id="name-input" type="text" placeholder="Name" value={this.state.Name} onChange={this.setName}></input>
                     <labe id="info-l">Information</labe>
                     <textarea id="information-txt" type="text" placeholder="Information" value={this.state.information} onChange={this.setInformation}></textarea>
-                    {this.state.PhotoName ? <span><img src={"http://localhost:5000/api/diseases/GetPhoto/" + this.state.PhotoName} height="220px" /> </span> : ""}
+                    {this.state.PhotoName ? <span><img id="img-span" src={"http://localhost:5000/api/diseases/GetPhoto/" + this.state.PhotoName} height="220px" /> </span> : ""}
                     <div> 
                         <label for="image" id="img-label">{this.state.PhotoName ? 'Change Image' : 'Select Image'}</label>
                         <input class="photo" style={{ visibility: 'hidden' }} type="file" id="image" placeholder="Photo" onChange={this.handleFileSelected}></input>

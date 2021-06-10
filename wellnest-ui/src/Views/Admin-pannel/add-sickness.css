@@ -12,14 +12,18 @@
 #add-main-div{
     position: relative;
     left: 350px;
-    top: 100px;
+    top: 60px;
     padding-top: 30px;
     width: 630px;
-    height: 400px;
+    height: 590px;
     border: 2px lightblue solid;
 }
 
-
+#img-span{
+    position: relative;
+    left: 130px;
+    top: 40px;
+}
 #name-l {
     position: relative;
     left: 275px;
