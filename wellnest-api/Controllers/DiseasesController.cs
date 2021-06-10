@@ -94,7 +94,7 @@ namespace Wellnest_API.Controllers
                     table.Load(myReader); ;
 
                     myReader.Close();
-                    myCon.Close();
+                       myCon.Close();
                 }
 
                 return new JsonResult("Updated Suscccesfully");
@@ -146,7 +146,6 @@ namespace Wellnest_API.Controllers
             }
             catch (Exception)
             {
-
                 return new JsonResult("Hiv.jpg");
             }
         }

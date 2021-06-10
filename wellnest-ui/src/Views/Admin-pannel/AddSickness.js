@@ -41,30 +41,30 @@ class AddSickness extends Component {
         })
             .then(res => res.json())
             .then((result) => {
-                console.log(result)
+                console.log(result);
             },
                 (error) => {
                     alert('Failed');
                 })
     }
     render() {
+       
         return (
-            <div class="dialog">
-                <div className="title">
-                    <span>Add new Disease</span>
+            <div id="add-main-div">
+                <div id="span-div">
+                    <span><b>Add new Disease!</b></span>
                 </div>
                 <div id="add-div-l">
-                    <label>Name</label>
-                    <input class="name" type="text" placeholder="Name" value={this.state.Name} onChange={this.setName}></input>
-                    <label>information</label>
-                    <textarea class="information" type="text" placeholder="Information" value={this.state.information} onChange={this.setInformation}></textarea>
+                    <label id="name-l">Name</label>
+                    <input id="name-input" type="text" placeholder="Name" value={this.state.Name} onChange={this.setName}></input>
+                    <labe id="info-l">Information</labe>
+                    <textarea id="information-txt" type="text" placeholder="Information" value={this.state.information} onChange={this.setInformation}></textarea>
                     {this.state.PhotoName ? <span><img src={"http://localhost:5000/api/diseases/GetPhoto/" + this.state.PhotoName} height="220px" /> </span> : ""}
-                    <div className="image-btn">
-                        <label for="image" className="label-button">{this.state.PhotoName ? 'Change Image' : 'Select Image'}</label>
+                    <div> 
+                        <label for="image" id="img-label">{this.state.PhotoName ? 'Change Image' : 'Select Image'}</label>
                         <input class="photo" style={{ visibility: 'hidden' }} type="file" id="image" placeholder="Photo" onChange={this.handleFileSelected}></input>
                     </div>
-                    <div className="button" onClick={() => this.addNewDiseases()} type="button">
-                        Add</div>
+                    <div id="add-div" onClick={() => this.addNewDiseases()} type="button">Add</div>
                 </div>
             </div>
         )
