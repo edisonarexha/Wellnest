@@ -30,7 +30,7 @@ namespace Wellnest_API.Controllers
                     select UsersID, Name, Email, Message from dbo.Contact";
 
             DataTable table = new DataTable();
-            string sqlDataSource = _configuration.GetConnectionString("ContactUsDB");
+            string sqlDataSource = _configuration.GetConnectionString("WellnestAppConn");
             SqlDataReader myReader;
             using (SqlConnection myCon = new SqlConnection(sqlDataSource))
             {
@@ -62,7 +62,7 @@ namespace Wellnest_API.Controllers
                     )";
 
             DataTable table = new DataTable();
-            string sqlDataSource = _configuration.GetConnectionString("ContactUsDB");
+            string sqlDataSource = _configuration.GetConnectionString("WellnestAppConn");
             SqlDataReader myReader;
             using (SqlConnection myCon = new SqlConnection(sqlDataSource))
             {
@@ -91,7 +91,7 @@ namespace Wellnest_API.Controllers
                     ";
 
             DataTable table = new DataTable();
-            string sqlDataSource = _configuration.GetConnectionString("ContactUsDB");
+            string sqlDataSource = _configuration.GetConnectionString("WellnestAppConn");
             SqlDataReader myReader;
             using (SqlConnection myCon = new SqlConnection(sqlDataSource))
             {
@@ -119,7 +119,7 @@ namespace Wellnest_API.Controllers
                     ";
 
             DataTable table = new DataTable();
-            string sqlDataSource = _configuration.GetConnectionString("ContactUsDB");
+            string sqlDataSource = _configuration.GetConnectionString("WellnestAppConn");
             SqlDataReader myReader;
             using (SqlConnection myCon = new SqlConnection(sqlDataSource))
             {
