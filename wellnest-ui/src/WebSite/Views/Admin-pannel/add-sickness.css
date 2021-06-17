@@ -87,7 +87,6 @@
     text-align: center;
     cursor: pointer;
 }
-
-.image-btn {
-    margin-top: 20px;
+#add-div:hover,#img-label:hover{
+    background-color: rgba(140, 173, 184, 0.521);
 }

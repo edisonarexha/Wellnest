@@ -1,13 +1,13 @@
 import React from 'react';
 import {BrowserRouter, BrowserRouter as Router,Route,Switch} from 'react-router-dom';
-import Homepage from './Views/Homepage/Homepage';
-import Covid from './Views/covid19/App-1';
-import Contact from './Views/Contact/Contact';
-import Profile from './Views/Profile/profile';
-import SickInfo from './Views/Homepage/SickInfo'
-import Admin from './Views/Admin-pannel/adminpannel';
-import Form from './Views/Register-Form(Login)/Form';
-import Add_S from './Views/Admin-pannel/Add-S';
+import Homepage from './WebSite/Views/Homepage/Homepage';
+import Covid from './WebSite/Views/covid19/App-1';
+import Contact from './WebSite/Views/Contact/Contact';
+import Profile from './WebSite/Views/Profile/profile';
+import SickInfo from './WebSite/Views/Homepage/SickInfo'
+import Admin from './WebSite/Views/Admin-pannel/adminpannel';
+import Form from './WebSite/Views/Register-Form(Login)/Form';
+import Add_S from './WebSite/Views/Admin-pannel/Add-S';
 
 
 export default function Navigation() {
