@@ -1,8 +1,20 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "dgSpecHash": "o+qyROU8jdufLgNRbWN284vCFQdXmIaErREW/1VBJCh1jzpADglyiDWptP4QkTq3kgmEdbGT/I5Ok6rOlPREgw==",
   "success": true,
   "projectFilePath": "C:\\Users\\elton\\source\\repos\\Wellnest\\Domain\\Domain.csproj",
+=======
+  "dgSpecHash": "ia4t18hFik8QpZTWpI8v+sVXK4TSDoupRxm+6hTWH5AIVS3hAJ64j9G7ch7rYaEcn+g/BiBuVESzDbhMp9SQFQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Domain\\Domain.csproj",
+>>>>>>> Stashed changes
+=======
+  "dgSpecHash": "ia4t18hFik8QpZTWpI8v+sVXK4TSDoupRxm+6hTWH5AIVS3hAJ64j9G7ch7rYaEcn+g/BiBuVESzDbhMp9SQFQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Domain\\Domain.csproj",
+>>>>>>> Stashed changes
   "expectedPackageFiles": [],
   "logs": []
 }

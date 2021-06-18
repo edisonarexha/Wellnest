@@ -15,5 +15,5 @@ namespace Wellnest_API.Models
         public string Password { get; set; }
         public string Role { get; set; }
     
-}
+    }
 }

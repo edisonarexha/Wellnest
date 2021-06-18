@@ -1,7 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <TargetFramework>net5.0</TargetFramework>
+=======
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+>>>>>>> Stashed changes
+=======
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+>>>>>>> Stashed changes
   </PropertyGroup>
 
 </Project>
