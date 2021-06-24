@@ -57,3 +57,15 @@ Photo varchar(max)
 
 select * from Profile
 insert into Profile values('test','test','test','test','test');
+
+create table Covid19(
+covidID int identity(1,1),
+CountryName varchar(60),
+Cases int,
+Recoveries int,
+deaths int,
+)
+
+select * from Covid19
+insert into Covid19 values ('Germany','4643213','232113421','23321');
+insert into Covid19 values ('Bullgaria', '213204','322123','231728');
