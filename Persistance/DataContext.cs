@@ -1,4 +1,5 @@
 ﻿using System;
+using Domain;
 using Microsoft.EntityFrameworkCore;
 
 namespace Persistance
@@ -9,5 +10,6 @@ namespace Persistance
         {
 
         }
+        public DbSet<Allergies> Allergies {get;set;}
     }
 }
