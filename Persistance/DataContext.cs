@@ -11,5 +11,6 @@ namespace Persistance
 
         }
         public DbSet<Allergies> Allergies {get;set;}
+        public DbSet<Disease> Diseases {get;set;}
     }
 }
