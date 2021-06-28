@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "W4j9KRzpKe59pHRdlTa2pUG1TsutXeinUBmBClkkdidUsPPbPK/1Es31UUazU33FkPgkt9d2QpTmnldeyppBuA==",
+  "dgSpecHash": "/37hoTn/Gs4xOIJJdanabK81kGSHl0G0V3O08vqDvwaiH9QuXlKJIWNkoIJwIbXgDbUxlHRnFkVzykkJ6nmMKg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\New folder (3)\\Wellnest\\API\\Wellnest-API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.15\\microsoft.aspnetcore.jsonpatch.3.1.15.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.15\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.15.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

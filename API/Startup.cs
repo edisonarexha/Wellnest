@@ -13,6 +13,8 @@ using System.Threading.Tasks;
 using Newtonsoft.Json.Serialization;
 using Persistance;
 using Microsoft.EntityFrameworkCore;
+using MediatR;
+using Application.Diseases;
 
 namespace Wellnest_API
 {
@@ -37,6 +39,7 @@ namespace Wellnest_API
                 c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
             });
+            services.AddMediatR(typeof(List.Handler).Assembly);
             //JSON Serializ
             services.AddControllersWithViews().AddNewtonsoftJson(Options => Options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore)
                 .AddNewtonsoftJson(Options => Options.SerializerSettings.ContractResolver
