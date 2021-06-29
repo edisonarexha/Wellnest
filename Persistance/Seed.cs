@@ -47,6 +47,20 @@ namespace Persistance{
                 context.Allergy.AddRange(allergies);
                 context.SaveChanges();
             }
+            if(!context.User.Any()){
+                var users = new List<User>{
+                    new User{
+
+                        Id=1, 
+                        name="Edisona", 
+                        surname="Rexha", 
+                        email="testt", 
+                        userkey=1
+                    },
+                };
+                context.User.AddRange(users);
+                context.SaveChanges();
+            }
         }
     }
 }
