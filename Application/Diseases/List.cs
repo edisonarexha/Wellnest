@@ -6,9 +6,11 @@ using System.Threading;
 using Persistance;
 using Microsoft.EntityFrameworkCore;
 
-namespace Application.Diseases{
-    public class List{
-        public class Query : IRequest<List<Disease>>{}
+namespace Application.Diseases
+{
+    public class List
+    {
+        public class Query : IRequest<List<Disease>> { }
         public class Handler : IRequestHandler<Query, List<Disease>>
         {
             private readonly DataContext context;

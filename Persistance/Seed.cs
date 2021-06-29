@@ -29,6 +29,24 @@ namespace Persistance{
                 context.Diseases.AddRange(diseases);
                 context.SaveChanges();
             }
+
+             if(!context.Allergy.Any()){
+                var allergies = new List<Allergy>{
+                    new Allergy{
+                            AllergyId = 1,
+                            Reason = "Seasonal, from flowers,weeds...",
+                            Name = "Pollen"
+                    },
+                    new Allergy{
+                        
+                            AllergyId = 2,
+                            Reason = "Ice cream and milk diaries",
+                            Name = "Lactose Intolerance"
+                    },
+                };
+                context.Allergy.AddRange(allergies);
+                context.SaveChanges();
+            }
         }
     }
 }

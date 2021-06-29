@@ -16,6 +16,7 @@ using Microsoft.EntityFrameworkCore;
 using MediatR;
 using Application.Diseases;
 
+
 namespace Wellnest_API
 {
     public class Startup

@@ -278,3 +278,5 @@ C:\Users\Lenovo\Desktop\New folder (3)\Wellnest\API\obj\Debug\netcoreapp3.1\Well
 C:\Users\Lenovo\Desktop\New folder (3)\Wellnest\API\obj\Debug\netcoreapp3.1\Wellnest-API.genruntimeconfig.cache
 C:\Users\Lenovo\Desktop\New folder (3)\Wellnest\API\bin\Debug\netcoreapp3.1\MediatR.dll
 C:\Users\Lenovo\Desktop\New folder (3)\Wellnest\API\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Black\Desktop\CRUD\Wellnest\API\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\Users\Black\Desktop\CRUD\Wellnest\API\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll

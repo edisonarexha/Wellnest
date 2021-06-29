@@ -17,23 +17,6 @@ namespace Persistance.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "3.1.16");
 
-            modelBuilder.Entity("Domain.Allergies", b =>
-                {
-                    b.Property<int>("AllergiesId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("Reason")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("name")
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("AllergiesId");
-
-                    b.ToTable("Allergies");
-                });
-
             modelBuilder.Entity("Domain.Disease", b =>
                 {
                     b.Property<int>("Id")
