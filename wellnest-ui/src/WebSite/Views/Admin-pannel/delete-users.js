@@ -7,8 +7,8 @@ import {Dialog, DialogTitle, DialogContent} from '@material-ui/core'
 class DeleteUser extends Component{
 
   
-    removeUser(id) {
-      fetch('http://localhost:5000/api/Users/'+id,{
+    removeUser(Id) {
+      fetch('http://localhost:5000/API/User/'+Id,{
           method:'DELETE',
           header:{'Accept':'application/json',
           'Content-Type':'application/json'}
@@ -32,7 +32,7 @@ class DeleteUser extends Component{
               <DialogContent class="d-container">
                 
                 <div className="yes-button"
-                  onClick={() => this.removeUser(this.props.model.UserID)}>YES</div>
+                  onClick={() => this.removeUser(this.props.model.Id)}>YES</div>
                 
                
                 <div className="no-button"

@@ -9,7 +9,7 @@ class Admin extends Component {
   state = {
     Registerform: [],
     showAddUser: false,
-    Users: [],
+    User: [],
     showEditUser: false,
     showDeleteModal: false,
   };
@@ -29,11 +29,11 @@ class Admin extends Component {
     this.state.showEditUser = false;
     this.state.showDeleteModal = false;
 
-    fetch("http://localhost:5000/api/users")
+    fetch("http://localhost:5000/API/User")
       .then((response) => response.json())
       .then((data) => {
-        this.setState({ Users: data });
-        console.log(this.state.Users);
+        this.setState({ User: data });
+        console.log(this.state.User);
       });
   }
 
@@ -68,22 +68,24 @@ class Admin extends Component {
           </div>
           <div>
             <div className="header-list">
+              <span>ID</span>
               <span>Name</span>
+              <span>Surname</span>
               <span>Email</span>
-              <span>Username</span>
-              <span>Password</span>
-              <span>Role</span>
+             <span>Userkey</span>
+              
               <span className="btn-content">Edit</span>
               <span className="btn-content">Remove</span>
             </div>
-            {this.state.Users.map((elem, index) => {
+            {this.state.User.map((elem, index) => {
               return (
                 <div className="body-list" key={index}>
-                  <span>{elem.Name}</span>
-                  <span>{elem.Email}</span>
-                  <span>{elem.Username}</span>
-                  <span>{elem.Password}</span>
-                  <span>{elem.Role}</span>
+                  <span>{elem.Id}</span>
+                  <span>{elem.name}</span>
+                  <span>{elem.email}</span>
+                  <span>{elem.surname}</span>
+                  <span>{elem.userkey}</span>
+                  
                   <span
                     className="fas fa-pencil-alt btn-content edit-icon"
                     onClick={() => this.setEditValue(elem)}

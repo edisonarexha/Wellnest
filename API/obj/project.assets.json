@@ -1835,23 +1835,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Black\\.nuget\\packages\\": {},
+    "C:\\Users\\elton\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\API\\Wellnest-API.csproj",
+      "projectUniqueName": "C:\\Users\\elton\\OneDrive\\Desktop\\Wellnest\\API\\Wellnest-API.csproj",
       "projectName": "Wellnest-API",
-      "projectPath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\API\\Wellnest-API.csproj",
-      "packagesPath": "C:\\Users\\Black\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\API\\obj\\",
+      "projectPath": "C:\\Users\\elton\\OneDrive\\Desktop\\Wellnest\\API\\Wellnest-API.csproj",
+      "packagesPath": "C:\\Users\\elton\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\elton\\OneDrive\\Desktop\\Wellnest\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Black\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\elton\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1866,8 +1866,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Application\\Application.csproj"
+            "C:\\Users\\elton\\OneDrive\\Desktop\\Wellnest\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\elton\\OneDrive\\Desktop\\Wellnest\\Application\\Application.csproj"
             }
           }
         }

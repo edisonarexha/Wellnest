@@ -1130,23 +1130,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Black\\.nuget\\packages\\": {},
+    "C:\\Users\\elton\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Application\\Application.csproj",
+      "projectUniqueName": "C:\\Users\\elton\\OneDrive\\Desktop\\Wellnest\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Application\\Application.csproj",
-      "packagesPath": "C:\\Users\\Black\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Application\\obj\\",
+      "projectPath": "C:\\Users\\elton\\OneDrive\\Desktop\\Wellnest\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\elton\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\elton\\OneDrive\\Desktop\\Wellnest\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Black\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\elton\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1161,11 +1161,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Domain\\Domain.csproj"
+            "C:\\Users\\elton\\OneDrive\\Desktop\\Wellnest\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\elton\\OneDrive\\Desktop\\Wellnest\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Persistance\\Persistance.csproj": {
-              "projectPath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Persistance\\Persistance.csproj"
+            "C:\\Users\\elton\\OneDrive\\Desktop\\Wellnest\\Persistance\\Persistance.csproj": {
+              "projectPath": "C:\\Users\\elton\\OneDrive\\Desktop\\Wellnest\\Persistance\\Persistance.csproj"
             }
           }
         }
