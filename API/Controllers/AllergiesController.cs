@@ -31,5 +31,15 @@ namespace API.Controllers
             
             return await mediator.Send(command);
         }
+        [HttpPut("{id}")]
+        public async Task<ActionResult<Unit>> Edit(int id,Edit.Command command){
+            command.AllergyId=id;
+            return await mediator.Send(command);
+        }
+        [HttpDelete("{id}")]
+        public async Task<ActionResult<Unit>> Delete(int id){
+            
+            return await mediator.Send(new Delete.Command{Id=id});
+        }
     }
 }
