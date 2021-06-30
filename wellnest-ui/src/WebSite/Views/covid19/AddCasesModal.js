@@ -12,7 +12,7 @@ export class AddCasesModal extends Component{
 
 
     componentDidMount(){
-        fetch('http://localhost:5000/api/covid/')
+        fetch('http://localhost:5000/api/covid/3')
         .then(response=>response.json())
         .then(data=>{
             this.setState({covidCases:data});

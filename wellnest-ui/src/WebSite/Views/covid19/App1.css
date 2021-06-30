@@ -5,7 +5,10 @@
 .app__header{
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 20px;
   justify-content: space-between;
 
 }
@@ -15,20 +18,21 @@ body{
 .app__stats{
   display:flex;
   justify-content: space-between;
+ 
 
 }
-.App{
+.app{
   display: flex;
   justify-content: space-evenly;
   padding: 20px;
 }
 .app__left{
-  flex: 0,9;
+  flex: 1.0;
 }
 
 
 @media(max-width:800px){
-  .App{
+  .app{
     flex-direction: column;
   }
 }

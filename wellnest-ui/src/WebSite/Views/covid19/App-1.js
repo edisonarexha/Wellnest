@@ -14,6 +14,7 @@ import { sortData, prettyPrintStat } from "./util";
 import numeral from "numeral";
 import Map from "./Map";
 import "leaflet/dist/leaflet.css";
+import NavBar from "../NavBar";
 
 const App1 = () => {
   const [country, setInputCountry] = useState("worldwide");
@@ -72,7 +73,15 @@ const App1 = () => {
   };
 
   return (
+    <div>
+  
+        <NavBar>
+
+        </NavBar>
+      
+   
     <div className="app">
+   
       <div className="app__left">
         <div className="app__header">
           <h1>COVID-19 Tracker</h1>
@@ -131,6 +140,7 @@ const App1 = () => {
           </div>
         </CardContent>
       </Card>
+    </div>
     </div>
   );
 };
