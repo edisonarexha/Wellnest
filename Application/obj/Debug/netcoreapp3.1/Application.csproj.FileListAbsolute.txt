@@ -54,3 +54,17 @@ C:\Users\elton\OneDrive\Desktop\Wellnest\Application\obj\Debug\netcoreapp3.1\App
 C:\Users\elton\OneDrive\Desktop\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
 C:\Users\elton\OneDrive\Desktop\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.dll
 C:\Users\elton\OneDrive\Desktop\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.pdb
+F:\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.dll
+F:\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.pdb
+F:\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.deps.json
+F:\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.dll
+F:\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.pdb
+F:\Wellnest\Application\bin\Debug\netcoreapp3.1\Domain.dll
+F:\Wellnest\Application\bin\Debug\netcoreapp3.1\Persistance.dll
+F:\Wellnest\Application\bin\Debug\netcoreapp3.1\Persistance.pdb
+F:\Wellnest\Application\bin\Debug\netcoreapp3.1\Domain.pdb
+F:\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
+F:\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
+F:\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
+F:\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
+F:\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete

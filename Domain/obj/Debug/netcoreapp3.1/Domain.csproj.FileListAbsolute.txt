@@ -34,3 +34,12 @@ C:\Users\elton\OneDrive\Desktop\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.A
 C:\Users\elton\OneDrive\Desktop\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
 C:\Users\elton\OneDrive\Desktop\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.dll
 C:\Users\elton\OneDrive\Desktop\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+F:\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+F:\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+F:\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+F:\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
+F:\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+F:\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+F:\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+F:\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+F:\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.pdb

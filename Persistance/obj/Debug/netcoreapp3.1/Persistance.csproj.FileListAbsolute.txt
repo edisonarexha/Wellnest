@@ -46,3 +46,15 @@ C:\Users\elton\OneDrive\Desktop\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Per
 C:\Users\elton\OneDrive\Desktop\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.csproj.CopyComplete
 C:\Users\elton\OneDrive\Desktop\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.dll
 C:\Users\elton\OneDrive\Desktop\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.pdb
+F:\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.csprojAssemblyReference.cache
+F:\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.AssemblyInfoInputs.cache
+F:\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.AssemblyInfo.cs
+F:\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.csproj.CoreCompileInputs.cache
+F:\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.dll
+F:\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.pdb
+F:\Wellnest\Persistance\bin\Debug\netcoreapp3.1\Persistance.deps.json
+F:\Wellnest\Persistance\bin\Debug\netcoreapp3.1\Persistance.dll
+F:\Wellnest\Persistance\bin\Debug\netcoreapp3.1\Persistance.pdb
+F:\Wellnest\Persistance\bin\Debug\netcoreapp3.1\Domain.dll
+F:\Wellnest\Persistance\bin\Debug\netcoreapp3.1\Domain.pdb
+F:\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.csproj.CopyComplete

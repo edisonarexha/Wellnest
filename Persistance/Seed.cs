@@ -1,11 +1,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using Domain;
+using System;
 
-namespace Persistance{
-    public class Seed{
-        public static void SeedData(DataContext context){
-            if(!context.Diseases.Any()){
+namespace Persistance
+{
+    public class Seed
+    {
+        public static void SeedData(DataContext context)
+        {
+            if (!context.Diseases.Any())
+            {
                 var diseases = new List<Disease>{
                     new Disease{
                         Id=1,
@@ -30,7 +35,8 @@ namespace Persistance{
                 context.SaveChanges();
             }
 
-             if(!context.Allergy.Any()){
+            if (!context.Allergy.Any())
+            {
                 var allergies = new List<Allergy>{
                     new Allergy{
                             AllergyId = 1,
@@ -38,7 +44,7 @@ namespace Persistance{
                             Name = "Pollen"
                     },
                     new Allergy{
-                        
+
                             AllergyId = 2,
                             Reason = "Ice cream and milk diaries",
                             Name = "Lactose Intolerance"
@@ -47,18 +53,39 @@ namespace Persistance{
                 context.Allergy.AddRange(allergies);
                 context.SaveChanges();
             }
-            if(!context.User.Any()){
+            if (!context.User.Any())
+            {
                 var users = new List<User>{
                     new User{
 
-                        Id=1, 
-                        name="Edisona", 
-                        surname="Rexha", 
-                        email="testt", 
+                        Id=1,
+                        name="Edisona",
+                        surname="Rexha",
+                        email="testt",
                         userkey=1
                     },
                 };
                 context.User.AddRange(users);
+                context.SaveChanges();
+            }
+            if (!context.Analysis.Any())
+            {
+                var analysis = new List<Analysis>{
+                    new Analysis{
+                            Id = 1,
+                            Name = "Analizat e gjakut",
+                            date = DateTime.Now.AddMonths(-2),
+                            Results = "Gjithqka nrregull"
+                    },
+                    new Analysis{
+
+                            Id = 2,
+                            Name = "Analizat per Covid",
+                            date = DateTime.Now.AddMonths(-2),
+                            Results = "Negativ"
+                    },
+                };
+                context.Analysis.AddRange(analysis);
                 context.SaveChanges();
             }
         }
