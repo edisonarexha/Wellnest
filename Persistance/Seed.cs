@@ -53,6 +53,24 @@ namespace Persistance
                 context.Allergy.AddRange(allergies);
                 context.SaveChanges();
             }
+
+            if(!context.Covid19CasesCountry.Any())
+            {
+                var covid = new List<Covid19CasesCountry>{
+                    new Covid19CasesCountry{
+                        Id=1,
+                        CountryName="Kosovo",
+                        Cases=123123,
+                        Recoveries=23213,
+                        deaths=23,
+                    },
+                };
+                context.Covid19CasesCountry.AddRange(covid);
+                context.SaveChanges();
+            }
+
+
+
             if (!context.User.Any())
             {
                 var users = new List<User>{

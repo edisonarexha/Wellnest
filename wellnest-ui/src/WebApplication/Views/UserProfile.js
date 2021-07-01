@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Card,Image }from 'react-bootstrap';
 import test from './test.jpg'
 import Map from './../../WebSite/Views/covid19/Map';
+
 export class UserProfile extends Component {
 
 
@@ -24,7 +25,7 @@ export class UserProfile extends Component {
                                 <Nav.Link href="/UserProfile">User Profile</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="link-1">Covid 19</Nav.Link>
+                                <Nav.Link eventKey="/../../WebSite/Views/covid19/App-1">Covid 19</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link eventKey="link-2" >
@@ -37,7 +38,7 @@ export class UserProfile extends Component {
                    
                <Card style={{ width: '18rem' }} className="CardStyle">
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Covid Infected</Card.Title>
                     <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
                     <Card.Text>
                     Some quick example text to build on the card title and make up the bulk of
@@ -49,7 +50,7 @@ export class UserProfile extends Component {
                 </Card>
                 <Card style={{ width: '18rem' }} className="CardStyle">
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Covid Recoveries</Card.Title>
                     <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
                     <Card.Text>
                     Some quick example text to build on the card title and make up the bulk of
@@ -61,7 +62,7 @@ export class UserProfile extends Component {
                 </Card>
                 <Card style={{ width: '18rem' }} className="CardStyle">
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Covid Deaths</Card.Title>
                     <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
                     <Card.Text>
                     Some quick example text to build on the card title and make up the bulk of
@@ -78,6 +79,10 @@ export class UserProfile extends Component {
                <div className="Dashboard-left-side">
                     <div className="Dashboard-profile-side">
                     <Image src={test} fluid />
+                    <p className="Paragrpah">Emri:</p>
+                    <p className="Paragrpah1">Mbiemri</p>
+                    <p className="Paragrpah1">VendLindja</p>
+                    <p className="Paragrpah1">Numri ID:</p>
                     </div>
                     <div className="Covid-19-Profile-cases">
                         <div className="Title">
@@ -125,6 +130,7 @@ export class UserProfile extends Component {
                             <Col sm={15}>
                             <Tab.Content>
                                 <Tab.Pane eventKey="first">
+                                
                                 <div />
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="second">

@@ -1835,23 +1835,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\BC-Computers\\.nuget\\packages\\": {},
+    "C:\\Users\\erest\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Wellnest\\API\\Wellnest-API.csproj",
+      "projectUniqueName": "E:\\Project_2\\Wellnest\\API\\Wellnest-API.csproj",
       "projectName": "Wellnest-API",
-      "projectPath": "F:\\Wellnest\\API\\Wellnest-API.csproj",
-      "packagesPath": "C:\\Users\\BC-Computers\\.nuget\\packages\\",
-      "outputPath": "F:\\Wellnest\\API\\obj\\",
+      "projectPath": "E:\\Project_2\\Wellnest\\API\\Wellnest-API.csproj",
+      "packagesPath": "C:\\Users\\erest\\.nuget\\packages\\",
+      "outputPath": "E:\\Project_2\\Wellnest\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\BC-Computers\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\erest\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1866,8 +1866,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "F:\\Wellnest\\Application\\Application.csproj": {
-              "projectPath": "F:\\Wellnest\\Application\\Application.csproj"
+            "E:\\Project_2\\Wellnest\\Application\\Application.csproj": {
+              "projectPath": "E:\\Project_2\\Wellnest\\Application\\Application.csproj"
             }
           }
         }
@@ -1913,7 +1913,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -43,3 +43,12 @@ F:\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
 F:\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
 F:\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.dll
 F:\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+E:\Project_2\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+E:\Project_2\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+E:\Project_2\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+E:\Project_2\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.AssemblyReference.cache
+E:\Project_2\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+E:\Project_2\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+E:\Project_2\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+E:\Project_2\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+E:\Project_2\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.pdb

@@ -9,8 +9,8 @@ using Persistance;
 namespace Persistance.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20210630224508_AnalysisValues")]
-    partial class AnalysisValues
+    [Migration("20210701105607_Covid19Cases")]
+    partial class Covid19Cases
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -53,6 +53,29 @@ namespace Persistance.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Analysis");
+                });
+
+            modelBuilder.Entity("Domain.Covid19CasesCountry", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Cases")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("CountryName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("Recoveries")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("deaths")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Covid19CasesCountry");
                 });
 
             modelBuilder.Entity("Domain.Disease", b =>

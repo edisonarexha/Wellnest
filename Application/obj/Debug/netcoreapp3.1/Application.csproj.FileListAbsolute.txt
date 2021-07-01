@@ -68,3 +68,17 @@ F:\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.c
 F:\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
 F:\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
 F:\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
+E:\Project_2\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.deps.json
+E:\Project_2\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.dll
+E:\Project_2\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.pdb
+E:\Project_2\Wellnest\Application\bin\Debug\netcoreapp3.1\Domain.dll
+E:\Project_2\Wellnest\Application\bin\Debug\netcoreapp3.1\Persistance.dll
+E:\Project_2\Wellnest\Application\bin\Debug\netcoreapp3.1\Persistance.pdb
+E:\Project_2\Wellnest\Application\bin\Debug\netcoreapp3.1\Domain.pdb
+E:\Project_2\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.AssemblyReference.cache
+E:\Project_2\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
+E:\Project_2\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
+E:\Project_2\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
+E:\Project_2\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
+E:\Project_2\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.dll
+E:\Project_2\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.pdb

@@ -1057,23 +1057,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\BC-Computers\\.nuget\\packages\\": {},
+    "C:\\Users\\erest\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Wellnest\\Persistance\\Persistance.csproj",
+      "projectUniqueName": "E:\\Project_2\\Wellnest\\Persistance\\Persistance.csproj",
       "projectName": "Persistance",
-      "projectPath": "F:\\Wellnest\\Persistance\\Persistance.csproj",
-      "packagesPath": "C:\\Users\\BC-Computers\\.nuget\\packages\\",
-      "outputPath": "F:\\Wellnest\\Persistance\\obj\\",
+      "projectPath": "E:\\Project_2\\Wellnest\\Persistance\\Persistance.csproj",
+      "packagesPath": "C:\\Users\\erest\\.nuget\\packages\\",
+      "outputPath": "E:\\Project_2\\Wellnest\\Persistance\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\BC-Computers\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\erest\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1088,8 +1088,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "F:\\Wellnest\\Domain\\Domain.csproj": {
-              "projectPath": "F:\\Wellnest\\Domain\\Domain.csproj"
+            "E:\\Project_2\\Wellnest\\Domain\\Domain.csproj": {
+              "projectPath": "E:\\Project_2\\Wellnest\\Domain\\Domain.csproj"
             }
           }
         }
@@ -1128,7 +1128,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
