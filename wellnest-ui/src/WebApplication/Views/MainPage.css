@@ -1,0 +1,5 @@
+.Div_Left_Side{
+    border: 1px solid black;
+    display: flex;
+    flex-basis: 100px;
+}
