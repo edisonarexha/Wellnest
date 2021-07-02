@@ -15,3 +15,6 @@ wellnest-api/.vs/Wellnest-API/v16/.suo
 wellnest-api/obj/Debug/netcoreapp3.1/Wellnest-API.pdb
 API/obj/Debug/netcoreapp3.1/Wellnest-API.csproj.CoreCompileInputs.cache
 Application/obj/Debug/netcoreapp3.1/Application.csproj.CoreCompileInputs.cache
+API/obj/Debug/netcoreapp3.1/Wellnest-API.assets.cache
+Application/obj/Debug/netcoreapp3.1/Application.assets.cache
+*.cache
