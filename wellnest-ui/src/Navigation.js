@@ -9,7 +9,7 @@ import Admin from './WebSite/Views/Admin-pannel/adminpannel';
 import Form from './WebSite/Views/Register-Form(Login)/Form';
 import Add_S from './WebSite/Views/Admin-pannel/Add-S';
 import MainPage from './WebApplication/Views/MainPage';
-import UserProfile from './WebApplication/Views/UserProfile';
+
 
 
 
@@ -26,7 +26,7 @@ export default function Navigation() {
         <Route path='/form' component={Form}/>
         <Route path='/add_s' component={Add_S}/>
         <Route path ='/mainpage' component={MainPage}/>
-        <Route path ='/userprofile' component={UserProfile}/>
+        <Route path ='/mainpage' component={MainPage}/>
         
       </Switch>
     
