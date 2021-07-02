@@ -16,5 +16,6 @@ namespace Persistance
         public DbSet<Covid19CasesCountry> Covid19CasesCountry{get;set;} 
         public DbSet<Analysis> Analysis { get; set; }
         public DbSet <CovidInfected> CovidInfected{get;set;}
+        public DbSet <BookAppointment> BookAppointment{get;set;}
     }
 }

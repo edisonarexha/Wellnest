@@ -27,7 +27,7 @@ namespace Application.Infected
             {
                 var infected = await this.context.CovidInfected.FindAsync(request.Id);
                 if(infected==null)
-                throw new Exception("Couldnt find any country");
+                throw new Exception("Couldnt find any person");
 
                 infected.CovidName =request.CovidName ?? infected.CovidName;
                 infected.CovidSurname =request.CovidSurname ?? infected.CovidSurname;

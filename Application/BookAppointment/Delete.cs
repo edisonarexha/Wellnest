@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using MediatR;
 using Persistance;
 
-namespace Application.Infected
+namespace Application.Appointemnt
 {
     public class Delete 
     {
@@ -22,12 +22,12 @@ namespace Application.Infected
             }
             public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
             {
-                var infection = await this.context.CovidInfected.FindAsync(request.Id);
-                if(infection==null)
+                var appointment = await this.context.BookAppointment.FindAsync(request.Id);
+                if(appointment==null)
 
-                    throw new Exception("Could not find the person");
+                    throw new Exception("Could not find find the specified Appointment Maybe create one");
 
-                    this.context.Remove(infection);
+                    this.context.Remove(appointment);
                     
                     var success = await this.context.SaveChangesAsync()>0;
 

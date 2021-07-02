@@ -86,6 +86,24 @@ namespace Persistance
                 context.SaveChanges();
             }
 
+            if(!context.BookAppointment.Any())
+            {
+                var Appointment =new List<BookAppointment>{
+                    new BookAppointment{
+                        Id=1,
+                        FirstName="Joe",
+                        SecondName="Smith",
+                        Number=049282432,
+                        Email="Joesmith19@gmail.com",
+                        AppointmentDate=DateTime.Now.AddMonths(+2),
+                        Comment="I have terrible Fever, i cant stand up and when i do i feel like falling off "+
+                        " I dont know what is going on but whenever i eat i feel like throwing up",
+                    },
+                };
+                context.BookAppointment.AddRange(Appointment);
+                context.SaveChanges();
+            }
+
 
 
             if (!context.User.Any())
