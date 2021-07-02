@@ -77,20 +77,14 @@ export class MainPage extends Component {
 
             </div>
                <div className="Dashboard-left-side">
-                    <div className="Dashboard-profile-side">
-                    <Image src={test} fluid />
-                    <p className="Paragrpah">Emri:</p>
-                    <p className="Paragrpah1">Mbiemri</p>
-                    <p className="Paragrpah1">VendLindja</p>
-                    <p className="Paragrpah1">Numri ID:</p>
-                    </div>
+                  
                     <div className="Covid-19-Profile-cases">
                         <div className="Title">
-                   <h4 className="PatientsHistoricStyle">Patients`s Historic</h4>
+           
                         </div>
                     <Tab.Container id="left-tabs-example" defaultActiveKey="Zero">
                         <Row>
-                            <Col sm={12}>
+                            <Col sm={8}>
                             <Nav variant="pills" className="flex-column">
                             <Nav.Item>
                                 <Nav.Link eventKey="Zero" >Over View</Nav.Link>
@@ -163,6 +157,9 @@ export class MainPage extends Component {
                         </Row>
                         </Tab.Container>
                         
+                        <div className="test1">
+
+                        </div>
                     </div>
                    
                </div>

@@ -5,17 +5,19 @@ using Domain;
 using MediatR;
 using Persistance;
 
-namespace Application.Covid19CountryCases
+namespace Application.Infected
 {
     public class create
     {
         public class Command : IRequest
         {
-            public int Id{get;set;}
-            public string CountryName{get;set;}
-            public int Cases{get;set;}
-            public int Recoveries{get;set;}
-            public int deaths{get;set;}
+           public int Id{get;set;}
+            public String CovidName{get;set;}
+            public String CovidSurname{get;set;}
+            public String City{get;set;}
+            public String State{get;set;}
+            public int Age{get;set;}
+            public int FamilyMembers{get;set;}
         }
         public class Handler: IRequestHandler<Command>
         {
@@ -26,14 +28,17 @@ namespace Application.Covid19CountryCases
             }
             public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
             {
-                var covid =new Covid19CasesCountry{
-                    Id=request.Id,
-                    CountryName=request.CountryName,
-                    Cases=request.Cases,
-                    Recoveries=request.Recoveries,
-                    deaths=request.deaths,
+                var covid =new CovidInfected{
+                Id=request.Id,
+            CovidName=request.CovidName,
+            CovidSurname=request.CovidSurname,
+            City=request.City,
+            State=request.State,
+            Age=request.Age,
+            FamilyMembers=request.FamilyMembers,
+            
                 };
-                this.context.Covid19CasesCountry.Add(covid);
+                this.context.CovidInfected.Add(covid);
                 var success = await this.context.SaveChangesAsync()>0;
 
                 if(success) return Unit.Value;
@@ -42,4 +47,3 @@ namespace Application.Covid19CountryCases
         }
     }
 }
-

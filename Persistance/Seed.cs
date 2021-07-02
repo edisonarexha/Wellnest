@@ -69,6 +69,23 @@ namespace Persistance
                 context.SaveChanges();
             }
 
+            if(!context.CovidInfected.Any())
+            {
+                var infected =new List<CovidInfected>{
+                    new CovidInfected{
+                        Id=1,
+                        CovidName="Joe",
+                        CovidSurname="Smith",
+                        City="New York",
+                        State="New York",
+                        Age=24,
+                        FamilyMembers=5,
+                    },
+                };
+                context.CovidInfected.AddRange(infected);
+                context.SaveChanges();
+            }
+
 
 
             if (!context.User.Any())

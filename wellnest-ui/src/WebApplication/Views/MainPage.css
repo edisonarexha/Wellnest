@@ -81,3 +81,12 @@
             font-weight: bold;
             margin-left: 10%;
         }
+
+        #test1{
+            border:1px solid red;
+            width: 100%;
+        }
+
+        .ui.bottom.attached.segment.active.tab {
+            height: 1000px;
+        }
