@@ -1,0 +1,95 @@
+.main-div-container{
+    display: flex;
+}
+.add-div-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+
+#span-div-1{
+    position: relative;
+    color:black;
+    text-align: center;
+}
+#add-main-div-1{
+    position: relative;
+    left: 350px;
+    top: 60px;
+    padding-top: 30px;
+    width: 630px;
+    height: 590px;
+    border: 2px  solid;
+}
+
+
+#name-input-1 {
+    position: relative;
+    border: 1px  solid;
+    text-align: center;
+    /* left: 180px; */
+    height: 35px;
+    width: 250px;
+    /* top: 10px; */
+    margin:3%;
+}
+
+#surname-l {
+    position: relative;
+    left: 250px;
+    top: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#surname-input {
+    position: relative;
+    border: 1px  solid;
+    text-align: center;
+    /* left: 180px; */
+    height: 35px;
+    width: 250px;
+    /* top: 10px; */
+    margin:3%;
+
+}
+#email-input{
+    position: relative;
+    border: 1px  solid;
+    text-align: center;
+    /* left: 180px; */
+    height: 35px;
+    width: 250px;
+    /* top: 10px; */
+    margin:3%;
+
+}
+#key-input{
+    position: relative;
+    border: 1px  solid;
+    text-align: center;
+    /* left: 180px; */
+    height: 35px;
+    width: 250px;
+    margin:3%;
+
+}
+#add-div-1 {
+    position: relative;
+    top: 50px;
+    height: 40px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: 1px  solid;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+#add-div:hover,#img-label:hover{
+    background-color: rgba(140, 173, 184, 0.521);
+}

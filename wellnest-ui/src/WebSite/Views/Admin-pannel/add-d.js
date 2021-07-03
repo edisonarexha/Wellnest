@@ -1,9 +1,9 @@
 import React, { Component, useState } from "react";
 import "./adminpannel.css";
-import AddSickness from './AddSickness';
+import AddDoctors from "./add-doctors";
 import { Link } from 'react-router-dom';
 
-class Add_S extends Component {
+class Add_D extends Component {
     render() {
         return (
             <div>
@@ -31,7 +31,7 @@ class Add_S extends Component {
                         </div>
                     </div>
                     <div>
-                        <AddSickness />
+                        <AddDoctors />
                     </div>
                 </div>
         </div>
@@ -39,4 +39,4 @@ class Add_S extends Component {
   }
 }
 
-export default Add_S;
+export default Add_D;

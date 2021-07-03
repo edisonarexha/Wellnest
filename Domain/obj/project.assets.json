@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\erest\\.nuget\\packages\\": {},
+    "C:\\Users\\elton\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Project_2\\Wellnest\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\elton\\OneDrive\\Desktop\\Wellnest\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "E:\\Project_2\\Wellnest\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\erest\\.nuget\\packages\\",
-      "outputPath": "E:\\Project_2\\Wellnest\\Domain\\obj\\",
+      "projectPath": "C:\\Users\\elton\\OneDrive\\Desktop\\Wellnest\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\elton\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\elton\\OneDrive\\Desktop\\Wellnest\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\erest\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\elton\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],

@@ -1,10 +1,13 @@
 .admin-header{
     background-color: #277551;
     color: white;
-    padding: 1%;
+    padding: 2%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+.dash-name{
+  font-size: xxx-large;
 }
 .right-header-buttons{
     display: flex;
@@ -19,7 +22,7 @@
     border: 1px solid;
     display: flex;
     align-items: center;
-    padding: 5px;
+    padding: 15px;
     cursor: pointer;
    
    
@@ -28,7 +31,7 @@
     border: 1px solid;
     display: flex;
     align-items: center;
-    padding: 5px;
+    padding: 15px;
     cursor: pointer;
 }
 .admin-wrapper{
@@ -39,12 +42,16 @@
     flex: 1;
     position: sticky;
     top: 0;
+    border-right: 1px solid #ccc;
+    
 }
 .left-list .action-btn {
-    padding: 10px 20px;
+    padding: 15px 25px;
     cursor: pointer;
     transition: all .3s ease;
+    color: black ;
 background-color: rgba(255,255,255,0.1);
+font-size: large;
 }
 
 .left-list .action-btn:hover  {
@@ -60,6 +67,8 @@ background-color: rgba(255,255,255,0.1);
     display: flex;
     flex: 1;
     padding: 20px 4rem;
+    font-size: large;
+justify-content: space-between;
   }
   
   .header-list span, .body-list span {
@@ -82,3 +91,8 @@ background-color: rgba(255,255,255,0.1);
     padding: 10px;
     border-bottom: 1px solid #ccc;
   }
+  .fa, .fas {
+    font-weight: 900;
+    color: #000000d1;
+    margin: 10px;
+}

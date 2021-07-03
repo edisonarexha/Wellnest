@@ -4,7 +4,7 @@ import EditUser from "./edit-users";
 import DeleteUser from "./delete-users";
 import AddSickness from './AddSickness';
 import { Link } from 'react-router-dom';
-
+import AddDoctors from './add-doctors';
 class Admin extends Component {
   state = {
     Registerform: [],
@@ -42,7 +42,7 @@ class Admin extends Component {
     return (
       <div>
         <div className="admin-header">
-          <span>Dashboard</span>
+          <span className="dash-name">Dashboard</span>
           <div className="right-header-buttons">
             <div className="back-button">
               <Link to='/'>
@@ -58,24 +58,32 @@ class Admin extends Component {
         <div className="admin-wrapper">
           <div className="dashboard-container">
             <div className="left-list">
-              <div className="action-btn">Users</div>
-              <div className="action-btn">Users-messages</div>
-              <Link to="/add_s">
-                <div className="action-btn">Add Sickness</div>
-              </Link>
+            
 
+              <div className="action-btn"><i class="fa fa-user" aria-hidden="true"></i>
+              Users</div>
+              <div className="action-btn"><i class="fas fa-envelope"></i>
+                Users-messages</div>
+              <Link to="/add_s">
+                <div className="action-btn"><i class="fas fa-disease"></i>
+                  Add Sickness</div>
+              </Link>
+              <Link to="/add-d">
+                <div className="action-btn"><i class="fas fa-user-nurse"></i>
+                  Add Doctors</div>
+              </Link>
             </div>
           </div>
           <div>
             <div className="header-list">
-              <span>ID</span>
+              <span >ID</span>
               <span>Name</span>
               <span>Surname</span>
               <span>Email</span>
              <span>Userkey</span>
               
               <span className="btn-content">Edit</span>
-              <span className="btn-content">Remove</span>
+              <span className="btn-content">Remove</span>git
             </div>
             {this.state.User.map((elem, index) => {
               return (
@@ -85,6 +93,7 @@ class Admin extends Component {
                   <span>{elem.email}</span>
                   <span>{elem.surname}</span>
                   <span>{elem.userkey}</span>
+                  
                   
                   <span
                     className="fas fa-pencil-alt btn-content edit-icon"

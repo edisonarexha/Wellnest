@@ -9,8 +9,7 @@ import Admin from './WebSite/Views/Admin-pannel/adminpannel';
 import Form from './WebSite/Views/Register-Form(Login)/Form';
 import Add_S from './WebSite/Views/Admin-pannel/Add-S';
 import MainPage from './WebApplication/Views/MainPage';
-import RecoveredPatients from './WebApplication/Views/RecoveredPatientUI/RecoveredPatients';
-import Allergie from './WebApplication/Allergy/Allergie';
+import Add_D from './WebSite/Views/Admin-pannel/add-d';
 
 
 
@@ -26,6 +25,8 @@ export default function Navigation() {
         <Route path='/admin' component={Admin}/>
         <Route path='/form' component={Form}/>
         <Route path='/add_s' component={Add_S}/>
+        <Route path='/add-d' component={Add_D}/>
+
         <Route path ='/mainpage' component={MainPage}/>
         <Route path ='/allergy' component={Allergie}/>
         <Route path ='/recoveredpatients' component={RecoveredPatients}/>
