@@ -1,0 +1,22 @@
+#allergy-modal-button{
+    position: relative;
+    display: flex;
+    top: 150px;
+    left: 300px;
+}
+
+.ui.dimmer{
+    background-color: rgb(0 0 0 / 36%);
+}
+#label1-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+#label1-div:first-child{
+    border-right: 1px solid black;
+}
