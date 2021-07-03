@@ -20,9 +20,9 @@ export class MainPage extends Component {
            <div className="MainPage">
               
                <div className="MainPageHeader">
-                            <Nav variant="tabs" defaultActiveKey="/UserProfile" className="NavBAR">            
+                            <Nav variant="tabs"className="NavBAR">            
                             <Nav.Item>
-                                <Nav.Link href="/UserProfile">User Profile</Nav.Link>
+                                <Nav.Link href="#">User Profile</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link eventKey="/../../WebSite/Views/covid19/App-1">Covid 19</Nav.Link>
