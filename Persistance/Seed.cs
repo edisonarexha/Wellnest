@@ -103,7 +103,27 @@ namespace Persistance
                 context.BookAppointment.AddRange(Appointment);
                 context.SaveChanges();
             }
+            if(!context.RecoveredPatiensCovid19.Any())
+            {
+                var Recovery =new List<RecoveredPatiensCovid19>{
+                    new RecoveredPatiensCovid19{
+                        Id=1,
+                        FirstName="Joe",
+                        LastName="Smith",
+                        City="New York",
+                        Number=0492729421,
+                        Age=24,
+                        Infected=DateTime.Now,
+                        Recovered=DateTime.Today,
+                        SickDays=14,
+                        QuarantinedPlacee="House,Alone,2 Floors",
+                        VaccienName="Phizer 2021"
 
+                    },
+                };
+                context.RecoveredPatiensCovid19.AddRange(Recovery);
+                context.SaveChanges();
+            }
 
 
             if (!context.User.Any())
