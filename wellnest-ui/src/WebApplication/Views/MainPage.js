@@ -1,19 +1,26 @@
 import React, { Component } from 'react';
 import "./MainPage.css";
-import { Nav,Col,Tab,Row } from 'react-bootstrap';
+import { Nav } from 'react-bootstrap';
+import { Col,Tab,Row,Sonnet } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Card,Image }from 'react-bootstrap';
 import test from './test.jpg'
 import Map from './../../WebSite/Views/covid19/Map';
 
 export class MainPage extends Component {
+
+
+
+
+
+
     
     render() {
         return (
            <div className="MainPage">
               
                <div className="MainPageHeader">
-                            <Nav variant="tabs" className="NavBAR">            
+                            <Nav variant="tabs" defaultActiveKey="/UserProfile" className="NavBAR">            
                             <Nav.Item>
                                 <Nav.Link href="/UserProfile">User Profile</Nav.Link>
                             </Nav.Item>
@@ -83,8 +90,7 @@ export class MainPage extends Component {
                                 <Nav.Link eventKey="Zero" >Over View</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    
-                                <Nav.Link href="/allergy" eventKey="first" >Allergies</Nav.Link>
+                                <Nav.Link eventKey="first" >Allergies</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
                                 <Nav.Link eventKey="second">Illnesses And Conditions</Nav.Link>
