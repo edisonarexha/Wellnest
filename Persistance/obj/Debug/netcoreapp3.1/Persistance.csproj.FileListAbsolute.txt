@@ -70,3 +70,15 @@ E:\Project_2\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.csproj.Cor
 E:\Project_2\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.csproj.CopyComplete
 E:\Project_2\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.dll
 E:\Project_2\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.pdb
+F:\Wellnest1\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.csprojAssemblyReference.cache
+F:\Wellnest1\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.AssemblyInfoInputs.cache
+F:\Wellnest1\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.AssemblyInfo.cs
+F:\Wellnest1\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.csproj.CoreCompileInputs.cache
+F:\Wellnest1\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.dll
+F:\Wellnest1\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.pdb
+F:\Wellnest1\Wellnest\Persistance\bin\Debug\netcoreapp3.1\Persistance.deps.json
+F:\Wellnest1\Wellnest\Persistance\bin\Debug\netcoreapp3.1\Persistance.dll
+F:\Wellnest1\Wellnest\Persistance\bin\Debug\netcoreapp3.1\Persistance.pdb
+F:\Wellnest1\Wellnest\Persistance\bin\Debug\netcoreapp3.1\Domain.dll
+F:\Wellnest1\Wellnest\Persistance\bin\Debug\netcoreapp3.1\Domain.pdb
+F:\Wellnest1\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.csproj.CopyComplete

@@ -1,0 +1,86 @@
+#label-modal-div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid black;
+}
+#main-button-analysis{
+    display: flex;
+    position: relative;
+    top: 200px;
+    left: 500px;
+
+}
+
+#main-div-form-analysis{
+    height: 600px;
+    position: relative;
+    left: 450px;
+    top: -1000px;
+    width: 650px;
+
+}
+#label-modal-div5{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+ 
+
+}
+#p-textarea1{
+    margin-right: 35px;
+}
+.analysis-title{
+    text-align: center  ;
+}
+#buttons-modal-analysis{
+    position: relative;
+    display: flex;
+    text-align: center;
+    top: 320px;
+    justify-content: center;
+
+}
+.modals-analysis{
+    height: 500px;
+    left: 315px;
+    top: 120px;
+}
+#input-add-analysis{
+    border: none;
+    border-bottom:1px solid grey;
+    height: 30px;
+}
+.add-analysis-buttons{
+    display: flex;
+    justify-content: center;
+}
+#add-analysis{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 600px;
+    height: 350px;
+    left: 150px;
+    justify-content: space-evenly;
+}
+#edit-analysis{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 600px;
+    height: 350px;
+    left: 150px;
+    justify-content: space-evenly;
+}
+#delete-modal-a{
+    position: relative;
+    top: 30px;
+    height: 200px;
+}

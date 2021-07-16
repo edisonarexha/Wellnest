@@ -161,6 +161,43 @@ namespace Persistance
                 context.Analysis.AddRange(analysis);
                 context.SaveChanges();
             }
+
+             if (!context.AddLab.Any())
+            {
+                var addlab = new List<AddLab>{
+                    new AddLab{
+                            Id = 1,
+                            Name = "KSLAb",
+                            Address = "Rruga B, Prishtine",
+                            BussinessHours = "07:00-19:00",
+                            
+                            PrivPub = "public",
+                            
+                    },
+                   
+                };
+                context.AddLab.AddRange(addlab);
+                context.SaveChanges();
+            }
+
+            if (!context.AnalysisApp.Any())
+            {
+                var analysisapp = new List<AnalysisApp>{
+                    new AnalysisApp{
+                            Id = 1,
+                            Name = "Argent",
+                            Surname = "Kelmendi",
+                            UserId = 1242810003,
+                            
+                            Type = "Analizat e gjakut",
+                            Lab = "MediLab",
+                            Date = DateTime.Now.AddMonths(-2),
+                    },
+                   
+                };
+                context.AnalysisApp.AddRange(analysisapp);
+                context.SaveChanges();
+            }
         }
     }
 }

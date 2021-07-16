@@ -16,6 +16,29 @@ namespace Persistance.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "3.1.16");
 
+            modelBuilder.Entity("Domain.AddLab", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Address")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("BussinessHours")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("PrivPub")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("AddLab");
+                });
+
             modelBuilder.Entity("Domain.Allergy", b =>
                 {
                     b.Property<int>("AllergyId")
@@ -51,6 +74,35 @@ namespace Persistance.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Analysis");
+                });
+
+            modelBuilder.Entity("Domain.AnalysisApp", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Lab")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Surname")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Type")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("AnalysisApp");
                 });
 
             modelBuilder.Entity("Domain.BookAppointment", b =>
