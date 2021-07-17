@@ -1,0 +1,84 @@
+#label-modal-div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid;
+
+}
+#main-button-status{
+    display: flex;
+    position: relative;
+    top: 200px;
+    left: 500px;
+
+}
+
+#main-div-form-status{
+    height: 600px;
+    position: relative;
+    left: 450px;
+    top: -550px;
+    width: 650px;
+
+}
+#label-modal-div2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-left: 50px;
+    padding-top: 10px;
+    border-bottom: 0px;
+
+
+}
+.status-title{
+    text-align: center  ;
+}
+#buttons-modal-status{
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+.modals-status{
+    height: 500px;
+    left: 315px;
+    top: 120px;
+}
+#input-add-status{
+    border: none;
+    border-bottom:1px solid grey;
+    height: 30px;
+}
+.add-status-buttons{
+    display: flex;
+    justify-content: center;
+}
+#add-status{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 600px;
+    height: 350px;
+    left: 150px;
+    justify-content: space-evenly;
+}
+#edit-status{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 600px;
+    height: 350px;
+    left: 150px;
+    justify-content: space-evenly;
+}
+#delete-modal-a{
+    position: relative;
+    top: 30px;
+    height: 200px;
+}
