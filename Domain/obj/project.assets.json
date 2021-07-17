@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\BC-Computers\\.nuget\\packages\\": {}
+    "C:\\Users\\Black\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Wellnest1\\Wellnest\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "F:\\Wellnest1\\Wellnest\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\BC-Computers\\.nuget\\packages\\",
-      "outputPath": "F:\\Wellnest1\\Wellnest\\Domain\\obj\\",
+      "projectPath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\Black\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\BC-Computers\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Black\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -30,7 +30,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -42,7 +41,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -58,7 +56,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.205\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
       }
     }
   }

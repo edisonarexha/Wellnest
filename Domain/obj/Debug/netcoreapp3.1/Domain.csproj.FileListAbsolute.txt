@@ -1,7 +1,6 @@
 C:\Users\Black\Desktop\CRUD\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
 C:\Users\Black\Desktop\CRUD\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.dll
 C:\Users\Black\Desktop\CRUD\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
-C:\Users\Black\Desktop\CRUD\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.AssemblyReference.cache
 C:\Users\Black\Desktop\CRUD\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
 C:\Users\Black\Desktop\CRUD\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
 C:\Users\Black\Desktop\CRUD\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
@@ -61,3 +60,4 @@ F:\Wellnest1\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
 F:\Wellnest1\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
 F:\Wellnest1\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.dll
 F:\Wellnest1\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\Black\Desktop\CRUD\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache

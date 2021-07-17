@@ -5,7 +5,6 @@ C:\Users\Black\Desktop\CRUD\Wellnest\Application\bin\Debug\netcoreapp3.1\Domain.
 C:\Users\Black\Desktop\CRUD\Wellnest\Application\bin\Debug\netcoreapp3.1\Persistance.dll
 C:\Users\Black\Desktop\CRUD\Wellnest\Application\bin\Debug\netcoreapp3.1\Persistance.pdb
 C:\Users\Black\Desktop\CRUD\Wellnest\Application\bin\Debug\netcoreapp3.1\Domain.pdb
-C:\Users\Black\Desktop\CRUD\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.AssemblyReference.cache
 C:\Users\Black\Desktop\CRUD\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
 C:\Users\Black\Desktop\CRUD\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
 C:\Users\Black\Desktop\CRUD\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
@@ -96,3 +95,4 @@ F:\Wellnest1\Wellnest\Application\bin\Debug\netcoreapp3.1\Persistance.dll
 F:\Wellnest1\Wellnest\Application\bin\Debug\netcoreapp3.1\Persistance.pdb
 F:\Wellnest1\Wellnest\Application\bin\Debug\netcoreapp3.1\Domain.pdb
 F:\Wellnest1\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
+C:\Users\Black\Desktop\CRUD\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache

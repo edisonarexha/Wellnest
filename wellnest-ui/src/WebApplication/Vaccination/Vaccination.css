@@ -1,0 +1,98 @@
+#label-modal-div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid black;
+}
+#main-button-vaccine{
+    display: flex;
+    position: relative;
+    top: 200px;
+    left: 500px;
+   
+}
+
+#main-div-form-vaccine{
+    height: 600px;
+    position: absolute;
+    left: 450px;
+    top: 100px;
+    width: 650px;
+    
+}
+#label-modal-div2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid black;
+    padding-left: 40px;
+    padding-top: 10px;
+    
+}
+#label-modal-div3{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid black;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.vaccine-title{
+    text-align: center  ;
+}
+#buttons-modal-vaccine{
+    position: relative;
+    display: flex;
+    text-align: center;
+    top: 320px;
+    justify-content: center;
+
+}
+.modals-vaccine{
+    height: 500px;
+    left: 315px;
+    top: 120px;   
+}
+.date_vaccine{
+    border: none;
+    height: 30px;
+    border-bottom:1px solid grey;
+}
+.input-add-vaccine{
+    border: none;
+    border-bottom:1px solid grey;
+    height: 30px;
+}
+.add-vaccine-buttons{
+    display: flex;
+    justify-content: center;
+}
+#add-vaccine{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 600px;
+    height: 350px;
+    left: 150px;
+    justify-content: space-evenly;   
+}
+#edit-vaccine{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 600px;
+    height: 350px;
+    left: 150px;
+    justify-content: space-evenly;   
+}
+#delete-modal-v{
+    position: relative;
+    top: 30px;
+    height: 200px;
+}

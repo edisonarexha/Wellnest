@@ -186,6 +186,23 @@ namespace Persistance.Migrations
                     b.ToTable("CovidInfected");
                 });
 
+            modelBuilder.Entity("Domain.Diagnose", b =>
+                {
+                    b.Property<int>("DiagnoseId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Pills")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("DiagnoseId");
+
+                    b.ToTable("Diagnose");
+                });
+
             modelBuilder.Entity("Domain.Disease", b =>
                 {
                     b.Property<int>("Id")
@@ -268,6 +285,26 @@ namespace Persistance.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("User");
+                });
+
+            modelBuilder.Entity("Domain.Vaccine", b =>
+                {
+                    b.Property<int>("VaccineId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Age")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("Date_Taken")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("VaccineId");
+
+                    b.ToTable("Vaccine");
                 });
 #pragma warning restore 612, 618
         }

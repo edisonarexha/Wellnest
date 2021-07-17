@@ -1,0 +1,39 @@
+#maindiv-profile{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    top: 130px;
+}
+#change-avatar-button{
+    height: 40px;
+    width: 180px;
+    position: relative;
+    left: 100px;
+    top: 20px;
+    background-color: rgb(173, 216, 230,0.5);
+}
+
+.elements-div-profile{
+    font-size: 20px;
+    padding-top: 30px;
+    padding-right: 5px;
+
+}
+#div-of-divs-profile{
+position: relative;
+display: flex;
+flex-direction: column;
+left: -50px;
+top: 45px;
+
+}
+#image{
+    width: 400px;
+    height:400px;
+    border: 15px dashed lightblue;
+}
+.labels-profile{
+    padding-right: 10px;
+    font-weight: bold;
+}

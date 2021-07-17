@@ -1,0 +1,90 @@
+#label-modal-div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid black;
+}
+#main-button-diagnose{
+    display: flex;
+    position: relative;
+    top: 200px;
+    left: 500px;
+   
+}
+
+
+#main-div-form-diagnose{
+    height: 600px;
+    position: absolute;
+    left: 450px;
+    top: 100px;
+    width: 650px;
+    
+}
+#label-modal-div2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid black;
+    padding-left: 40px;
+    padding-top: 10px;
+    
+}
+
+.diagnose-title{
+    text-align: center  ;
+}
+#buttons-modal-diagnose{
+    position: relative;
+    display: flex;
+    text-align: center;
+    top: 320px;
+    justify-content: center;
+
+}
+.modals-diagnose{
+    height: 500px;
+    left: 315px;
+    top: 120px;   
+}
+.date_diagnose{
+    border: none;
+    height: 30px;
+    border-bottom:1px solid grey;
+}
+.input-add-diagnose{
+    border: none;
+    border-bottom:1px solid grey;
+    height: 30px;
+}
+.add-diagnose-buttons{
+    display: flex;
+    justify-content: center;
+}
+#add-diagnose{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 600px;
+    height: 350px;
+    left: 150px;
+    justify-content: space-evenly;   
+}
+#edit-diagnose{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 600px;
+    height: 350px;
+    left: 150px;
+    justify-content: space-evenly;   
+}
+#delete-modal-d{
+    position: relative;
+    top: 30px;
+    height: 200px;
+}

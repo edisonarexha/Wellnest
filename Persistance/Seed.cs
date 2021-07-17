@@ -198,6 +198,33 @@ namespace Persistance
                 context.AnalysisApp.AddRange(analysisapp);
                 context.SaveChanges();
             }
+            if (!context.Vaccine.Any())
+            {
+                var vaccine = new List<Vaccine>{
+                    new Vaccine{
+                            VaccineId = 1,
+                            Name = "Adenovirus",
+                            Age=17,
+                            Date_Taken=DateTime.Today,
+                    },
+
+                };
+                context.Vaccine.AddRange(vaccine);
+                context.SaveChanges();
+            }
+             if (!context.Diagnose.Any())
+            {
+                var diagnose = new List<Diagnose>{
+                    new Diagnose{
+                            DiagnoseId = 1,
+                            Date=DateTime.Today,
+                            Pills = "Alesse , Desogen",
+                    },
+
+                };
+                context.Diagnose.AddRange(diagnose);
+                context.SaveChanges();
+            }
         }
     }
 }
