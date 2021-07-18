@@ -35,17 +35,30 @@
     
 }
 
+
 .diagnose-title{
     text-align: center  ;
 }
 #buttons-modal-diagnose{
     position: relative;
     display: flex;
+    flex-direction: column;
     text-align: center;
-    top: 320px;
+    left: 750px;
+    top: -10px;
     justify-content: center;
 
 }
+#add-button-dia{
+    position: relative;
+    bottom: 40px;
+}
+#edit-button-dia{
+    position: relative;
+    bottom: 20px;
+
+}
+
 .modals-diagnose{
     height: 500px;
     left: 315px;

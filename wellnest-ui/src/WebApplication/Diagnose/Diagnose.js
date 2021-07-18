@@ -2,23 +2,50 @@ import React, { useState, useEffect } from "react";
 import { Nav, Col, Tab, Row } from "react-bootstrap";
 import "./Diagnose.css";
 import { Button, Modal, Form } from "semantic-ui-react";
+import { ListDiagnoses } from "./ListDIagnoses";
 
 const Diagnose = () => {
   const [addOpen, setAddOpen] = useState(false);
   const [editOpen, setEditOpen] = useState(false);
   const [deleteOpen, setDeleteOpen] = useState(false);
-  
+
   const [diagnoses, setDiagnoses] = useState([]);
 
-  useEffect(() => {
-    fetch("http://localhost:5000/api/diagnose")
-    .then((response) => response.json())
-    .then((data) => {
-      setDiagnoses(data);
-      console.log(data);
-    });
-  }, []);
-  
+  const addNewDiagnose = () => {
+    fetch("http://localhost:5000/api/diagnose", {
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json;charset=utf-8",
+      },
+      body: JSON.stringify(diagnoses),
+    }).then(() => setAddOpen(false));
+  };
+
+  const editDiagnoses = (Id) => {
+    fetch("http://localhost:5000/api/diagnose/" + Id, {
+      method: "PUT",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json;charset=utf-8",
+      },
+      body: JSON.stringify(diagnoses),
+    }).then(() => setEditOpen(false));
+  };
+  const removeDiagnose = (Id) => {
+    fetch("http://localhost:5000/api/diagnose/" + Id, {
+      method: "DELETE",
+      header: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+    }).then(() => setDeleteOpen(false));
+  };
+  const handleInputChange = (event) => {
+    event.preventDefault();
+    setDiagnoses({ ...diagnoses, [event.target.name]: event.target.value });
+    console.log(event.target.value);
+  };
   return (
     <div style={{ height: "500px" }}>
       <div className="MainPageHeader">
@@ -123,32 +150,23 @@ const Diagnose = () => {
         <Form.Field>
           <p className="diagnose-title">Diagnoses</p>
         </Form.Field>
-
         <Form.Field>
-          <div id="label-modal-div1">
-            <p>Date</p>
-            <p>Pills</p>
-          </div>
-          
-         
-          {diagnoses.map(diagnose => (
-            <div id="label-modal-div2">
-              <p id="p-textarea1">{diagnose.Date}</p>
-              <p>{diagnose.Pills}</p>
-            </div>
-          ))}
+          <ListDiagnoses />
         </Form.Field>
+
         <div id="buttons-modal-diagnose">
           <Button
             basic
             color="blue"
             content="Add"
+            id="add-button-dia"
             onClick={() => setAddOpen(true)}
           />
           <Button
             basic
             color="green"
             content="Edit"
+            id="edit-button-dia"
             onClick={() => setEditOpen(true)}
           />
           <Button
@@ -162,13 +180,24 @@ const Diagnose = () => {
           onClose={() => setAddOpen(false)}
           open={addOpen}
           className="modals-diagnose"
+          onSubmit={addNewDiagnose}
         >
           <Modal.Header className="diagnose-title">Add Diagnoses</Modal.Header>
           <Modal.Content id="add-diagnose">
             <label>Diagnose Date</label>
-            <input type="date" className="date_diagnose" />
+            <input
+              type="date"
+              name="Date"
+              className="date_diagnose"
+              onChange={handleInputChange}
+            />
             <label htmlFor="">Pills</label>
-            <input type="text" className="input-add-diagnose" />
+            <input
+              type="text"
+              name="Pills"
+              className="input-add-diagnose"
+              onChange={handleInputChange}
+            />
           </Modal.Content>
           <Modal.Actions className="add-diagnose-buttons">
             <Button
@@ -181,7 +210,8 @@ const Diagnose = () => {
               icon="save"
               content="Add"
               color="blue"
-              onClick={() => setAddOpen(false)}
+              onClick={() => addNewDiagnose()}
+              onSubmit={() => setAddOpen(false)}
             />
           </Modal.Actions>
         </Modal>
@@ -192,10 +222,27 @@ const Diagnose = () => {
         >
           <Modal.Header className="diagnose-title">Edit Diagnose</Modal.Header>
           <Modal.Content id="edit-diagnose">
+            <label>ID</label>
+            <input
+              type="text"
+              name="DiagnoseId"
+              className="date_diagnose"
+              onChange={handleInputChange}
+            />
             <label>Diagnose Date</label>
-            <input type="date" className="date_diagnose" />
+            <input
+              type="date"
+              name="Date"
+              className="date_diagnose"
+              onChange={handleInputChange}
+            />
             <label htmlFor="">Pills</label>
-            <input type="text" className="input-add-diagnose" />
+            <input
+              type="text"
+              name="Pills"
+              className="input-add-diagnose"
+              onChange={handleInputChange}
+            />
           </Modal.Content>
           <Modal.Actions className="add-diagnose-buttons">
             <Button
@@ -208,7 +255,7 @@ const Diagnose = () => {
               icon="edit"
               content="Edit"
               color="green"
-              onClick={() => setEditOpen(false)}
+              onClick={() => editDiagnoses(diagnoses.DiagnoseId)}
             />
           </Modal.Actions>
         </Modal>
@@ -222,7 +269,13 @@ const Diagnose = () => {
             Delete diagnose
           </Modal.Header>
           <Modal.Content>
-            <p>Delete the diagnose from user?</p>
+            <p>Delete the diagnose from user with ID:</p>
+            <input
+              type="text"
+              name="DiagnoseId"
+              className="input-add-diagnose"
+              onChange={handleInputChange}
+            />
           </Modal.Content>
           <Modal.Actions className="add-vaccine-buttons">
             <Button
@@ -235,7 +288,7 @@ const Diagnose = () => {
               icon="delete"
               content="Delete"
               color="red"
-              onClick={() => setDeleteOpen(false)}
+              onClick={() => removeDiagnose(diagnoses.DiagnoseId)}
             />
           </Modal.Actions>
         </Modal>
