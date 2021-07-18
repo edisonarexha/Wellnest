@@ -6,18 +6,32 @@
     padding-right: 15px;
     border-bottom: 1px solid black;
 }
-#main-button-allergies{
-    display: flex;
+#buttons-modal-allergy{
     position: relative;
-    top: 200px;
-    left: 500px;
-   
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    left: 750px;
+    top: -10px;
+    justify-content: center;
+
+}
+#add-button-dia{
+    position: relative;
+    bottom: 40px;
+}
+#edit-button-dia{
+    position: relative;
+    bottom: 20px;
+
 }
 
-#main-div-modal-allergy{
+#main-div-form-allergy{
     height: 600px;
-    position: relative;
-    left: 0px;
+    position: absolute;
+    left: 450px;
+    top: 100px;
+    width: 650px;
 }
 #label-modal-div2{
     display: flex;
@@ -36,8 +50,10 @@
 #buttons-modal-allergy{
     position: relative;
     display: flex;
+    flex-direction: column;
     text-align: center;
-    top: 320px;
+    left: 750px;
+    top: -55px;
     justify-content: center;
 
 }
@@ -46,7 +62,7 @@
     left: 315px;
     top: 120px;   
 }
-#input-add-allergy{
+.input-add-allergy{
     border: none;
     border-bottom:1px solid grey;
     height: 30px;
@@ -73,8 +89,14 @@
     left: 150px;
     justify-content: space-evenly;   
 }
-#delete-modal-a{
+.delete-modal-a{
     position: relative;
-    top: 30px;
-    height: 200px;
+    top: 200px;
+    width: 600px !important;
+    left: 450px;
+    height: 250px;
+}
+#delete-allergy-elements{
+    position: relative;
+    left:170px;
 }
