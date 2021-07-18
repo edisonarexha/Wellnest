@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6nsTU+IEQerpuhfZSSsI3BQslIbzDVy6UbiBqCM8Q6bkIMtSbumg4aS9wRLJsK2WnM+Kxiryz18I8Mja2Lkfqw==",
+  "dgSpecHash": "UlsXGn91ky11BYl7+qFT9kVeoIM4acbPruPo/XiTawJzjfGqmr5D4rtB24b8zAxtziX5Qs2yvVQQg2utMuhFcg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Domain\\Domain.csproj",
+  "projectFilePath": "E:\\Oi\\Wellnest\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
