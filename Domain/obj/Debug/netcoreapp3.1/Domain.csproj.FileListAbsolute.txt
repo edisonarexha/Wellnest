@@ -97,3 +97,12 @@ C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Domain\obj\Debug\netcoreapp3.1\
 C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
 C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.dll
 C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+E:\Io\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+E:\Io\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+E:\Io\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+E:\Io\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
+E:\Io\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+E:\Io\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+E:\Io\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+E:\Io\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+E:\Io\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.pdb

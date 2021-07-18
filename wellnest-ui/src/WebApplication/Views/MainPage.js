@@ -6,7 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Card,Image }from 'react-bootstrap';
 import test from './test.jpg'
 import Map from './../../WebSite/Views/covid19/Map';
-
+import Tabs from 'react-bootstrap/Tabs'
+import logo from './logo.PNG';
 export class MainPage extends Component {
 
 
@@ -19,73 +20,19 @@ export class MainPage extends Component {
         return (
            <div className="MainPage">
               
-               <div className="MainPageHeader">
-                            <Nav variant="tabs"className="NavBAR">            
-                            <Nav.Item>
-                                <Nav.Link href="#">User Profile</Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item>
-                                <Nav.Link eventKey="/../../WebSite/Views/covid19/App-1">Covid 19</Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item>
-                                <Nav.Link eventKey="link-2" >
-                                Consult Doctor
-                                </Nav.Link>
-                            </Nav.Item>
-                            </Nav>
-               </div>
-               <div className="Main-Div-">
-                   
-               <Card style={{ width: '18rem' }} className="CardStyle">
-                <Card.Body>
-                    <Card.Title>Covid Infected</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
-                    </Card.Text>
-                    <Card.Link href="#">Card Link</Card.Link>
-                    <Card.Link href="#">Another Link</Card.Link>
-                </Card.Body>
-                </Card>
-                <Card style={{ width: '18rem' }} className="CardStyle">
-                <Card.Body>
-                    <Card.Title>Covid Recoveries</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
-                    </Card.Text>
-                    <Card.Link href="#">Card Link</Card.Link>
-                    <Card.Link href="#">Another Link</Card.Link>
-                </Card.Body>
-                </Card>
-                <Card style={{ width: '18rem' }} className="CardStyle">
-                <Card.Body>
-                    <Card.Title>Covid Deaths</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
-                    </Card.Text>
-                    <Card.Link href="#">Card Link</Card.Link>
-                    <Card.Link href="#">Another Link</Card.Link>
-                </Card.Body>
-                </Card>
-              
-              
-
-            </div>
+         
+           
                <div className="Dashboard-left-side">
                   
                     <div className="Covid-19-Profile-cases">
-                        <div className="Title">
-           
-                        </div>
+                     
                     <Tab.Container id="left-tabs-example" defaultActiveKey="Zero">
                         <Row>
                             <Col sm={8}>
-                            <Nav variant="pills" className="flex-column">
+                            <Nav variant="pills" className="flex-column" >
+                            <Nav.Item>
+                                    <img src={logo} className="logopng"></img>
+                                </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link eventKey="Zero" >Over View</Nav.Link>
                                 </Nav.Item>
@@ -121,17 +68,26 @@ export class MainPage extends Component {
                                 </Nav.Item>
                             </Nav>
                             </Col>
-                            <Col sm={15}>
-                            <Tab.Content>
+                         
+                        </Row>
+                        </Tab.Container>
+                        <Col sm={15} className="colheight">
+                            <Tab.Content className="Tabs">
+                            <Tab.Pane eventKey="Zero">
+                                    <h1>Hello overview</h1>
+                                <div />
+                                </Tab.Pane>
                                 <Tab.Pane eventKey="first">
-                                
+                                <h1>Hello Allergies</h1>
                                 <div />
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="second">
+                                <h1>Hello Illnesses And Conditions</h1>
                                 <div />
                                 </Tab.Pane>
                               
                                 <Tab.Pane eventKey="third">
+                                <h1>hELLO Vaccination</h1>
                                 <div />
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="fourth">
@@ -154,12 +110,7 @@ export class MainPage extends Component {
                                 </Tab.Pane>
                             </Tab.Content>
                             </Col>
-                        </Row>
-                        </Tab.Container>
-                        
-                        <div className="test1">
-
-                        </div>
+                  
                     </div>
                    
                </div>
