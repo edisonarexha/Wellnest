@@ -88,3 +88,12 @@ C:/Users/BC-Computers/Desktop/WellNest1/Wellnest/Domain/obj/Debug/netcoreapp3.1/
 /Users/edisonarexha/Desktop/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.CoreCompileInputs.cache
 /Users/edisonarexha/Desktop/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.dll
 /Users/edisonarexha/Desktop/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.pdb
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.pdb

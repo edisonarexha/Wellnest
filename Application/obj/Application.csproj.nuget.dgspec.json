@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/edisonarexha/Desktop/Wellnest/Application/Application.csproj": {}
+    "C:\\Users\\BC-Computers\\Desktop\\Wellnest2\\Wellnest\\Application\\Application.csproj": {}
   },
   "projects": {
-    "/Users/edisonarexha/Desktop/Wellnest/Application/Application.csproj": {
+    "C:\\Users\\BC-Computers\\Desktop\\Wellnest2\\Wellnest\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/edisonarexha/Desktop/Wellnest/Application/Application.csproj",
+        "projectUniqueName": "C:\\Users\\BC-Computers\\Desktop\\Wellnest2\\Wellnest\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "/Users/edisonarexha/Desktop/Wellnest/Application/Application.csproj",
-        "packagesPath": "/Users/edisonarexha/.nuget/packages/",
-        "outputPath": "/Users/edisonarexha/Desktop/Wellnest/Application/obj/",
+        "projectPath": "C:\\Users\\BC-Computers\\Desktop\\Wellnest2\\Wellnest\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\BC-Computers\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BC-Computers\\Desktop\\Wellnest2\\Wellnest\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/edisonarexha/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\BC-Computers\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -24,12 +24,13 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Users/edisonarexha/Desktop/Wellnest/Domain/Domain.csproj": {
-                "projectPath": "/Users/edisonarexha/Desktop/Wellnest/Domain/Domain.csproj"
+              "C:\\Users\\BC-Computers\\Desktop\\Wellnest2\\Wellnest\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\BC-Computers\\Desktop\\Wellnest2\\Wellnest\\Domain\\Domain.csproj"
               },
-              "/Users/edisonarexha/Desktop/Wellnest/Persistance/Persistance.csproj": {
-                "projectPath": "/Users/edisonarexha/Desktop/Wellnest/Persistance/Persistance.csproj"
+              "C:\\Users\\BC-Computers\\Desktop\\Wellnest2\\Wellnest\\Persistance\\Persistance.csproj": {
+                "projectPath": "C:\\Users\\BC-Computers\\Desktop\\Wellnest2\\Wellnest\\Persistance\\Persistance.csproj"
               }
             }
           }
@@ -42,6 +43,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -63,21 +65,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.411/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.205\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/edisonarexha/Desktop/Wellnest/Domain/Domain.csproj": {
+    "C:\\Users\\BC-Computers\\Desktop\\Wellnest2\\Wellnest\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/edisonarexha/Desktop/Wellnest/Domain/Domain.csproj",
+        "projectUniqueName": "C:\\Users\\BC-Computers\\Desktop\\Wellnest2\\Wellnest\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/Users/edisonarexha/Desktop/Wellnest/Domain/Domain.csproj",
-        "packagesPath": "/Users/edisonarexha/.nuget/packages/",
-        "outputPath": "/Users/edisonarexha/Desktop/Wellnest/Domain/obj/",
+        "projectPath": "C:\\Users\\BC-Computers\\Desktop\\Wellnest2\\Wellnest\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\BC-Computers\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BC-Computers\\Desktop\\Wellnest2\\Wellnest\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/edisonarexha/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\BC-Computers\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -87,6 +89,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -98,6 +101,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -113,21 +117,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.411/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.205\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/edisonarexha/Desktop/Wellnest/Persistance/Persistance.csproj": {
+    "C:\\Users\\BC-Computers\\Desktop\\Wellnest2\\Wellnest\\Persistance\\Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/edisonarexha/Desktop/Wellnest/Persistance/Persistance.csproj",
+        "projectUniqueName": "C:\\Users\\BC-Computers\\Desktop\\Wellnest2\\Wellnest\\Persistance\\Persistance.csproj",
         "projectName": "Persistance",
-        "projectPath": "/Users/edisonarexha/Desktop/Wellnest/Persistance/Persistance.csproj",
-        "packagesPath": "/Users/edisonarexha/.nuget/packages/",
-        "outputPath": "/Users/edisonarexha/Desktop/Wellnest/Persistance/obj/",
+        "projectPath": "C:\\Users\\BC-Computers\\Desktop\\Wellnest2\\Wellnest\\Persistance\\Persistance.csproj",
+        "packagesPath": "C:\\Users\\BC-Computers\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BC-Computers\\Desktop\\Wellnest2\\Wellnest\\Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/edisonarexha/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\BC-Computers\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -137,9 +141,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Users/edisonarexha/Desktop/Wellnest/Domain/Domain.csproj": {
-                "projectPath": "/Users/edisonarexha/Desktop/Wellnest/Domain/Domain.csproj"
+              "C:\\Users\\BC-Computers\\Desktop\\Wellnest2\\Wellnest\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\BC-Computers\\Desktop\\Wellnest2\\Wellnest\\Domain\\Domain.csproj"
               }
             }
           }
@@ -152,6 +157,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -177,7 +183,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.411/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.205\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -16,9 +16,9 @@
 
 #main-div-form-analysis{
     height: 600px;
-    position: relative;
-    left: 450px;
-    top: -1000px;
+    position: absolute;
+    left: 360px;
+    top: 100px;
     width: 650px;
 
 }
@@ -26,8 +26,8 @@
     display: flex;
     flex-direction: row;
     justify-content:space-around;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 55px;
+    padding-right: 15px;
     border-bottom: 1px solid black;
     padding-top: 10px;
  
@@ -42,16 +42,37 @@
 #buttons-modal-analysis{
     position: relative;
     display: flex;
+    flex-direction: column;
     text-align: center;
-    top: 320px;
+    left: 750px;
+    top: -10px;
     justify-content: center;
 
 }
+
+#add-button-dia{
+    position: relative;
+    bottom: 40px;
+}
+#edit-button-dia{
+    position: relative;
+    bottom: 20px;
+
+}
+
+
 .modals-analysis{
     height: 500px;
     left: 315px;
     top: 120px;
 }
+
+.date_diagnose{
+    border: none;
+    height: 30px;
+    border-bottom:1px solid grey;
+}
+
 #input-add-analysis{
     border: none;
     border-bottom:1px solid grey;

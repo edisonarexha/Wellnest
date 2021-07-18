@@ -2,12 +2,12 @@ import React, { useEffect, useState } from "react";
 import { Form } from "semantic-ui-react";
 
 export const AnalysisList = () => {
-  const [analysis, setAnalysis] = useState([]);
+  const [analyses, setAnalyses] = useState([]);
   useEffect(() => {
     fetch("http://localhost:5000/api/analysis")
       .then((response) => response.json())
       .then((data) => {
-        setAnalysis(data);
+        setAnalyses(data);
         console.log(data);
       });
   }, []);
@@ -22,8 +22,8 @@ export const AnalysisList = () => {
             <p>Date</p>
           </div>
 
-          {analysis.map((analysis) => (
-            <div id="label-modal-div2">
+          {analyses.map((analysis) => (
+            <div id="label-modal-div2" key={analysis.Id}>
                 <p>{analysis.Id}</p>
               <p id="p-textarea1">{analysis.Name}</p>
               <p>{analysis.Results}</p>

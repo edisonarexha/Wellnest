@@ -138,3 +138,17 @@ C:/Users/BC-Computers/Desktop/WellNest1/Wellnest/Application/obj/Debug/netcoreap
 /Users/edisonarexha/Desktop/Wellnest/Application/bin/Debug/netcoreapp3.1/Persistance.pdb
 /Users/edisonarexha/Desktop/Wellnest/Application/bin/Debug/netcoreapp3.1/Domain.pdb
 /Users/edisonarexha/Desktop/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csproj.CopyComplete
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.deps.json
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.dll
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.pdb
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Application\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Application\bin\Debug\netcoreapp3.1\Persistance.dll
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Application\bin\Debug\netcoreapp3.1\Persistance.pdb
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Application\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.dll
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.pdb

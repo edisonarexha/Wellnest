@@ -118,3 +118,15 @@ C:/Users/BC-Computers/Desktop/WellNest1/Wellnest/Persistance/obj/Debug/netcoreap
 /Users/edisonarexha/Desktop/Wellnest/Persistance/bin/Debug/netcoreapp3.1/Domain.dll
 /Users/edisonarexha/Desktop/Wellnest/Persistance/bin/Debug/netcoreapp3.1/Domain.pdb
 /Users/edisonarexha/Desktop/Wellnest/Persistance/obj/Debug/netcoreapp3.1/Persistance.csproj.CopyComplete
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Persistance\bin\Debug\netcoreapp3.1\Persistance.deps.json
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Persistance\bin\Debug\netcoreapp3.1\Persistance.dll
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Persistance\bin\Debug\netcoreapp3.1\Persistance.pdb
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Persistance\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Persistance\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.csprojAssemblyReference.cache
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.AssemblyInfoInputs.cache
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.AssemblyInfo.cs
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.csproj.CoreCompileInputs.cache
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.csproj.CopyComplete
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.dll
+C:\Users\BC-Computers\Desktop\Wellnest2\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.pdb
