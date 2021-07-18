@@ -1,126 +1,140 @@
-C:\Users\Black\Desktop\CRUD\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.deps.json
-C:\Users\Black\Desktop\CRUD\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.dll
-C:\Users\Black\Desktop\CRUD\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.pdb
-C:\Users\Black\Desktop\CRUD\Wellnest\Application\bin\Debug\netcoreapp3.1\Domain.dll
-C:\Users\Black\Desktop\CRUD\Wellnest\Application\bin\Debug\netcoreapp3.1\Persistance.dll
-C:\Users\Black\Desktop\CRUD\Wellnest\Application\bin\Debug\netcoreapp3.1\Persistance.pdb
-C:\Users\Black\Desktop\CRUD\Wellnest\Application\bin\Debug\netcoreapp3.1\Domain.pdb
-C:\Users\Black\Desktop\CRUD\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
-C:\Users\Black\Desktop\CRUD\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
-C:\Users\Black\Desktop\CRUD\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
-C:\Users\Black\Desktop\CRUD\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
-C:\Users\Black\Desktop\CRUD\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.dll
-C:\Users\Black\Desktop\CRUD\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.pdb
-C:\Users\Lenovo\Desktop\New folder (3)\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.dll
-C:\Users\Lenovo\Desktop\New folder (3)\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.pdb
-C:\Users\Lenovo\Desktop\New folder (3)\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.deps.json
-C:\Users\Lenovo\Desktop\New folder (3)\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.dll
-C:\Users\Lenovo\Desktop\New folder (3)\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.pdb
-C:\Users\Lenovo\Desktop\New folder (3)\Wellnest\Application\bin\Debug\netcoreapp3.1\Domain.dll
-C:\Users\Lenovo\Desktop\New folder (3)\Wellnest\Application\bin\Debug\netcoreapp3.1\Persistance.dll
-C:\Users\Lenovo\Desktop\New folder (3)\Wellnest\Application\bin\Debug\netcoreapp3.1\Persistance.pdb
-C:\Users\Lenovo\Desktop\New folder (3)\Wellnest\Application\bin\Debug\netcoreapp3.1\Domain.pdb
-C:\Users\Lenovo\Desktop\New folder (3)\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.AssemblyReference.cache
-C:\Users\Lenovo\Desktop\New folder (3)\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
-C:\Users\Lenovo\Desktop\New folder (3)\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
-C:\Users\Lenovo\Desktop\New folder (3)\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
-C:\Users\Lenovo\Desktop\New folder (3)\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
-C:\Users\elton\source\repos\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.dll
-C:\Users\elton\source\repos\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.pdb
-C:\Users\elton\source\repos\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.deps.json
-C:\Users\elton\source\repos\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.dll
-C:\Users\elton\source\repos\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.pdb
-C:\Users\elton\source\repos\Wellnest\Application\bin\Debug\netcoreapp3.1\Domain.dll
-C:\Users\elton\source\repos\Wellnest\Application\bin\Debug\netcoreapp3.1\Persistance.dll
-C:\Users\elton\source\repos\Wellnest\Application\bin\Debug\netcoreapp3.1\Persistance.pdb
-C:\Users\elton\source\repos\Wellnest\Application\bin\Debug\netcoreapp3.1\Domain.pdb
-C:\Users\elton\source\repos\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.AssemblyReference.cache
-C:\Users\elton\source\repos\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
-C:\Users\elton\source\repos\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
-C:\Users\elton\source\repos\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
-C:\Users\elton\source\repos\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
-C:\Users\elton\OneDrive\Desktop\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.deps.json
-C:\Users\elton\OneDrive\Desktop\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.dll
-C:\Users\elton\OneDrive\Desktop\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.pdb
-C:\Users\elton\OneDrive\Desktop\Wellnest\Application\bin\Debug\netcoreapp3.1\Domain.dll
-C:\Users\elton\OneDrive\Desktop\Wellnest\Application\bin\Debug\netcoreapp3.1\Persistance.dll
-C:\Users\elton\OneDrive\Desktop\Wellnest\Application\bin\Debug\netcoreapp3.1\Persistance.pdb
-C:\Users\elton\OneDrive\Desktop\Wellnest\Application\bin\Debug\netcoreapp3.1\Domain.pdb
-C:\Users\elton\OneDrive\Desktop\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.AssemblyReference.cache
-C:\Users\elton\OneDrive\Desktop\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
-C:\Users\elton\OneDrive\Desktop\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
-C:\Users\elton\OneDrive\Desktop\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
-C:\Users\elton\OneDrive\Desktop\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
-C:\Users\elton\OneDrive\Desktop\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.dll
-C:\Users\elton\OneDrive\Desktop\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.pdb
-F:\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.dll
-F:\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.pdb
-F:\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.deps.json
-F:\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.dll
-F:\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.pdb
-F:\Wellnest\Application\bin\Debug\netcoreapp3.1\Domain.dll
-F:\Wellnest\Application\bin\Debug\netcoreapp3.1\Persistance.dll
-F:\Wellnest\Application\bin\Debug\netcoreapp3.1\Persistance.pdb
-F:\Wellnest\Application\bin\Debug\netcoreapp3.1\Domain.pdb
-F:\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
-F:\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
-F:\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
-F:\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
-F:\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
-E:\Project_2\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.deps.json
-E:\Project_2\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.dll
-E:\Project_2\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.pdb
-E:\Project_2\Wellnest\Application\bin\Debug\netcoreapp3.1\Domain.dll
-E:\Project_2\Wellnest\Application\bin\Debug\netcoreapp3.1\Persistance.dll
-E:\Project_2\Wellnest\Application\bin\Debug\netcoreapp3.1\Persistance.pdb
-E:\Project_2\Wellnest\Application\bin\Debug\netcoreapp3.1\Domain.pdb
-E:\Project_2\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.AssemblyReference.cache
-E:\Project_2\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
-E:\Project_2\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
-E:\Project_2\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
-E:\Project_2\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
-E:\Project_2\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.dll
-E:\Project_2\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.pdb
-F:\Wellnest1\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.dll
-F:\Wellnest1\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.pdb
-F:\Wellnest1\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
-F:\Wellnest1\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
-F:\Wellnest1\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
-F:\Wellnest1\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
-F:\Wellnest1\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.deps.json
-F:\Wellnest1\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.dll
-F:\Wellnest1\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.pdb
-F:\Wellnest1\Wellnest\Application\bin\Debug\netcoreapp3.1\Domain.dll
-F:\Wellnest1\Wellnest\Application\bin\Debug\netcoreapp3.1\Persistance.dll
-F:\Wellnest1\Wellnest\Application\bin\Debug\netcoreapp3.1\Persistance.pdb
-F:\Wellnest1\Wellnest\Application\bin\Debug\netcoreapp3.1\Domain.pdb
-F:\Wellnest1\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
-C:\Users\Black\Desktop\CRUD\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
-E:\Oi\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.deps.json
-E:\Oi\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.dll
-E:\Oi\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.pdb
-E:\Oi\Wellnest\Application\bin\Debug\netcoreapp3.1\Domain.dll
-E:\Oi\Wellnest\Application\bin\Debug\netcoreapp3.1\Persistance.dll
-E:\Oi\Wellnest\Application\bin\Debug\netcoreapp3.1\Persistance.pdb
-E:\Oi\Wellnest\Application\bin\Debug\netcoreapp3.1\Domain.pdb
-E:\Oi\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
-E:\Oi\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
-E:\Oi\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
-E:\Oi\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
-E:\Oi\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
-E:\Oi\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.dll
-E:\Oi\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.pdb
-C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.deps.json
-C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.dll
-C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Application\bin\Debug\netcoreapp3.1\Application.pdb
-C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Application\bin\Debug\netcoreapp3.1\Domain.dll
-C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Application\bin\Debug\netcoreapp3.1\Persistance.dll
-C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Application\bin\Debug\netcoreapp3.1\Persistance.pdb
-C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Application\bin\Debug\netcoreapp3.1\Domain.pdb
-C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
-C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
-C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
-C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
-C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
-C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.dll
-C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Application\obj\Debug\netcoreapp3.1\Application.pdb
+C:/Users/Black/Desktop/CRUD/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.deps.json
+C:/Users/Black/Desktop/CRUD/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.dll
+C:/Users/Black/Desktop/CRUD/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.pdb
+C:/Users/Black/Desktop/CRUD/Wellnest/Application/bin/Debug/netcoreapp3.1/Domain.dll
+C:/Users/Black/Desktop/CRUD/Wellnest/Application/bin/Debug/netcoreapp3.1/Persistance.dll
+C:/Users/Black/Desktop/CRUD/Wellnest/Application/bin/Debug/netcoreapp3.1/Persistance.pdb
+C:/Users/Black/Desktop/CRUD/Wellnest/Application/bin/Debug/netcoreapp3.1/Domain.pdb
+C:/Users/Black/Desktop/CRUD/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfoInputs.cache
+C:/Users/Black/Desktop/CRUD/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfo.cs
+C:/Users/Black/Desktop/CRUD/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csproj.CoreCompileInputs.cache
+C:/Users/Black/Desktop/CRUD/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csproj.CopyComplete
+C:/Users/Black/Desktop/CRUD/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.dll
+C:/Users/Black/Desktop/CRUD/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.pdb
+C:/Users/Lenovo/Desktop/New folder (3)/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.dll
+C:/Users/Lenovo/Desktop/New folder (3)/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.pdb
+C:/Users/Lenovo/Desktop/New folder (3)/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.deps.json
+C:/Users/Lenovo/Desktop/New folder (3)/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.dll
+C:/Users/Lenovo/Desktop/New folder (3)/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.pdb
+C:/Users/Lenovo/Desktop/New folder (3)/Wellnest/Application/bin/Debug/netcoreapp3.1/Domain.dll
+C:/Users/Lenovo/Desktop/New folder (3)/Wellnest/Application/bin/Debug/netcoreapp3.1/Persistance.dll
+C:/Users/Lenovo/Desktop/New folder (3)/Wellnest/Application/bin/Debug/netcoreapp3.1/Persistance.pdb
+C:/Users/Lenovo/Desktop/New folder (3)/Wellnest/Application/bin/Debug/netcoreapp3.1/Domain.pdb
+C:/Users/Lenovo/Desktop/New folder (3)/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csproj.AssemblyReference.cache
+C:/Users/Lenovo/Desktop/New folder (3)/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfoInputs.cache
+C:/Users/Lenovo/Desktop/New folder (3)/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfo.cs
+C:/Users/Lenovo/Desktop/New folder (3)/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csproj.CoreCompileInputs.cache
+C:/Users/Lenovo/Desktop/New folder (3)/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csproj.CopyComplete
+C:/Users/elton/source/repos/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.dll
+C:/Users/elton/source/repos/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.pdb
+C:/Users/elton/source/repos/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.deps.json
+C:/Users/elton/source/repos/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.dll
+C:/Users/elton/source/repos/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.pdb
+C:/Users/elton/source/repos/Wellnest/Application/bin/Debug/netcoreapp3.1/Domain.dll
+C:/Users/elton/source/repos/Wellnest/Application/bin/Debug/netcoreapp3.1/Persistance.dll
+C:/Users/elton/source/repos/Wellnest/Application/bin/Debug/netcoreapp3.1/Persistance.pdb
+C:/Users/elton/source/repos/Wellnest/Application/bin/Debug/netcoreapp3.1/Domain.pdb
+C:/Users/elton/source/repos/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csproj.AssemblyReference.cache
+C:/Users/elton/source/repos/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfoInputs.cache
+C:/Users/elton/source/repos/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfo.cs
+C:/Users/elton/source/repos/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csproj.CoreCompileInputs.cache
+C:/Users/elton/source/repos/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csproj.CopyComplete
+C:/Users/elton/OneDrive/Desktop/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.deps.json
+C:/Users/elton/OneDrive/Desktop/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.dll
+C:/Users/elton/OneDrive/Desktop/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.pdb
+C:/Users/elton/OneDrive/Desktop/Wellnest/Application/bin/Debug/netcoreapp3.1/Domain.dll
+C:/Users/elton/OneDrive/Desktop/Wellnest/Application/bin/Debug/netcoreapp3.1/Persistance.dll
+C:/Users/elton/OneDrive/Desktop/Wellnest/Application/bin/Debug/netcoreapp3.1/Persistance.pdb
+C:/Users/elton/OneDrive/Desktop/Wellnest/Application/bin/Debug/netcoreapp3.1/Domain.pdb
+C:/Users/elton/OneDrive/Desktop/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csproj.AssemblyReference.cache
+C:/Users/elton/OneDrive/Desktop/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfoInputs.cache
+C:/Users/elton/OneDrive/Desktop/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfo.cs
+C:/Users/elton/OneDrive/Desktop/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csproj.CoreCompileInputs.cache
+C:/Users/elton/OneDrive/Desktop/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csproj.CopyComplete
+C:/Users/elton/OneDrive/Desktop/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.dll
+C:/Users/elton/OneDrive/Desktop/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.pdb
+F:/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.dll
+F:/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.pdb
+F:/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.deps.json
+F:/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.dll
+F:/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.pdb
+F:/Wellnest/Application/bin/Debug/netcoreapp3.1/Domain.dll
+F:/Wellnest/Application/bin/Debug/netcoreapp3.1/Persistance.dll
+F:/Wellnest/Application/bin/Debug/netcoreapp3.1/Persistance.pdb
+F:/Wellnest/Application/bin/Debug/netcoreapp3.1/Domain.pdb
+F:/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csprojAssemblyReference.cache
+F:/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfoInputs.cache
+F:/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfo.cs
+F:/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csproj.CoreCompileInputs.cache
+F:/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csproj.CopyComplete
+E:/Project_2/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.deps.json
+E:/Project_2/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.dll
+E:/Project_2/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.pdb
+E:/Project_2/Wellnest/Application/bin/Debug/netcoreapp3.1/Domain.dll
+E:/Project_2/Wellnest/Application/bin/Debug/netcoreapp3.1/Persistance.dll
+E:/Project_2/Wellnest/Application/bin/Debug/netcoreapp3.1/Persistance.pdb
+E:/Project_2/Wellnest/Application/bin/Debug/netcoreapp3.1/Domain.pdb
+E:/Project_2/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csproj.AssemblyReference.cache
+E:/Project_2/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfoInputs.cache
+E:/Project_2/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfo.cs
+E:/Project_2/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csproj.CoreCompileInputs.cache
+E:/Project_2/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csproj.CopyComplete
+E:/Project_2/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.dll
+E:/Project_2/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.pdb
+F:/Wellnest1/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.dll
+F:/Wellnest1/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.pdb
+F:/Wellnest1/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csprojAssemblyReference.cache
+F:/Wellnest1/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfoInputs.cache
+F:/Wellnest1/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfo.cs
+F:/Wellnest1/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csproj.CoreCompileInputs.cache
+F:/Wellnest1/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.deps.json
+F:/Wellnest1/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.dll
+F:/Wellnest1/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.pdb
+F:/Wellnest1/Wellnest/Application/bin/Debug/netcoreapp3.1/Domain.dll
+F:/Wellnest1/Wellnest/Application/bin/Debug/netcoreapp3.1/Persistance.dll
+F:/Wellnest1/Wellnest/Application/bin/Debug/netcoreapp3.1/Persistance.pdb
+F:/Wellnest1/Wellnest/Application/bin/Debug/netcoreapp3.1/Domain.pdb
+F:/Wellnest1/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csproj.CopyComplete
+C:/Users/Black/Desktop/CRUD/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csprojAssemblyReference.cache
+E:/Oi/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.deps.json
+E:/Oi/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.dll
+E:/Oi/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.pdb
+E:/Oi/Wellnest/Application/bin/Debug/netcoreapp3.1/Domain.dll
+E:/Oi/Wellnest/Application/bin/Debug/netcoreapp3.1/Persistance.dll
+E:/Oi/Wellnest/Application/bin/Debug/netcoreapp3.1/Persistance.pdb
+E:/Oi/Wellnest/Application/bin/Debug/netcoreapp3.1/Domain.pdb
+E:/Oi/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csprojAssemblyReference.cache
+E:/Oi/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfoInputs.cache
+E:/Oi/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfo.cs
+E:/Oi/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csproj.CoreCompileInputs.cache
+E:/Oi/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csproj.CopyComplete
+E:/Oi/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.dll
+E:/Oi/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.pdb
+C:/Users/BC-Computers/Desktop/WellNest1/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.deps.json
+C:/Users/BC-Computers/Desktop/WellNest1/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.dll
+C:/Users/BC-Computers/Desktop/WellNest1/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.pdb
+C:/Users/BC-Computers/Desktop/WellNest1/Wellnest/Application/bin/Debug/netcoreapp3.1/Domain.dll
+C:/Users/BC-Computers/Desktop/WellNest1/Wellnest/Application/bin/Debug/netcoreapp3.1/Persistance.dll
+C:/Users/BC-Computers/Desktop/WellNest1/Wellnest/Application/bin/Debug/netcoreapp3.1/Persistance.pdb
+C:/Users/BC-Computers/Desktop/WellNest1/Wellnest/Application/bin/Debug/netcoreapp3.1/Domain.pdb
+C:/Users/BC-Computers/Desktop/WellNest1/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csprojAssemblyReference.cache
+C:/Users/BC-Computers/Desktop/WellNest1/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfoInputs.cache
+C:/Users/BC-Computers/Desktop/WellNest1/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfo.cs
+C:/Users/BC-Computers/Desktop/WellNest1/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csproj.CoreCompileInputs.cache
+C:/Users/BC-Computers/Desktop/WellNest1/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csproj.CopyComplete
+C:/Users/BC-Computers/Desktop/WellNest1/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.dll
+C:/Users/BC-Computers/Desktop/WellNest1/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.pdb
+/Users/edisonarexha/Desktop/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.dll
+/Users/edisonarexha/Desktop/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.pdb
+/Users/edisonarexha/Desktop/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csprojAssemblyReference.cache
+/Users/edisonarexha/Desktop/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfoInputs.cache
+/Users/edisonarexha/Desktop/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfo.cs
+/Users/edisonarexha/Desktop/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csproj.CoreCompileInputs.cache
+/Users/edisonarexha/Desktop/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.deps.json
+/Users/edisonarexha/Desktop/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.dll
+/Users/edisonarexha/Desktop/Wellnest/Application/bin/Debug/netcoreapp3.1/Application.pdb
+/Users/edisonarexha/Desktop/Wellnest/Application/bin/Debug/netcoreapp3.1/Domain.dll
+/Users/edisonarexha/Desktop/Wellnest/Application/bin/Debug/netcoreapp3.1/Persistance.dll
+/Users/edisonarexha/Desktop/Wellnest/Application/bin/Debug/netcoreapp3.1/Persistance.pdb
+/Users/edisonarexha/Desktop/Wellnest/Application/bin/Debug/netcoreapp3.1/Domain.pdb
+/Users/edisonarexha/Desktop/Wellnest/Application/obj/Debug/netcoreapp3.1/Application.csproj.CopyComplete

@@ -225,6 +225,19 @@ namespace Persistance
                 context.Diagnose.AddRange(diagnose);
                 context.SaveChanges();
             }
+            if (!context.CovidStatus.Any())
+            {
+                var covidStatus = new List<CovidStatus>{
+                    new CovidStatus{
+                        Id=1,
+                        Status="Positive",
+                        Date=DateTime.Today
+                    }
+                };
+                context.CovidStatus.AddRange(covidStatus);
+                context.SaveChanges();
+            }
+
         }
     }
 }

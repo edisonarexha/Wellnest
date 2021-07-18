@@ -186,6 +186,23 @@ namespace Persistance.Migrations
                     b.ToTable("CovidInfected");
                 });
 
+            modelBuilder.Entity("Domain.CovidStatus", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Status")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("CovidStatus");
+                });
+
             modelBuilder.Entity("Domain.Diagnose", b =>
                 {
                     b.Property<int>("DiagnoseId")

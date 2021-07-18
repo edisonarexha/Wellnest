@@ -1,81 +1,90 @@
-C:\Users\Black\Desktop\CRUD\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
-C:\Users\Black\Desktop\CRUD\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.dll
-C:\Users\Black\Desktop\CRUD\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
-C:\Users\Black\Desktop\CRUD\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
-C:\Users\Black\Desktop\CRUD\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
-C:\Users\Black\Desktop\CRUD\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
-C:\Users\Black\Desktop\CRUD\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.dll
-C:\Users\Black\Desktop\CRUD\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
-C:\Users\Lenovo\Desktop\New folder (3)\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.AssemblyReference.cache
-C:\Users\Lenovo\Desktop\New folder (3)\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
-C:\Users\Lenovo\Desktop\New folder (3)\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
-C:\Users\Lenovo\Desktop\New folder (3)\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
-C:\Users\Lenovo\Desktop\New folder (3)\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.dll
-C:\Users\Lenovo\Desktop\New folder (3)\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
-C:\Users\Lenovo\Desktop\New folder (3)\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
-C:\Users\Lenovo\Desktop\New folder (3)\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.dll
-C:\Users\Lenovo\Desktop\New folder (3)\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
-C:\Users\elton\source\repos\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
-C:\Users\elton\source\repos\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.dll
-C:\Users\elton\source\repos\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
-C:\Users\elton\source\repos\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.AssemblyReference.cache
-C:\Users\elton\source\repos\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
-C:\Users\elton\source\repos\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
-C:\Users\elton\source\repos\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
-C:\Users\elton\source\repos\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.dll
-C:\Users\elton\source\repos\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
-C:\Users\elton\OneDrive\Desktop\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
-C:\Users\elton\OneDrive\Desktop\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.dll
-C:\Users\elton\OneDrive\Desktop\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
-C:\Users\elton\OneDrive\Desktop\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.AssemblyReference.cache
-C:\Users\elton\OneDrive\Desktop\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
-C:\Users\elton\OneDrive\Desktop\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
-C:\Users\elton\OneDrive\Desktop\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
-C:\Users\elton\OneDrive\Desktop\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.dll
-C:\Users\elton\OneDrive\Desktop\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
-F:\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
-F:\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.dll
-F:\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
-F:\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
-F:\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
-F:\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
-F:\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
-F:\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.dll
-F:\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
-E:\Project_2\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
-E:\Project_2\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.dll
-E:\Project_2\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
-E:\Project_2\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.AssemblyReference.cache
-E:\Project_2\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
-E:\Project_2\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
-E:\Project_2\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
-E:\Project_2\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.dll
-E:\Project_2\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
-F:\Wellnest1\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
-F:\Wellnest1\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.dll
-F:\Wellnest1\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
-F:\Wellnest1\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
-F:\Wellnest1\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
-F:\Wellnest1\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
-F:\Wellnest1\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
-F:\Wellnest1\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.dll
-F:\Wellnest1\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
-C:\Users\Black\Desktop\CRUD\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
-E:\Oi\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
-E:\Oi\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.dll
-E:\Oi\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
-E:\Oi\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
-E:\Oi\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
-E:\Oi\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
-E:\Oi\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
-E:\Oi\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.dll
-E:\Oi\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
-C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
-C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.dll
-C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
-C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
-C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
-C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
-C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
-C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.dll
-C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+C:/Users/Black/Desktop/CRUD/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.deps.json
+C:/Users/Black/Desktop/CRUD/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.dll
+C:/Users/Black/Desktop/CRUD/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.pdb
+C:/Users/Black/Desktop/CRUD/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfoInputs.cache
+C:/Users/Black/Desktop/CRUD/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfo.cs
+C:/Users/Black/Desktop/CRUD/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.CoreCompileInputs.cache
+C:/Users/Black/Desktop/CRUD/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.dll
+C:/Users/Black/Desktop/CRUD/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.pdb
+C:/Users/Lenovo/Desktop/New folder (3)/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.AssemblyReference.cache
+C:/Users/Lenovo/Desktop/New folder (3)/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfoInputs.cache
+C:/Users/Lenovo/Desktop/New folder (3)/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfo.cs
+C:/Users/Lenovo/Desktop/New folder (3)/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.CoreCompileInputs.cache
+C:/Users/Lenovo/Desktop/New folder (3)/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.dll
+C:/Users/Lenovo/Desktop/New folder (3)/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.pdb
+C:/Users/Lenovo/Desktop/New folder (3)/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.deps.json
+C:/Users/Lenovo/Desktop/New folder (3)/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.dll
+C:/Users/Lenovo/Desktop/New folder (3)/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.pdb
+C:/Users/elton/source/repos/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.deps.json
+C:/Users/elton/source/repos/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.dll
+C:/Users/elton/source/repos/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.pdb
+C:/Users/elton/source/repos/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.AssemblyReference.cache
+C:/Users/elton/source/repos/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfoInputs.cache
+C:/Users/elton/source/repos/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfo.cs
+C:/Users/elton/source/repos/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.CoreCompileInputs.cache
+C:/Users/elton/source/repos/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.dll
+C:/Users/elton/source/repos/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.pdb
+C:/Users/elton/OneDrive/Desktop/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.deps.json
+C:/Users/elton/OneDrive/Desktop/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.dll
+C:/Users/elton/OneDrive/Desktop/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.pdb
+C:/Users/elton/OneDrive/Desktop/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.AssemblyReference.cache
+C:/Users/elton/OneDrive/Desktop/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfoInputs.cache
+C:/Users/elton/OneDrive/Desktop/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfo.cs
+C:/Users/elton/OneDrive/Desktop/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.CoreCompileInputs.cache
+C:/Users/elton/OneDrive/Desktop/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.dll
+C:/Users/elton/OneDrive/Desktop/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.pdb
+F:/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.deps.json
+F:/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.dll
+F:/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.pdb
+F:/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.csprojAssemblyReference.cache
+F:/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfoInputs.cache
+F:/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfo.cs
+F:/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.CoreCompileInputs.cache
+F:/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.dll
+F:/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.pdb
+E:/Project_2/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.deps.json
+E:/Project_2/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.dll
+E:/Project_2/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.pdb
+E:/Project_2/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.AssemblyReference.cache
+E:/Project_2/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfoInputs.cache
+E:/Project_2/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfo.cs
+E:/Project_2/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.CoreCompileInputs.cache
+E:/Project_2/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.dll
+E:/Project_2/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.pdb
+F:/Wellnest1/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.deps.json
+F:/Wellnest1/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.dll
+F:/Wellnest1/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.pdb
+F:/Wellnest1/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.csprojAssemblyReference.cache
+F:/Wellnest1/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfoInputs.cache
+F:/Wellnest1/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfo.cs
+F:/Wellnest1/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.CoreCompileInputs.cache
+F:/Wellnest1/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.dll
+F:/Wellnest1/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.pdb
+C:/Users/Black/Desktop/CRUD/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.csprojAssemblyReference.cache
+E:/Oi/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.deps.json
+E:/Oi/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.dll
+E:/Oi/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.pdb
+E:/Oi/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.csprojAssemblyReference.cache
+E:/Oi/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfoInputs.cache
+E:/Oi/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfo.cs
+E:/Oi/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.CoreCompileInputs.cache
+E:/Oi/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.dll
+E:/Oi/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.pdb
+C:/Users/BC-Computers/Desktop/WellNest1/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.deps.json
+C:/Users/BC-Computers/Desktop/WellNest1/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.dll
+C:/Users/BC-Computers/Desktop/WellNest1/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.pdb
+C:/Users/BC-Computers/Desktop/WellNest1/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.csprojAssemblyReference.cache
+C:/Users/BC-Computers/Desktop/WellNest1/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfoInputs.cache
+C:/Users/BC-Computers/Desktop/WellNest1/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfo.cs
+C:/Users/BC-Computers/Desktop/WellNest1/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.CoreCompileInputs.cache
+C:/Users/BC-Computers/Desktop/WellNest1/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.dll
+C:/Users/BC-Computers/Desktop/WellNest1/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.pdb
+/Users/edisonarexha/Desktop/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.deps.json
+/Users/edisonarexha/Desktop/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.dll
+/Users/edisonarexha/Desktop/Wellnest/Domain/bin/Debug/netcoreapp3.1/Domain.pdb
+/Users/edisonarexha/Desktop/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.csprojAssemblyReference.cache
+/Users/edisonarexha/Desktop/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfoInputs.cache
+/Users/edisonarexha/Desktop/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfo.cs
+/Users/edisonarexha/Desktop/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.CoreCompileInputs.cache
+/Users/edisonarexha/Desktop/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.dll
+/Users/edisonarexha/Desktop/Wellnest/Domain/obj/Debug/netcoreapp3.1/Domain.pdb

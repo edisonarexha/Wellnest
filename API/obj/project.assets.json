@@ -1835,19 +1835,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\BC-Computers\\.nuget\\packages\\": {}
+    "/Users/edisonarexha/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BC-Computers\\Desktop\\WellNest1\\Wellnest\\API\\Wellnest-API.csproj",
+      "projectUniqueName": "/Users/edisonarexha/Desktop/Wellnest/API/Wellnest-API.csproj",
       "projectName": "Wellnest-API",
-      "projectPath": "C:\\Users\\BC-Computers\\Desktop\\WellNest1\\Wellnest\\API\\Wellnest-API.csproj",
-      "packagesPath": "C:\\Users\\BC-Computers\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BC-Computers\\Desktop\\WellNest1\\Wellnest\\API\\obj\\",
+      "projectPath": "/Users/edisonarexha/Desktop/Wellnest/API/Wellnest-API.csproj",
+      "packagesPath": "/Users/edisonarexha/.nuget/packages/",
+      "outputPath": "/Users/edisonarexha/Desktop/Wellnest/API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\BC-Computers\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/edisonarexha/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -1857,10 +1857,9 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\BC-Computers\\Desktop\\WellNest1\\Wellnest\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\BC-Computers\\Desktop\\WellNest1\\Wellnest\\Application\\Application.csproj"
+            "/Users/edisonarexha/Desktop/Wellnest/Application/Application.csproj": {
+              "projectPath": "/Users/edisonarexha/Desktop/Wellnest/Application/Application.csproj"
             }
           }
         }
@@ -1873,7 +1872,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
             "target": "Package",
@@ -1906,7 +1904,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.205\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.411/RuntimeIdentifierGraph.json"
       }
     }
   }

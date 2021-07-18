@@ -20,10 +20,10 @@ namespace Persistance
         public DbSet <AddLab> AddLab{get;set;}
         public DbSet <AnalysisApp> AnalysisApp{get;set;}
         public DbSet <RecoveredPatiensCovid19> RecoveredPatiensCovid19{get;set;}
-        
-
         public DbSet <Diagnose> Diagnose{get;set;}
         public DbSet <Vaccine> Vaccine{get;set;}
+         public DbSet <CovidStatus> CovidStatus{get;set;}
+
 
     }
 }
