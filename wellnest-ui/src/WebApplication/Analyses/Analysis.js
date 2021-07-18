@@ -4,7 +4,7 @@ import './analysis.css';
 import { Button, Icon, Modal, Form } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import { AnalysisList } from './AnalysisList';
 const Analysis = () => {
     const [firstOpen, setFirstOpen] = React.useState(false)
     const [addOpen, setAddOpen] = React.useState(false)
@@ -121,17 +121,7 @@ const Analysis = () => {
                 </Form.Field>
 
                 <Form.Field>
-                    <div id="label-modal-div1">
-                        <p>Name</p>
-                        <p>Results</p>
-                        <p>Date</p>
-                    </div>
-                    <div id="label-modal-div5">
-                        <p>Covid-19 Analysis</p>
-                        <p id="p-textarea1">Silver2</p>
-                        <p>05.06.2021</p>
-                    </div>
-
+                   <AnalysisList/>
                 </Form.Field>
                 <div id="buttons-modal-analysis">
                     <Button basic color='blue' content='Add' onClick={() => setAddOpen(true)} />

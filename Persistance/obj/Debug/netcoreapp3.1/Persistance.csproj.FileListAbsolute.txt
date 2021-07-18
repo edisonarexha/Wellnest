@@ -94,3 +94,15 @@ E:\Oi\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.csproj.CoreCompil
 E:\Oi\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.csproj.CopyComplete
 E:\Oi\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.dll
 E:\Oi\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.pdb
+C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Persistance\bin\Debug\netcoreapp3.1\Persistance.deps.json
+C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Persistance\bin\Debug\netcoreapp3.1\Persistance.dll
+C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Persistance\bin\Debug\netcoreapp3.1\Persistance.pdb
+C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Persistance\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Persistance\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.csprojAssemblyReference.cache
+C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.AssemblyInfoInputs.cache
+C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.AssemblyInfo.cs
+C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.csproj.CoreCompileInputs.cache
+C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.csproj.CopyComplete
+C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.dll
+C:\Users\BC-Computers\Desktop\WellNest1\Wellnest\Persistance\obj\Debug\netcoreapp3.1\Persistance.pdb
