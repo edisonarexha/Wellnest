@@ -67,7 +67,7 @@ const RecPatientTable = () => {
         <Modal
           onClose={() => setEditOpen(false)}
           open={editOpen}
-          className="modals-diagnose12"
+          className="modals-diagnose1"
           size="large"
           
         >
