@@ -19,7 +19,7 @@ import Profile from './WebApplication/Profile/Profile';
 import Vaccination from './WebApplication/Vaccination/Vaccination'; 
 import analysisAppointment from './WebApplication/AnalysisAppointment/analysisAppointment'
 import RecPatientTable from './WebApplication/Views/RecoveredPatientUI/RecPatientTable'
-
+import BookAppointment from './WebApplication/BookAppointment/BookAppointment';
 
 export default function Navigation() {
   return (
@@ -44,7 +44,7 @@ export default function Navigation() {
         <Route path='/diagnose' component={Diagnose}/>
         <Route path='/vaccination' component={Vaccination}/>
         <Route path ='/recpatienttable' component ={RecPatientTable}/>
-        
+        <Route path='/bookappointment' component={BookAppointment}/>
 
 
       </Switch>

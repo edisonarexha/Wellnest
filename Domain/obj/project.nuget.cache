@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "qztOE5un+HH482qO5dPQzQ6NcIkkT946JHbl22iJUZOi+4ar6KjD9tbQH6dSh41c49o/gNpFHarjy9CbuX0ZBg==",
   "success": true,
   "projectFilePath": "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/Domain/Domain.csproj",
+=======
+  "dgSpecHash": "6nsTU+IEQerpuhfZSSsI3BQslIbzDVy6UbiBqCM8Q6bkIMtSbumg4aS9wRLJsK2WnM+Kxiryz18I8Mja2Lkfqw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Domain\\Domain.csproj",
+>>>>>>> 39ac0e2203d647ce9c99feb58e7a5dcc0b1248eb
   "expectedPackageFiles": [],
   "logs": []
 }

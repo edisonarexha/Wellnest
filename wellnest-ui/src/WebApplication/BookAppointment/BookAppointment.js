@@ -1,61 +1,49 @@
-import React, { Component, useState, useEffect } from "react";
-import './RecoveredPatinent.css'
-import { Grid, Image, Select, genderOptions, TextArea } from 'semantic-ui-react';
-import { Form, Input, Button, } from 'semantic-ui-react';
-
-
-
-
+import React,{useState,useEffect} from "react";
+import './BookAppointments.css';
+import { Grid,Form,Input } from "semantic-ui-react";
 const size = ['large']
-const RecoveredPatinent = () => {
-  const [RecoveredPatinent, setRecoveredPatinent] = useState([]);
-
-
-  useEffect(() => {
-    fetch("http://localhost:5000/api/RecoveredPatiensCovid19")
-      .then((response) => response.json())
-      .then((data) => {
-
-        setRecoveredPatinent(data);
-        console.log(data);
-      });
-  }, []);
-
-
-  const handleInputChange = (event) => {
-    console.log(event.target.value);
-    setRecoveredPatinent({ ...RecoveredPatinent, [event.target.name]: event.target.value })
-   }
-  //   const handleCreateActivity =(RecoveredPatinent)=>{
-  //     setRecoveredPatinent([...RecoveredPatinent,RecoveredPatinent])
-  //   }
- const addNewRecovered = () => {
-    fetch('http://localhost:5000/api/RecoveredPatiensCovid19', {
-      method: 'POST',
-      headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json;charset=utf-8'
-      },
-      body: JSON.stringify(RecoveredPatinent)
-    }).then(() => {
-      //this.props.refreshList()
-    }
-    )
-  }
-
-
-
-
-  return (
-
+const BookAppointment =()=>{
+    const [RecoveredPatinent, setRecoveredPatinent] = useState([]);
+    const [BookAppointment, setBookAppointment] = useState([]);
+    useEffect(() => {
+        fetch("http://localhost:5000/api/RecoveredPatiensCovid19")
+          .then((response) => response.json())
+          .then((data) => {
+    
+            setRecoveredPatinent(data);
+            console.log(data);
+          });
+      }, []);
+    
+      const handleInputChange = (event) => {
+        console.log(event.target.value);
+        setRecoveredPatinent({ ...RecoveredPatinent, [event.target.name]: event.target.value })
+       }
+      //   const handleCreateActivity =(RecoveredPatinent)=>{
+      //     setRecoveredPatinent([...RecoveredPatinent,RecoveredPatinent])
+      //   }
+     const addNewRecovered = () => {
+        fetch('http://localhost:5000/api/RecoveredPatiensCovid19', {
+          method: 'POST',
+          headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json;charset=utf-8'
+          },
+          body: JSON.stringify(RecoveredPatinent)
+        }).then(() => {
+          //this.props.refreshList()
+        }
+        )
+      }
+    
+return(
     <div>
-
-      <Grid columns={1} >
+          <Grid columns={1} >
         <Grid.Column className="FirstColumn">
           {size.map((size) => (
             <Form onSubmit={addNewRecovered} className="FormStyle" size={size}
               key={size}>
-              <h1 className="rec">Recovered Patients Form</h1>
+              <h1 className="rec">Book an Appointment</h1>
               <Form.Group widths='equal'>
 
                 <Form.Field
@@ -71,21 +59,15 @@ const RecoveredPatinent = () => {
                   control={Input}
                   label='Last name'
                   placeholder='Last name'
-                  name='LastName'
+                  name='SecondName'
                   onChange={handleInputChange}
                 />
 
               </Form.Group>
               <Form.Group widths='equal'>
-                <Form.Field
-                  id='form-input-control-first-name'
-                  control={Input}
-                  label='City'
-                  placeholder='City'
-                  name='City'
-                  onChange={handleInputChange}
-                />
              
+               
+              
                 <Form.Field
                   id='form-input-control-first-name'
                   control={Input}
@@ -169,9 +151,22 @@ const RecoveredPatinent = () => {
 
       </Grid>
 
+
+
+
+
+
+
+
+
+
     </div>
-  )
+)
+
+
+
+
+
+
 }
-
-
-export default RecoveredPatinent;
+export default BookAppointment;

@@ -98,6 +98,15 @@
 }
 #delete-modal-d{
     position: relative;
-    top: 30px;
-    height: 200px;
+    width: 600px;
+    height: 250px;
+}
+#id-input-edit-diagnose{
+    width: 250px;
+    border: none;
+    border-bottom: 1px black solid;
+}
+#delete-diagnose-elements{
+    position: relative;
+    left:170px;
 }

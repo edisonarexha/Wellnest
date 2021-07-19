@@ -24,7 +24,7 @@ export const ListDiagnoses = () => {
 
           {diagnoses.map((diagnose) => (
              
-            <div id="label-modal-div2">
+            <div id="label-modal-div2" key={diagnose.DiagnoseId}>
                 <p>{diagnose.DiagnoseId}</p>
               <p id="p-textarea1">{diagnose.Date.substring(0, 10)}</p>
               <p>{diagnose.Pills}</p>

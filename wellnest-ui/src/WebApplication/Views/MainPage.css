@@ -1,6 +1,8 @@
 .MainPage{
     /* border: 1px solid lightblue; */
     height: 1050px;
+ 
+    
 }
 .Dashboard-left-side{
     /* border: 1px solid lightblue; */
@@ -60,9 +62,12 @@
       height: 1000px;
       display: flex;
       align-items:flex-start;
-    
+      background-image: url('./lightblue.jpg');
+      background-repeat: repeat-x;
+      background-size: 400px 300px;
       float: right;
-  }
+    margin-top: 0;
+    }
 
   .CardStyle{
       margin-left: 5%;
@@ -88,5 +93,30 @@
         }
 
         .ui.bottom.attached.segment.active.tab {
+            height: 1000px;
+        }
+
+        .logopng{
+            width: 302px;
+             height: 139px;
+            margin-bottom: 20%;
+            margin-top: 10%;
+        }
+
+        .Tabs{
+            border:1px solid black;
+            height: 1000px;
+            width: 87%;
+            background-image: url('./lightblue.jpg');
+            background-repeat: repeat-x;
+            background-size: 300px 250px;
+            position: absolute;
+            display: flex;
+            left: 19%;
+            top: 0%;
+            color: black;
+        }
+
+        .colheight{
             height: 1000px;
         }

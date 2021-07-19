@@ -117,7 +117,6 @@ const Diagnose = () => {
                   <Tab.Pane eventKey="second">
                     <div />
                   </Tab.Pane>
-
                   <Tab.Pane eventKey="third">
                     <div />
                   </Tab.Pane>
@@ -180,7 +179,7 @@ const Diagnose = () => {
           onClose={() => setAddOpen(false)}
           open={addOpen}
           className="modals-diagnose"
-          onSubmit={addNewDiagnose}
+          
         >
           <Modal.Header className="diagnose-title">Add Diagnoses</Modal.Header>
           <Modal.Content id="add-diagnose">
@@ -211,7 +210,7 @@ const Diagnose = () => {
               content="Add"
               color="blue"
               onClick={() => addNewDiagnose()}
-              onSubmit={() => setAddOpen(false)}
+          
             />
           </Modal.Actions>
         </Modal>
@@ -226,7 +225,7 @@ const Diagnose = () => {
             <input
               type="text"
               name="DiagnoseId"
-              className="date_diagnose"
+              id="id-input-edit-diagnose"
               onChange={handleInputChange}
             />
             <label>Diagnose Date</label>
@@ -263,29 +262,30 @@ const Diagnose = () => {
           onClose={() => setDeleteOpen(false)}
           open={deleteOpen}
           id="delete-modal-d"
-          size="small"
         >
           <Modal.Header className="diagnose-title">
             Delete diagnose
           </Modal.Header>
           <Modal.Content>
-            <p>Delete the diagnose from user with ID:</p>
-            <input
-              type="text"
-              name="DiagnoseId"
-              className="input-add-diagnose"
-              onChange={handleInputChange}
-            />
+            <div id="delete-diagnose-elements">
+              <p>Delete the diagnose with ID:</p>
+              <input
+                type="text"
+                name="DiagnoseId"
+                className="input-add-diagnose"
+                onChange={handleInputChange}
+              />
+            </div>
           </Modal.Content>
-          <Modal.Actions className="add-vaccine-buttons">
+          <Modal.Actions className="add-diagnose-buttons">
             <Button
-              icon="trash alternate outline"
+              icon="delete"
               content="Cancel"
               color="green"
               onClick={() => setDeleteOpen(false)}
             />
             <Button
-              icon="delete"
+              icon="trash alternate outline"
               content="Delete"
               color="red"
               onClick={() => removeDiagnose(diagnoses.DiagnoseId)}

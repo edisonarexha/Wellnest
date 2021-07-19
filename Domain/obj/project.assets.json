@@ -8,11 +8,16 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
+<<<<<<< HEAD
     "/Users/edisonarexha/.nuget/packages/": {}
+=======
+    "C:\\Users\\Black\\.nuget\\packages\\": {}
+>>>>>>> 39ac0e2203d647ce9c99feb58e7a5dcc0b1248eb
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/Domain/Domain.csproj",
       "projectName": "Domain",
       "projectPath": "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/Domain/Domain.csproj",
@@ -21,6 +26,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/edisonarexha/.nuget/NuGet/NuGet.Config"
+=======
+      "projectUniqueName": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Domain\\Domain.csproj",
+      "projectName": "Domain",
+      "projectPath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\Black\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Domain\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Black\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 39ac0e2203d647ce9c99feb58e7a5dcc0b1248eb
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -56,7 +71,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.411/RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+>>>>>>> 39ac0e2203d647ce9c99feb58e7a5dcc0b1248eb
       }
     }
   }

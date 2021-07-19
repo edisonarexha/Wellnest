@@ -10,8 +10,7 @@
     display: flex;
     position: relative;
     top: 200px;
-    left: 500px;
-   
+    left: 500px;  
 }
 
 #main-div-form-vaccine{
@@ -49,9 +48,20 @@
 #buttons-modal-vaccine{
     position: relative;
     display: flex;
+    flex-direction: column;
     text-align: center;
-    top: 320px;
+    left: 750px;
+    top: -10px;
     justify-content: center;
+
+}
+#add-button-vac{
+    position: relative;
+    bottom: 40px;
+}
+#edit-button-vac{
+    position: relative;
+    bottom: 20px;
 
 }
 .modals-vaccine{
@@ -93,6 +103,10 @@
 }
 #delete-modal-v{
     position: relative;
-    top: 30px;
-    height: 200px;
+    width: 600px;
+    height: 250px;
+}
+#delete-vaccine-elements{
+    position: relative;
+    left:170px;
 }
