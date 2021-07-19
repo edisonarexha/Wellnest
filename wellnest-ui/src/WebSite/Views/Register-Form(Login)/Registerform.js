@@ -34,7 +34,7 @@ class Registerform extends Component {
       },
       body: JSON.stringify(this.state),
     }).then(() => {
-      //kena me shku nhome
+      //regjistrohet ndb
     });
   };
 

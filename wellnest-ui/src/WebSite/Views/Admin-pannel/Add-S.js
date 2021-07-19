@@ -4,6 +4,7 @@ import AddSickness from './AddSickness';
 import { Link } from 'react-router-dom';
 
 class Add_S extends Component {
+    
     render() {
         return (
             <div>

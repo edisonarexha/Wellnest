@@ -16,19 +16,19 @@ namespace Persistance
                         Id=1,
                         Name="Corona",
                         Information="Covid 19",
-                        DangerStatus="High"
+                        
                     },
                     new Disease{
                         Id=2,
                         Name="Water allergy",
                         Information="Alergic to water",
-                        DangerStatus="Low"
+                        
                     },
                     new Disease{
                         Id=3,
                         Name="Laughing Death",
                         Information="Deff not dying of laughing",
-                        DangerStatus="Medium"
+                        
                     }
                 };
                 context.Diseases.AddRange(diseases);

@@ -4,8 +4,7 @@
     justify-content: space-around;
     padding-left: 15px;
     padding-right: 15px;
-    border-bottom: 1px solid;
-
+    border-bottom: 1px solid black;
 }
 #main-button-status{
     display: flex;
@@ -15,11 +14,12 @@
 
 }
 
+
 #main-div-form-status{
     height: 600px;
-    position: relative;
+    position: absolute;
     left: 450px;
-    top: -550px;
+    top: 100px;
     width: 650px;
 
 }
@@ -29,19 +29,22 @@
     justify-content:space-around;
     padding-left: 15px;
     padding-right: 15px;
+    border-bottom: 1px solid black;
     padding-left: 50px;
     padding-top: 10px;
-    border-bottom: 0px;
-
 
 }
+
 .status-title{
     text-align: center  ;
 }
 #buttons-modal-status{
     position: relative;
     display: flex;
+    flex-direction: column;
     text-align: center;
+    left: 750px;
+    top: -10px;
     justify-content: center;
 
 }
@@ -68,6 +71,17 @@
     left: 150px;
     justify-content: space-evenly;
 }
+#add-button-dis{
+    position: relative;
+    bottom: 40px;
+}
+#edit-button-dis{ 
+    position: relative;
+    bottom: 20px;
+
+}
+
+
 #edit-status{
     display: flex;
     position: relative;

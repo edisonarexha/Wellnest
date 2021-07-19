@@ -14,7 +14,6 @@ namespace Application.Diseases
             public int Id { get; set; }
             public string Name { get; set; }
             public string Information { get; set; }
-            public string DangerStatus { get; set; }
         }
 
         public class Handler : IRequestHandler<Command>
@@ -31,7 +30,7 @@ namespace Application.Diseases
                     Id = request.Id,
                     Name = request.Name,
                     Information = request.Information,
-                    DangerStatus = request.DangerStatus
+                    
                 };
                 this.context.Diseases.Add(disease);
                 var success = await this.context.SaveChangesAsync() > 0;

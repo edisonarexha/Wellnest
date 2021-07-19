@@ -162,7 +162,7 @@ const Diagnose = () => {
             id="add-button-dia"
             onClick={() => setAddOpen(true)}
           />
-          <Button
+          <Button 
             basic
             color="green"
             content="Edit"

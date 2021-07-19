@@ -68,7 +68,8 @@ font-size: large;
     flex: 1;
     padding: 20px 4rem;
     font-size: large;
-justify-content: space-between;
+    justify-content: space-between;
+
   }
   
   .header-list span, .body-list span {
@@ -94,5 +95,5 @@ justify-content: space-between;
   .fa, .fas {
     font-weight: 900;
     color: #000000d1;
-    margin: 10px;
+    /* margin: 10px; */
 }

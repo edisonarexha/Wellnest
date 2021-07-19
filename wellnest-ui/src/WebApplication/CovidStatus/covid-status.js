@@ -2,13 +2,50 @@ import React from 'react';
 import { Nav, Col, Tab, Row } from 'react-bootstrap';
 import './covid-status.css';
 import { Button, Icon, Modal, Form } from 'semantic-ui-react';
+import { TestedList } from "./TestedList";
 
 const CovidStatus = () => {
-    const [firstOpen, setFirstOpen] = React.useState(false)
-    const [addOpen, setAddOpen] = React.useState(false)
-    const [editOpen, setEditOpen] = React.useState(false)
-    const [deleteOpen, setDeleteOpen] = React.useState(false)
+    const [addOpen, setAddOpen] = React.useState(false);
+    const [editOpen, setEditOpen] = React.useState(false);
+    const [deleteOpen, setDeleteOpen] = React.useState(false);
+    
+    const [status, setStatus] = React.useState([]);
 
+    const addNewStatus = () => {
+      fetch("http://localhost:5000/api/CovidStatus", {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json;charset=utf-8",
+        },
+        body: JSON.stringify(status),
+      }).then(() => setAddOpen(false));
+    };
+  
+    const editStatus = (Id) => {
+      fetch("http://localhost:5000/api/CovidStatus/" + Id, {
+        method: "PUT",
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json;charset=utf-8",
+        },
+        body: JSON.stringify(status),
+      }).then(() => setEditOpen(false));
+    };
+    const removeStatus = (Id) => {
+      fetch("http://localhost:5000/api/CovidStatus/" + Id, {
+        method: "DELETE",
+        header: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        },
+      }).then(() => setDeleteOpen(false));
+    };
+    const handleInputChange = (event) => {
+      event.preventDefault();
+      setStatus({ ...status, [event.target.name]: event.target.value });
+      console.log(event.target.value);
+    };
     return (
         <div style={{height:"500px"}}>
             <div className="MainPageHeader">
@@ -117,21 +154,11 @@ const CovidStatus = () => {
                 <Form.Field>
                     <p className="status-title">Covid19 Status</p>
                 </Form.Field>
-
                 <Form.Field>
-                    <div id="label-modal-div1">
-                        <p>Status</p>
-                        <p>Information</p>
-                    </div>
-                    <div id="label-modal-div2">
-                        <p>Positive</p>
-                        <p id="p-textarea1">Date:29/06/2021
-                        <p></p>
-                        Time:12:40
-                         </p>
-                    </div>
+          <TestedList />
+        </Form.Field>
 
-                </Form.Field>
+                
                 <div id="buttons-modal-status">
                     <Button basic color='blue' content='Add' onClick={() => setAddOpen(true)} />
                     <Button basic color='green' content='Edit' onClick={() => setEditOpen(true)} />
@@ -143,11 +170,21 @@ const CovidStatus = () => {
                     className="modals-status"
                 >
                     <Modal.Header className="status-title">Add status</Modal.Header>
-                    <Modal.Content id="add-allergies">
-                        <label htmlFor="">Status</label>
-                        <input type="text" id="input-add-status" />
-                        <label htmlFor="">Information</label>
-                        <textarea name="" cols="30" rows="10"></textarea>
+                    <Modal.Content id="add-status">
+                        <label>Status</label>
+                    <input
+                        type="text"
+                        name="Status"
+                        className="covid_status"
+                        onChange={handleInputChange}
+                        />
+                        <label htmlFor="">Date</label>
+                        <input
+                        type="date"
+                        name="Date"
+                        className="input-add-status"
+                        onChange={handleInputChange}
+                        />
                     </Modal.Content>
                     <Modal.Actions className="add-status-buttons">
                         <Button
@@ -160,7 +197,7 @@ const CovidStatus = () => {
                             icon='save'
                             content='Add'
                             color='blue'
-                            onClick={() => setAddOpen(false)}
+                            onClick={() => addNewStatus()}
                         />
                     </Modal.Actions>
                 </Modal>
@@ -171,10 +208,28 @@ const CovidStatus = () => {
                 >
                     <Modal.Header className="status-title">Edit Status</Modal.Header>
                     <Modal.Content id="edit-status">
-                        <label htmlFor="">Status</label>
-                        <input type="text" id="input-add-status" />
-                        <label htmlFor="">Information</label>
-                        <textarea name="" cols="30" rows="10"></textarea>
+                    <label>ID</label>
+                    <input
+                    type="text"
+                    name="Id"
+                    className="date_status"
+                    onChange={handleInputChange}
+                    />
+                    <label htmlFor="">Status</label>
+                    <input
+                    type="text"
+                    name="Status"
+                    className="input-add-status"
+                    onChange={handleInputChange}
+                    />
+                    <label>Test Date</label>
+                    <input
+                    type="date"
+                    name="Date"
+                    className="date_status"
+                    onChange={handleInputChange}
+                    />
+                    
                     </Modal.Content>
                     <Modal.Actions className="add-status-buttons">
                         <Button
@@ -187,7 +242,7 @@ const CovidStatus = () => {
                             icon='edit'
                             content='Edit'
                             color='green'
-                            onClick={() => setEditOpen(false)}
+                            onClick={() => editStatus(status.Id)}
                         />
                     </Modal.Actions>
                 </Modal>
@@ -200,6 +255,11 @@ const CovidStatus = () => {
                     <Modal.Header className="status-title">Delete Status</Modal.Header>
                     <Modal.Content>
                         <p>Delete this status from user?</p>
+                        <input
+              type="text"
+              className="input-add-status"
+              onChange={handleInputChange}
+            />
                     </Modal.Content>
                     <Modal.Actions className="add-status-buttons">
                         <Button
@@ -212,7 +272,7 @@ const CovidStatus = () => {
                             icon='delete'
                             content='Delete'
                             color='red'
-                            onClick={() => setDeleteOpen(false)}
+                            onClick={() => removeStatus(status.Id)}
                         />
                     </Modal.Actions>
                 </Modal>

@@ -83,7 +83,7 @@ class Admin extends Component {
              <span>Userkey</span>
               
               <span className="btn-content">Edit</span>
-              <span className="btn-content">Remove</span>git
+              <span className="btn-content">Remove</span>
             </div>
             {this.state.User.map((elem, index) => {
               return (

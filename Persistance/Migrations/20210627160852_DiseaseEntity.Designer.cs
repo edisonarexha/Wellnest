@@ -23,9 +23,7 @@ namespace Persistance.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("DangerStatus")
-                        .HasColumnType("TEXT");
-
+                    
                     b.Property<string>("Information")
                         .HasColumnType("TEXT");
 

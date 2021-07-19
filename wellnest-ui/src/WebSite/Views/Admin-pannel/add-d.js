@@ -4,6 +4,7 @@ import AddDoctors from "./add-doctors";
 import { Link } from 'react-router-dom';
 
 class Add_D extends Component {
+    
     render() {
         return (
             <div>

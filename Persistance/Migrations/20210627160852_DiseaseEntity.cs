@@ -14,7 +14,7 @@ namespace Persistance.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     Name = table.Column<string>(nullable: true),
                     Information = table.Column<string>(nullable: true),
-                    DangerStatus = table.Column<string>(nullable: true)
+                    
                 },
                 constraints: table =>
                 {
