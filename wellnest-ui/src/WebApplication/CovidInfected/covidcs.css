@@ -1,0 +1,40 @@
+.add-appointment-buttons{
+    margin-top: 20%;
+    align-items: center;
+}
+.FormStyle111{
+    border-color: white;
+    padding: 10% 10%;
+    border: 1px solid white;
+    margin-top: 20%;
+}
+
+.table11{
+    width: 60%;
+    padding-top:5%;
+    float:right;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+.add-diagnose-buttons122{
+    margin-top: 33px;
+}
+.modals-diagnose1{
+    height: 700px;
+    left: 315px;
+    top: 120px; 
+}
+
+#MainDiv-Book{
+    /* border: 1px solid black; */
+    width: 96%;
+    height:600px;
+    position: absolute;
+    top: 8%;
+    left: 13%;
+}
+#booklist{
+    float: left;
+    margin-right: 20%;
+}

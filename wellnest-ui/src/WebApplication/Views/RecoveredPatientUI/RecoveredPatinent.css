@@ -19,7 +19,7 @@
 }
 .Form1{
     margin-top:0px;
-    /* border:1px solid white !important; */
+   border:1px solid white ;
     width: 50%;
     height: 200px;
     float: right;
@@ -39,9 +39,12 @@
 
 }
 .FormStyle{
-    /* border: 1px solid white; */
+    border: 1px solid white;
     margin: 5% 20%;
     padding: 10% 10%;
+    position: absolute;
+    top: -115%;
+    left: 7%;
 }
 .rec{
     padding-top:0% ;
