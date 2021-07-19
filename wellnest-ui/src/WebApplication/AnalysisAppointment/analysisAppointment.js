@@ -1,13 +1,9 @@
 import React, {Component} from "react";
 import '../AnalysisAppointment/analysisApp.css';
-import {Grid,Image,Select,genderOptions,TextArea} from 'semantic-ui-react';
+import {Grid} from 'semantic-ui-react';
 import {Form,Input,Button,} from 'semantic-ui-react';
 import {
-    DateInput,
-    TimeInput,
-    DateTimeInput,
-    DatesRangeInput
-  } from 'semantic-ui-calendar-react';
+    DateTimeInput  } from 'semantic-ui-calendar-react';
 
 const size=[ 'large']
 class analysisAppointment extends Component{

@@ -54,11 +54,6 @@ const Diagnose = () => {
             <Nav.Link href="/profile">User Profile</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="/../../WebSite/Views/covid19/App-1">
-              Covid 19
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
             <Nav.Link eventKey="link-2">Consult Doctor</Nav.Link>
           </Nav.Item>
         </Nav>
@@ -68,44 +63,52 @@ const Diagnose = () => {
           <div className="Title"></div>
           <Tab.Container id="left-tabs-example" defaultActiveKey="eighth">
             <Row>
-              <Col sm={8}>
+            <Col sm={8}>
                 <Nav variant="pills" className="flex-column">
-                  <Nav.Item>
-                    <Nav.Link eventKey="Zero">Over View</Nav.Link>
-                  </Nav.Item>
                   <Nav.Item>
                     <Nav.Link href="/allergy" eventKey="first">
                       Allergies
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="second">
-                      Illnesses And Conditions
+                    <Nav.Link href="/disease" eventKey="second">
+                      Diseases
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="third">Vaccination</Nav.Link>
+                    <Nav.Link href="/vaccination" eventKey="third">
+                      Vaccination
+                    </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="fourth">Analysis</Nav.Link>
+                    <Nav.Link href="/analysis" eventKey="fourth">
+                      Analysis
+                    </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="fifth">Check Status</Nav.Link>
+                    <Nav.Link href="/covidstatus" eventKey="fifth">
+                      Covid Status
+                    </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <div>
-                      <p></p>
-                    </div>
-                    <Nav.Link eventKey="sixth">Indentification Card</Nav.Link>
+                    <Nav.Link href="/bookappointment" eventKey="sixth">
+                      Book Appointment
+                    </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="seventh">Laboratory Visited</Nav.Link>
+                    <Nav.Link href="/recpatienttable" eventKey="seventh">
+                      Recovered Patiens
+                    </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="eighth">Diagnoses</Nav.Link>
+                    <Nav.Link href="/diagnose" eventKey="eighth">
+                      Diagnoses
+                    </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="ninth">Covid-19</Nav.Link>
+                    <Nav.Link href="/covid" eventKey="ninth">
+                      Covid-19
+                    </Nav.Link>
                   </Nav.Item>
                 </Nav>
               </Col>
@@ -161,7 +164,7 @@ const Diagnose = () => {
             id="add-button-dia"
             onClick={() => setAddOpen(true)}
           />
-          <Button 
+          <Button
             basic
             color="green"
             content="Edit"

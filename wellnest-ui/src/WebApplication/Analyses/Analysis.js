@@ -1,11 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Nav, Col, Tab, Row } from "react-bootstrap";
 import "./analysis.css";
-import { Button, Icon, Modal, Form } from "semantic-ui-react";
+import { Button, Modal, Form } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { AnalysisList } from "./AnalysisList";
-
 
 const Analysis = () => {
   const [addOpen, setAddOpen] = useState(false);
@@ -55,12 +54,7 @@ const Analysis = () => {
       <div className="MainPageHeader">
         <Nav variant="tabs" className="NavBAR">
           <Nav.Item>
-            <Nav.Link href="/UserProfile">User Profile</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="/../../WebSite/Views/covid19/App-1">
-              Covid 19
-            </Nav.Link>
+            <Nav.Link href="/profile">User Profile</Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link eventKey="link-2">Consult Doctor</Nav.Link>
@@ -75,44 +69,53 @@ const Analysis = () => {
               <Col sm={8}>
                 <Nav variant="pills" className="flex-column">
                   <Nav.Item>
-                    <Nav.Link eventKey="Zero">Over View</Nav.Link>
+                    <Nav.Link href="/allergy" eventKey="first">
+                      Allergies
+                    </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link href="/allergy" eventKey="first">
+                    <Nav.Link href="/disease" eventKey="second">
+                      Diseases
+                    </Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                    <Nav.Link href="/vaccination" eventKey="third">
+                      Vaccination
+                    </Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                    <Nav.Link href="/analysis" eventKey="fourth">
                       Analysis
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="second">
-                      Illnesses And Conditions
+                    <Nav.Link href="/covidstatus" eventKey="fifth">
+                      Covid Status
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="third">Vaccination</Nav.Link>
+                    <Nav.Link href="/bookappointment" eventKey="sixth">
+                      Book Appointment
+                    </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="fourth">Analysis</Nav.Link>
+                    <Nav.Link href="/recpatienttable" eventKey="seventh">
+                      Recovered Patiens
+                    </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="fifth">Check Status</Nav.Link>
+                    <Nav.Link href="/diagnose" eventKey="eighth">
+                      Diagnoses
+                    </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <div>
-                      <p></p>
-                    </div>
-                    <Nav.Link eventKey="sixth">Indentification Card</Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link eventKey="seventh">Laboratory Visited</Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link eventKey="eighth">Diagnoses</Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link eventKey="ninth">Covid-19</Nav.Link>
+                    <Nav.Link href="/covid" eventKey="ninth">
+                      Covid-19
+                    </Nav.Link>
                   </Nav.Item>
                 </Nav>
               </Col>
+
               <Col sm={15}>
                 <Tab.Content>
                   <Tab.Pane eventKey="first">
@@ -191,20 +194,28 @@ const Analysis = () => {
         >
           <Modal.Header className="analysis-title">Add Analysis</Modal.Header>
           <Modal.Content id="add-analysis">
-            
             <label htmlFor="">Name</label>
-            <input type="text"
+            <input
+              type="text"
               name="Name"
               className="input-add-analysis"
-              onChange={handleInputChange} />
-            <label >Results</label>
-            
-            <textarea name="Results" cols="30" rows="10" onChange={handleInputChange}></textarea>
-            <label >Date</label>
-            <input type="date"
+              onChange={handleInputChange}
+            />
+            <label>Results</label>
+
+            <textarea
+              name="Results"
+              cols="30"
+              rows="10"
+              onChange={handleInputChange}
+            ></textarea>
+            <label>Date</label>
+            <input
+              type="date"
               name="Date"
               className="date_analysis"
-              onChange={handleInputChange} />
+              onChange={handleInputChange}
+            />
           </Modal.Content>
           <Modal.Actions className="add-analysis-buttons">
             <Button
@@ -229,29 +240,35 @@ const Analysis = () => {
           <Modal.Header className="analysis-title">Edit Analysis</Modal.Header>
           <Modal.Content id="edit-analysis">
             <label htmlFor="">Id</label>
-            <input type="text"
+            <input
+              type="text"
               name="Id"
               className="input-add-analysis"
-              onChange={handleInputChange} 
-              />
+              onChange={handleInputChange}
+            />
 
-              <label htmlFor="">Name</label>
-            <input type="text"
+            <label htmlFor="">Name</label>
+            <input
+              type="text"
               name="Name"
               className="input-add-analysis"
-              onChange={handleInputChange} />
+              onChange={handleInputChange}
+            />
 
             <label htmlFor="">Results</label>
-            <textarea name="Results" 
-            cols="30" rows="10"
-             onChange={handleInputChange}>
-
-             </textarea>
+            <textarea
+              name="Results"
+              cols="30"
+              rows="10"
+              onChange={handleInputChange}
+            ></textarea>
             <label htmlFor="">Date</label>
-            <input type="date"
+            <input
+              type="date"
               name="Date"
               className="date_analysis"
-              onChange={handleInputChange}/>
+              onChange={handleInputChange}
+            />
           </Modal.Content>
           <Modal.Actions className="add-analysis-buttons">
             <Button
@@ -278,7 +295,7 @@ const Analysis = () => {
             Delete Analysis
           </Modal.Header>
           <Modal.Content>
-          <p>Delete the analysis with ID:</p>
+            <p>Delete the analysis with ID:</p>
             <input
               type="text"
               name="Id"

@@ -1,19 +1,11 @@
 import React, { Component } from 'react';
 import "./MainPage.css";
 import { Nav } from 'react-bootstrap';
-import { Col,Tab,Row,Sonnet } from 'react-bootstrap';
+import { Col,Tab,Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Card,Image }from 'react-bootstrap';
-import test from './test.jpg'
-import Map from './../../WebSite/Views/covid19/Map';
-import Tabs from 'react-bootstrap/Tabs'
 import logo from './logo.PNG';
+import mainphoto from './main_photo.jpg';
 export class MainPage extends Component {
-
-
-
-
-
 
     
     render() {
@@ -33,38 +25,32 @@ export class MainPage extends Component {
                             <Nav.Item>
                                     <img src={logo} className="logopng"></img>
                                 </Nav.Item>
-                            <Nav.Item>
-                                <Nav.Link eventKey="Zero" >Over View</Nav.Link>
+                                <Nav.Item>
+                                <Nav.Link href="/allergy" eventKey="first" >Allergies</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                <Nav.Link eventKey="first" >Allergies</Nav.Link>
+                                <Nav.Link href="/disease" eventKey="second">Diseases</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                <Nav.Link eventKey="second">Illnesses And Conditions</Nav.Link>
+                                <Nav.Link href="/vaccination" eventKey="third">Vaccination</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                <Nav.Link eventKey="third">Vaccination</Nav.Link>
+                                <Nav.Link href="/analysis" eventKey="fourth">Analysis</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                <Nav.Link eventKey="fourth">Analysis</Nav.Link>
+                                <Nav.Link href="/covidstatus" eventKey="fifth">Covid Status</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                <Nav.Link eventKey="fifth">Check Status</Nav.Link>
+                                <Nav.Link href="/bookappointment" eventKey="sixth">Book Appointment</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <div>
-                                        <p></p>
-                                    </div>
-                                <Nav.Link eventKey="sixth">Indentification Card</Nav.Link>
+                                <Nav.Link href="/recpatienttable" eventKey="seventh">Recovered Patiens</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                <Nav.Link eventKey="seventh">Laboratory Visited</Nav.Link>
+                                <Nav.Link href="/diagnose" eventKey="eighth">Diagnoses</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                <Nav.Link eventKey="eighth">Diagnoses</Nav.Link>
-                                </Nav.Item>
-                                <Nav.Item>
-                                <Nav.Link eventKey="ninth">Covid-19</Nav.Link>
+                                <Nav.Link href="/covid" eventKey="ninth">Covid-19</Nav.Link>
                                 </Nav.Item>
                             </Nav>
                             </Col>
@@ -74,20 +60,16 @@ export class MainPage extends Component {
                         <Col sm={15} className="colheight">
                             <Tab.Content className="Tabs">
                             <Tab.Pane eventKey="Zero">
-                                    <h1>Hello overview</h1>
                                 <div />
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="first">
-                                <h1>Hello Allergies</h1>
                                 <div />
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="second">
-                                <h1>Hello Illnesses And Conditions</h1>
                                 <div />
                                 </Tab.Pane>
                               
                                 <Tab.Pane eventKey="third">
-                                <h1>hELLO Vaccination</h1>
                                 <div />
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="fourth">
@@ -112,10 +94,10 @@ export class MainPage extends Component {
                             </Col>
                   
                     </div>
+                    
                    
                </div>
                
-
            </div>
         )
     }

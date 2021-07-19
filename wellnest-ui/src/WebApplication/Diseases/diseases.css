@@ -13,11 +13,12 @@
     left: 500px;
 
 }
+
 #main-div-form-disease{
     height: 600px;
-    position: absolute;
+    position: relative;
     left: 450px;
-    top: 100px;
+    top: -550px;
     width: 650px;
 
 }
@@ -32,17 +33,14 @@
     padding-top: 10px;
 
 }
-
 .disease-title{
     text-align: center  ;
 }
 #buttons-modal-disease{
     position: relative;
     display: flex;
-    flex-direction: column;
     text-align: center;
-    left: 750px;
-    top: -10px;
+    top: 320px;
     justify-content: center;
 
 }
@@ -69,17 +67,6 @@
     left: 150px;
     justify-content: space-evenly;
 }
-#add-button-dis{
-    position: relative;
-    bottom: 40px;
-}
-#edit-button-dis{ 
-    position: relative;
-    bottom: 20px;
-
-}
-
-
 #edit-diseases{
     display: flex;
     position: relative;

@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import logo from './Homepage/logo.PNG';
-// import search from './Homepage/search.PNG';
 
 
 export default class NavBar extends Component {
@@ -15,21 +14,13 @@ export default class NavBar extends Component {
                 <ul className="ul-2">
                     <Link to="/">
                         <li className="li-1">Home</li>
+                    </Link >
+                    <Link to="/mainpage">
                     </Link>
-                    <li className="li-2">About</li>
-                    <Link to="/covid">
-                        <li className="li-3">Covid-19</li>
-                    </Link>
-                    <Link to='/contact'>
-                        <li className="li-4">Contact</li>
-                    </Link>
-
+                    <li className="li-2">Mainpage</li>
                     <Link to='/admin'>
                         <li className="li-6">Dashboard</li>
-
                     </Link>
-
-
                 </ul>
                 <ul className="ul-3">
                     {/* <div id="s-d">
