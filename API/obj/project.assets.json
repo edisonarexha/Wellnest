@@ -1835,25 +1835,11 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "/Users/edisonarexha/.nuget/packages/": {}
-=======
     "C:\\Users\\Black\\.nuget\\packages\\": {}
->>>>>>> 39ac0e2203d647ce9c99feb58e7a5dcc0b1248eb
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/API/Wellnest-API.csproj",
-      "projectName": "Wellnest-API",
-      "projectPath": "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/API/Wellnest-API.csproj",
-      "packagesPath": "/Users/edisonarexha/.nuget/packages/",
-      "outputPath": "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/API/obj/",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "/Users/edisonarexha/.nuget/NuGet/NuGet.Config"
-=======
       "projectUniqueName": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\API\\Wellnest-API.csproj",
       "projectName": "Wellnest-API",
       "projectPath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\API\\Wellnest-API.csproj",
@@ -1862,7 +1848,6 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Black\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 39ac0e2203d647ce9c99feb58e7a5dcc0b1248eb
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -1873,13 +1858,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-<<<<<<< HEAD
-            "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/Application/Application.csproj": {
-              "projectPath": "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/Application/Application.csproj"
-=======
             "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Application\\Application.csproj": {
               "projectPath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Application\\Application.csproj"
->>>>>>> 39ac0e2203d647ce9c99feb58e7a5dcc0b1248eb
             }
           }
         }
@@ -1924,11 +1904,7 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.411/RuntimeIdentifierGraph.json"
-=======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
->>>>>>> 39ac0e2203d647ce9c99feb58e7a5dcc0b1248eb
       }
     }
   }

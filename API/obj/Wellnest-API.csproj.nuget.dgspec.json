@@ -1,22 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/API/Wellnest-API.csproj": {}
-  },
-  "projects": {
-    "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/API/Wellnest-API.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/API/Wellnest-API.csproj",
-        "projectName": "Wellnest-API",
-        "projectPath": "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/API/Wellnest-API.csproj",
-        "packagesPath": "/Users/edisonarexha/.nuget/packages/",
-        "outputPath": "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/API/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/edisonarexha/.nuget/NuGet/NuGet.Config"
-=======
     "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\API\\Wellnest-API.csproj": {}
   },
   "projects": {
@@ -31,7 +15,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Black\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 39ac0e2203d647ce9c99feb58e7a5dcc0b1248eb
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -42,13 +25,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-<<<<<<< HEAD
-              "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/Application/Application.csproj": {
-                "projectPath": "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/Application/Application.csproj"
-=======
               "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Application\\Application.csproj": {
                 "projectPath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Application\\Application.csproj"
->>>>>>> 39ac0e2203d647ce9c99feb58e7a5dcc0b1248eb
               }
             }
           }
@@ -93,23 +71,6 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.411/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/Application/Application.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/Application/Application.csproj",
-        "projectName": "Application",
-        "projectPath": "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/Application/Application.csproj",
-        "packagesPath": "/Users/edisonarexha/.nuget/packages/",
-        "outputPath": "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/Application/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/edisonarexha/.nuget/NuGet/NuGet.Config"
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
         }
       }
@@ -125,7 +86,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Black\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 39ac0e2203d647ce9c99feb58e7a5dcc0b1248eb
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -136,19 +96,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-<<<<<<< HEAD
-              "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/Domain/Domain.csproj": {
-                "projectPath": "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/Domain/Domain.csproj"
-              },
-              "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/Persistance/Persistance.csproj": {
-                "projectPath": "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/Persistance/Persistance.csproj"
-=======
               "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Domain\\Domain.csproj"
               },
               "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Persistance\\Persistance.csproj": {
                 "projectPath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Persistance\\Persistance.csproj"
->>>>>>> 39ac0e2203d647ce9c99feb58e7a5dcc0b1248eb
               }
             }
           }
@@ -182,23 +134,6 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.411/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/Domain/Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/Domain/Domain.csproj",
-        "projectName": "Domain",
-        "projectPath": "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/Domain/Domain.csproj",
-        "packagesPath": "/Users/edisonarexha/.nuget/packages/",
-        "outputPath": "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/Domain/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/edisonarexha/.nuget/NuGet/NuGet.Config"
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
         }
       }
@@ -214,7 +149,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Black\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 39ac0e2203d647ce9c99feb58e7a5dcc0b1248eb
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -250,23 +184,6 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.411/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/Persistance/Persistance.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/Persistance/Persistance.csproj",
-        "projectName": "Persistance",
-        "projectPath": "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/Persistance/Persistance.csproj",
-        "packagesPath": "/Users/edisonarexha/.nuget/packages/",
-        "outputPath": "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/Persistance/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/edisonarexha/.nuget/NuGet/NuGet.Config"
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
         }
       }
@@ -282,7 +199,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Black\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 39ac0e2203d647ce9c99feb58e7a5dcc0b1248eb
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -293,13 +209,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-<<<<<<< HEAD
-              "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/Domain/Domain.csproj": {
-                "projectPath": "/Users/edisonarexha/Desktop/EdisonaFK/Wellnest/Domain/Domain.csproj"
-=======
               "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Domain\\Domain.csproj"
->>>>>>> 39ac0e2203d647ce9c99feb58e7a5dcc0b1248eb
               }
             }
           }
@@ -337,11 +248,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.411/RuntimeIdentifierGraph.json"
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
->>>>>>> 39ac0e2203d647ce9c99feb58e7a5dcc0b1248eb
         }
       }
     }

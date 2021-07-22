@@ -1228,3 +1228,4 @@ C:\Users\Black\Desktop\CRUD\Wellnest\API\obj\Debug\netcoreapp3.1\staticwebassets
 C:\Users\Black\Desktop\CRUD\Wellnest\API\obj\Debug\netcoreapp3.1\staticwebassets\Wellnest-API.StaticWebAssets.xml
 C:\Users\Black\Desktop\CRUD\Wellnest\API\obj\Debug\netcoreapp3.1\Wellnest-API.genruntimeconfig.cache
 >>>>>>> 39ac0e2203d647ce9c99feb58e7a5dcc0b1248eb
+C:\Users\Black\Desktop\CRUD\Wellnest\API\obj\Debug\netcoreapp3.1\Wellnest-API.csprojAssemblyReference.cache
