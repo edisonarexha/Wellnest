@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Persistance\\Persistance.csproj": {}
+    "C:\\Users\\erest\\Desktop\\Ihateithere\\Wellnest\\Persistance\\Persistance.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Domain\\Domain.csproj": {
+    "C:\\Users\\erest\\Desktop\\Ihateithere\\Wellnest\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\erest\\Desktop\\Ihateithere\\Wellnest\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Black\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\erest\\Desktop\\Ihateithere\\Wellnest\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\erest\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\erest\\Desktop\\Ihateithere\\Wellnest\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Black\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\erest\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -50,21 +50,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Persistance\\Persistance.csproj": {
+    "C:\\Users\\erest\\Desktop\\Ihateithere\\Wellnest\\Persistance\\Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Persistance\\Persistance.csproj",
+        "projectUniqueName": "C:\\Users\\erest\\Desktop\\Ihateithere\\Wellnest\\Persistance\\Persistance.csproj",
         "projectName": "Persistance",
-        "projectPath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Persistance\\Persistance.csproj",
-        "packagesPath": "C:\\Users\\Black\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Persistance\\obj\\",
+        "projectPath": "C:\\Users\\erest\\Desktop\\Ihateithere\\Wellnest\\Persistance\\Persistance.csproj",
+        "packagesPath": "C:\\Users\\erest\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\erest\\Desktop\\Ihateithere\\Wellnest\\Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Black\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\erest\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -75,8 +75,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Black\\Desktop\\CRUD\\Wellnest\\Domain\\Domain.csproj"
+              "C:\\Users\\erest\\Desktop\\Ihateithere\\Wellnest\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\erest\\Desktop\\Ihateithere\\Wellnest\\Domain\\Domain.csproj"
               }
             }
           }
@@ -114,7 +114,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
         }
       }
     }

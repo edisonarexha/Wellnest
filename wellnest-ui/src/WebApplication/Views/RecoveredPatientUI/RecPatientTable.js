@@ -4,6 +4,7 @@ import './recpatienttable.css';
 import { Button, Modal, Form } from "semantic-ui-react";
 import { RecList } from './RecList';
 import {  Input } from 'semantic-ui-react';
+import MainPage from '../MainPage';
 const size = ['large']
 const RecPatientTable = () => {
     
@@ -45,6 +46,10 @@ const RecPatientTable = () => {
       };
     return (
         <div>
+          <MainPage>
+
+          </MainPage>
+          <div id="page">
              <RecList>
 
              </RecList>
@@ -255,7 +260,7 @@ const RecPatientTable = () => {
           </Modal.Actions>
         </Modal>
         </div>
-                        
+        </div>          
                  
             </div>
          

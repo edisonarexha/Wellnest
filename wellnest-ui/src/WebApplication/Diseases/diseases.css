@@ -16,9 +16,9 @@
 
 #main-div-form-disease{
     height: 600px;
-    position: relative;
-    left: 450px;
-    top: -550px;
+    position: absolute;
+    top: 19%;
+    left: 37%;
     width: 650px;
 
 }

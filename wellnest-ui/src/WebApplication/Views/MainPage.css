@@ -122,3 +122,117 @@
         }
 
 
+
+
+        #left-side{
+            /* border: 1px solid black; */
+            width: 20%;
+            height: 720px;
+            display: inline-flex;
+            flex-wrap: wrap;
+        }
+
+        #left-side>ul{
+            list-style: none;
+            float: left;
+            padding: 0px;
+            width: 100%;
+            text-align: left;
+            margin-top: 0%;
+            display: inline;
+        }
+        
+
+        .li-style{
+            border: 1px solid black;
+            padding: 10px 20px;
+            border-style: none;
+            
+        }
+        .li-style:hover{
+            background-color: gainsboro;
+        }
+        .li-style::first-letter{
+            font-weight: Bold;
+            font-size: larger;
+
+        }
+      
+        .li-style-overview{
+            font-weight: bold;
+            border-left:5px solid aquamarine;
+            
+
+        }
+
+        #style-photo{
+            width: 132%;
+             height:89%;
+            display: inline-flex;
+            align-content: center;
+            margin-left: -46px;
+        }
+        #picture{
+            /* border: 1px solid black; */
+            width: 100%;
+            height: 30%;
+            display: inline;
+
+        }
+
+        #main-page-overview{
+            border: 1px solid black;
+            height: 720px;
+            width: 80%;
+            display: inline-flex;
+            float: right;
+        }
+
+        #covid-19vid{
+            border: 1px solid black;
+            display: inline-flex;
+            height: 30%;
+            background-clip: border-box;
+            background-color:aquamarine;
+            overflow: hidden;
+            width: 100%;
+            
+        }
+
+        #covid-19map{
+            border: 1px solid black;
+            display: inline-flex;
+            height: 30%;
+            overflow: hidden;
+            width: 100%;
+            background-clip: border-box;
+            background-color:aquamarine;
+            
+        }
+        #covid-19stats{
+            border: 1px solid black;
+            display: inline-flex;
+            height: 30%;
+            overflow: hidden;
+            width: 100%; 
+            background-clip: border-box;
+            background-color:aquamarine;
+        }
+
+        #covid-19stats>ul{
+            list-style: none;
+            margin-top: 25%;
+            font-size: 20px;
+        }
+        #mainpage-dif{
+            border: 1px solid black;
+            display: inline-flex;
+            height: 50%;
+            overflow: hidden;
+            width: 100%;
+        }
+        .covidlist{
+            padding: 9px 4px;
+            border: 1px solid black;
+            margin-top: 5%;
+        }

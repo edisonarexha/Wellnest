@@ -70,3 +70,12 @@ font-family: 'Roboto', sans-serif;
     top: 30px;
     height: 300px;
 }
+#page{
+  
+    width: 80%;
+    position: absolute;
+    height: 600px;
+    top: 70px;
+    left: 21%;
+    overflow: hidden;
+}

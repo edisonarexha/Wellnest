@@ -1,0 +1,8 @@
+#photosize{
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    align-content: center;
+    /* margin: 20% 0%; */
+    margin-left: 20%;
+}

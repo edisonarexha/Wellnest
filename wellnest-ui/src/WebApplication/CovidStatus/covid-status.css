@@ -17,10 +17,11 @@
 
 #main-div-form-status{
     height: 600px;
-    position: relative;
-    left: 450px;
-    top: -550px;
+    position: absolute;
+    top: 18%;
+    left: 32%;
     width: 650px;
+    overflow: hidden;
 
 }
 #label-modal-div2{

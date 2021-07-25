@@ -2,6 +2,7 @@ import React from 'react';
 import { Nav, Col, Tab, Row } from 'react-bootstrap';
 import './diseases.css';
 import { Button, Icon, Modal, Form } from 'semantic-ui-react';
+import MainPage from '../Views/MainPage';
 
 const Disease = () => {
     const [firstOpen, setFirstOpen] = React.useState(false)
@@ -11,106 +12,11 @@ const Disease = () => {
 
     return (
         <div style={{height:"500px"}}>
-            <div className="MainPageHeader">
-                <Nav variant="tabs" className="NavBAR">
-                    <Nav.Item>
-                        <Nav.Link href="/UserProfile">User Profile</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link eventKey="/../../WebSite/Views/covid19/App-1">Covid 19</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link eventKey="link-2" >
-                            Consult Doctor
-                        </Nav.Link>
-                    </Nav.Item>
-                </Nav>
-            </div>
+                <MainPage>
+                    
+                </MainPage>
             <div className="Dashboard-left-side">
 
-                <div className="Covid-19-Profile-cases">
-                    <div className="Title">
-
-                    </div>
-                    <Tab.Container id="left-tabs-example" defaultActiveKey="first">
-                        <Row>
-                            <Col sm={8}>
-                                <Nav variant="pills" className="flex-column">
-                                    <Nav.Item>
-                                        <Nav.Link eventKey="Zero" >Over View</Nav.Link>
-                                    </Nav.Item>
-                                    <Nav.Item>
-                                        <Nav.Link href="/disease" eventKey="first" >Diseases</Nav.Link>
-                                    </Nav.Item>
-                                    <Nav.Item>
-                                        <Nav.Link eventKey="second">Illnesses And Conditions</Nav.Link>
-                                    </Nav.Item>
-                                    <Nav.Item>
-                                        <Nav.Link eventKey="third">Vaccination</Nav.Link>
-                                    </Nav.Item>
-                                    <Nav.Item>
-                                        <Nav.Link eventKey="fourth">Analysis</Nav.Link>
-                                    </Nav.Item>
-                                    <Nav.Item>
-                                        <Nav.Link eventKey="fifth">Check Status</Nav.Link>
-                                    </Nav.Item>
-                                    <Nav.Item>
-                                        <div>
-                                            <p></p>
-                                        </div>
-                                        <Nav.Link eventKey="sixth">Indentification Card</Nav.Link>
-                                    </Nav.Item>
-                                    <Nav.Item>
-                                        <Nav.Link eventKey="seventh">Laboratory Visited</Nav.Link>
-                                    </Nav.Item>
-                                    <Nav.Item>
-                                        <Nav.Link eventKey="eighth">Diagnoses</Nav.Link>
-                                    </Nav.Item>
-                                    <Nav.Item>
-                                        <Nav.Link eventKey="ninth">Covid-19</Nav.Link>
-                                    </Nav.Item>
-                                </Nav>
-                            </Col>
-                            <Col sm={15}>
-                                <Tab.Content>
-                                    <Tab.Pane eventKey="first">
-
-                                        <div />
-                                    </Tab.Pane>
-                                    <Tab.Pane eventKey="second">
-                                        <div />
-                                    </Tab.Pane>
-
-                                    <Tab.Pane eventKey="third">
-                                        <div />
-                                    </Tab.Pane>
-                                    <Tab.Pane eventKey="fourth">
-                                        <div />
-                                    </Tab.Pane>
-                                    <Tab.Pane eventKey="fifth">
-                                        <div />
-                                    </Tab.Pane>
-                                    <Tab.Pane eventKey="sixth">
-                                        <div />
-                                    </Tab.Pane>
-                                    <Tab.Pane eventKey="seventh">
-                                        <div />
-                                    </Tab.Pane>
-                                    <Tab.Pane eventKey="eighth">
-                                        <div />
-                                    </Tab.Pane>
-                                    <Tab.Pane eventKey="ninth">
-                                        <div />
-                                    </Tab.Pane>
-                                </Tab.Content>
-                            </Col>
-                        </Row>
-                    </Tab.Container>
-
-                    <div className="test1">
-
-                    </div>
-                </div>
             </div>
 
             <Form id="main-div-form-disease">

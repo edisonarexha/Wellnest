@@ -2,6 +2,7 @@ import React, { Component, useState, useEffect } from "react";
 import './RecoveredPatinent.css'
 import { Grid, Image, Select, genderOptions, TextArea } from 'semantic-ui-react';
 import { Form, Input, Button, } from 'semantic-ui-react';
+import MainPage from "../MainPage";
 
 
 
@@ -49,12 +50,13 @@ const RecoveredPatinent = () => {
   return (
 
     <div>
+      <MainPage>
+        
+        </MainPage>
 
-      <Grid columns={1} >
-        <Grid.Column className="FirstColumn">
           {size.map((size) => (
-            <Form onSubmit={addNewRecovered} className="FormStyle" size={size}
-              key={size}>
+            <Form onSubmit={addNewRecovered} id="FormStyle11" size={size}
+              key={size}  >
               <h1 className="rec">Recovered Patients Form</h1>
               <Form.Group widths='equal'>
 
@@ -165,9 +167,7 @@ const RecoveredPatinent = () => {
             </Form>
           ))}
 
-        </Grid.Column>
-
-      </Grid>
+        
 
     </div>
   )

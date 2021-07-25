@@ -20,7 +20,7 @@ import Vaccination from './WebApplication/Vaccination/Vaccination';
 import analysisAppointment from './WebApplication/AnalysisAppointment/analysisAppointment'
 import RecPatientTable from './WebApplication/Views/RecoveredPatientUI/RecPatientTable'
 import BookAppointment from './WebApplication/BookAppointment/BookAppointment';
-
+import ConstructionSite from './WebApplication/Views/ConstructionSite';
 export default function Navigation() {
   return (
     <Router>
@@ -45,6 +45,7 @@ export default function Navigation() {
         <Route path='/vaccination' component={Vaccination}/>
         <Route path ='/recpatienttable' component ={RecPatientTable}/>
         <Route path='/bookappointment' component={BookAppointment}/>
+        <Route path="/constructionsite" component={ConstructionSite}></Route>
 
 
       </Switch>

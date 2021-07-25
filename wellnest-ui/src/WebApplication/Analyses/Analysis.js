@@ -5,6 +5,7 @@ import { Button, Modal, Form } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { AnalysisList } from "./AnalysisList";
+import MainPage from "../Views/MainPage";
 
 const Analysis = () => {
   const [addOpen, setAddOpen] = useState(false);
@@ -51,109 +52,12 @@ const Analysis = () => {
 
   return (
     <div style={{ height: "500px" }}>
-      <div className="MainPageHeader">
-        <Nav variant="tabs" className="NavBAR">
-          <Nav.Item>
-            <Nav.Link href="/profile">User Profile</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="link-2">Consult Doctor</Nav.Link>
-          </Nav.Item>
-        </Nav>
-      </div>
-      <div className="Dashboard-left-side">
-        <div className="Covid-19-Profile-cases">
-          <div className="Title"></div>
-          <Tab.Container id="left-tabs-example" defaultActiveKey="first">
-            <Row>
-              <Col sm={8}>
-                <Nav variant="pills" className="flex-column">
-                  <Nav.Item>
-                    <Nav.Link href="/allergy" eventKey="first">
-                      Allergies
-                    </Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link href="/disease" eventKey="second">
-                      Diseases
-                    </Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link href="/vaccination" eventKey="third">
-                      Vaccination
-                    </Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link href="/analysis" eventKey="fourth">
-                      Analysis
-                    </Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link href="/covidstatus" eventKey="fifth">
-                      Covid Status
-                    </Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link href="/bookappointment" eventKey="sixth">
-                      Book Appointment
-                    </Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link href="/recpatienttable" eventKey="seventh">
-                      Recovered Patiens
-                    </Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link href="/diagnose" eventKey="eighth">
-                      Diagnoses
-                    </Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link href="/covid" eventKey="ninth">
-                      Covid-19
-                    </Nav.Link>
-                  </Nav.Item>
-                </Nav>
-              </Col>
+      <MainPage>
+        
+      </MainPage>
 
-              <Col sm={15}>
-                <Tab.Content>
-                  <Tab.Pane eventKey="first">
-                    <div />
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="second">
-                    <div />
-                  </Tab.Pane>
+  
 
-                  <Tab.Pane eventKey="third">
-                    <div />
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="fourth">
-                    <div />
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="fifth">
-                    <div />
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="sixth">
-                    <div />
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="seventh">
-                    <div />
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="eighth">
-                    <div />
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="ninth">
-                    <div />
-                  </Tab.Pane>
-                </Tab.Content>
-              </Col>
-            </Row>
-          </Tab.Container>
-
-          <div className="test1"></div>
-        </div>
-      </div>
 
       <Form id="main-div-form-analysis">
         <Form.Field>
